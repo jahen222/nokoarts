@@ -28,11 +28,15 @@
 
 /*********************ANIMATION SECTION********************************/
 
+.Home__hero__wrapper{
+	padding: 0px;
+}
+
 .animation {
   padding: 0;
   margin: 0;
   background: white;
-  height: 700px;
+  height: 100vh;
 }
 
 .animation h1{
@@ -54,7 +58,7 @@
   text-transform: capitalize;
   letter-spacing: 1px;
   position: absolute;
-  top: 7.6em;
+  top: 6.5em;
   margin-left: 3em;
   font-size: 30px;
   line-height: 1em;
@@ -85,4 +89,96 @@ canvas {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+@media (min-width: 1024px){}
+	.Nav__logo {
+    	top: 5.5vw;  
+    	height: 120px;
+   }
+}
+
+/*************** BOTONES DE ACORDEON ***********/
+.accordion-section {
+  font-family: Arial, sans-serif;
+  width: 50%;
+  margin: 0 auto;
+}
+.accordion-list {
+  list-style: none;
+}
+
+.accordion-item-title {
+  width: 100%;
+  background-color: #eee;
+  padding: 1em 2em;
+  margin: 1em 0;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  opacity: 0.5;
+  position: relative;
+}
+
+.accordion-item-title:after {
+  content: " + ";
+  position: absolute;
+  right: 1em;
+  font-size: 2em;
+  top: 0.3em;
+}
+
+.accordion-item-content {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.8em;
+}
+
+.accordion-section li {
+  cursor: pointer;
+  positon: relative;
+}
+
+.accordion-item-title:after {
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition:  all 0.35s ease-in-out;
+  transition:  all 0.35s ease-in-out;
+}
+
+.accordion-list li.visible .accordion-item-title:after {
+  -ms-transform: rotate(230deg);
+  -webkit-transform: rotate(230deg);
+  transform: rotate(230deg);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition:  all 0.5s ease-in-out;
+  transition:  all 0.5s ease-in-out;
+}
+
+.accordion-list li.visible .accordion-item-content {
+  visibility: visible;
+  position: relative;
+  opacity: 1;
+  padding: 1em 0;
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1,1);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition:  all 1s ease-in-out;
+  transition:  all 1s ease-in-out;
+}
+
+.accordion-item-content {
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+  padding: 0;
+  -ms-transform: scale(0.9,0.9);
+  -webkit-transform: scale(0.9,0.9);
+  transform: scale(0.9,0.9);
+  -webkit-transition: padding 0.8s ease-in-out, opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  -moz-transition:  padding 0.8s ease-in-out, opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  transition:  padding 0.8s ease-in-out, opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  font-size: 13px !important;
 }

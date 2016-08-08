@@ -95,3 +95,14 @@ mouseY = height / 2;
 draw();
 
 
+$(document).ready(function() {
+    $(".accordion-list li").click(function(event) {
+       clickedElement = $(this);
+      if(!clickedElement.hasClass('visible')) {
+        clickedElement.addClass('visible');
+        clickedElement.siblings().removeClass('visible');
+      } else if (clickedElement.hasClass('visible')) {
+        clickedElement.removeClass('visible');
+      }
+    });
+});
