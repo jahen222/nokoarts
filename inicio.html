@@ -1,0 +1,444 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <hea
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/normalize.css">         
+        <link rel="stylesheet" href="css/main.css"> 
+        <link rel="stylesheet" href="css/scroll.css"> 
+    </head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-fixed-top topnav">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img class="logo" src="img/logo-horizontal.png" alt="Noko Arts logo" height="120" width="400"></a>
+      </div>
+      <div class="collapse navbar-collapse " id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">      
+          <li><a href="http://nokoarts.com/blog">Blog</a></li>
+          <li><a href="#" class="visible-xs" data-toggle="modal" data-target="#myModal">Contact</a></li>
+          <li class="contact-plane visible-sm visible-md visible-lg">
+          <div class="ajonjoli-contact "><img src="img/rayos-oscuros.png" height="54" width="140" alt="rayos"></div>
+          <a data-toggle="modal" data-target="#myModal" >Contact
+            <img src="img/avion.png" alt="conctact us" height="59" width="75">
+          </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!----------------------------------- MODAL DE CONTACTO -------------------------------------------->
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+  
+  <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <section id="contact">
+              <div id="container">
+                <h3>Keep in Touch</h3>
+                <form action="contact.php" method="post" id="contact_form">
+                  <div class="name">
+                    <label for="name"></label>
+                    <input type="text" placeholder="My name is" name="name" id="name_input" required>
+                  </div>
+                  <div class="email">
+                    <label for="email"></label>
+                    <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+                  </div>
+                  <div class="telephone">
+                    <label for="name"></label>
+                    <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+                  </div>
+                  <div class="subject">
+                    <label for="subject"></label>
+                    <select placeholder="Subject line" name="subject" id="subject_input" required>
+                      <option disabled hidden selected>Subject line</option>
+                      <option>I'd like to start a project</option>
+                      <option>I'd like to ask a question</option>
+                      <option>I'd like to make a proposal</option>
+                    </select>
+                  </div>
+                  <div class="message">
+                    <label for="message"></label>
+                    <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+                  </div>
+                  <div class="submit">
+                    <input type="submit" value="Send Message" id="form_button" />
+                  </div>
+                </form><!-- // End form -->
+              </div><!-- // End #container -->
+            </section>
+      </div>
+    </div>
+    </div><script src="js/app.js"></script>
+  </div>
+
+    <!----------------------------------- CANVA ANIMATION -------------------------------------------->
+    
+
+  <div class="wrapper active-page1">
+  <div class="page page1">
+     <section class="animation">
+      <h3>Where Ideas are Made Real</h3>
+      <h1>User Experience,<br>Development<br>and Design</h1>
+        <canvas>
+        </canvas>
+    </section>   
+  </div>
+  
+    <!-- ----------------------------------- OUR POWERS -------------------------------------------->
+
+
+<div class="page page2">
+   <div class="slider container ourPowers">
+    <div class="slide_viewer row">
+        <div class="slide_group">
+
+          <div class="slide">
+            <div class="shortconte">
+            <div class="col-lg-6 col-md-6 col-xs-12 ourPowers-left-column">
+            <script>
+              function changeVisibility(i){document.getElementById("b").style.visibility=i}
+            </script>
+            <div id="b" class="ajonjoli"><img src="img/rayos-oscuros.png" height="54" width="140" alt="rayos"></div>
+            <h2 id="a" onmouseover="changeVisibility('visible')" onmouseout="changeVisibility('hidden')" class="ourPowers-title">Our Powers</h2>
+            <h3 class="ourPowers-subtitle">Design</h3>
+            <h4 class="ourPowers-description">We focus on for your brand or product be unique</h4>            
+            <section class="accordion-section">
+                                        <ul class="accordion-list">
+                                            <li>
+                                                <h5 class="accordion-item-title">UI/UX Design</h5>
+                                                <p class="accordion-item-content">We focus on delivering the best user experience with an amazing interface of your product</p>
+                                            </li>                                            
+                                            <li>
+                                                <h5 class="accordion-item-title">Branding</h5>
+                                                <p class="accordion-item-content">Logos and colors are the presentation card of your idea.</p>
+                                            </li>
+
+                                            <li>
+                                                <h5 class="accordion-item-title">Prototyping </h5>
+                                                <p class="accordion-item-content">Not sure about your idea will be like? Let us test amazing concepts for it!</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="accordion-item-title">Product Design</h5>
+                                                <p class="accordion-item-content">We don't focus just on websites and apps but in the whole process involved behind projects</p>
+                                            </li>
+                                        </ul>
+                                  </section>
+            </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+              <img src="img/design.png">
+            </div>
+        </div>
+
+          <div class="slide">
+            <div class="col-lg-6 col-md-6 col-xs-12 ourPowers-left-column">
+            <script>
+              function changeVisibility(i){document.getElementById("b").style.visibility=i}
+            </script>
+            <div id="b" class="ajonjoli"><img src="img/rayos-oscuros.png" height="54" width="140" alt="rayos"></div>
+            <h2 id="a" onmouseover="changeVisibility('visible')" onmouseout="changeVisibility('hidden')" class="ourPowers-title">Our Powers</h2>
+            <h3 class="ourPowers-subtitle">Development</h3>
+            <h4 class="ourPowers-description">We developed under the latest technological trends</h4>
+            <br>
+            <br>
+                                  <section class="accordion-section">
+                                        <ul class="accordion-list">
+                                            <li>
+                                                <h5 class="accordion-item-title">Mobile Apps</h5>
+                                                <p class="accordion-item-content"> El desarrollo de aplicaciones es uno de nuestros principales motores de trabajo.</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="accordion-item-title">Web Apps</h5>
+                                                <p class="accordion-item-content"> El desarrollo de aplicaciones es uno de nuestros principales motores de trabajo.</p>
+                                            </li>
+                                            <li class="accordion-item-two">
+                                                <h5 class="accordion-item-title">Websites</h5>
+                                                <p class="accordion-item-content">Generar productos bajo el principio del Responsive Disign es una de nuestras prioridades.</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="accordion-item-title">Ecommerce</h5>
+                                                <p class="accordion-item-content">El comercio electronico esta tomando fuerza ser parte de él es importante para cualquier empresa.</p>
+                                            </li>
+                                        </ul>
+                                  </section>
+       
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+              <img src="img/development.png" align="rigth">
+            </div>
+          </div>
+
+        <div class="slide">
+            <div class="col-lg-6 col-md-6 col-xs-12 ourPowers-left-column">
+           <script>
+              function changeVisibility(i){document.getElementById("b").style.visibility=i}
+            </script>
+            <div id="b" class="ajonjoli"><img src="img/rayos-oscuros.png" height="54" width="140" alt="rayos"></div>
+            <h2 id="a" onmouseover="changeVisibility('visible')" onmouseout="changeVisibility('hidden')" class="ourPowers-title">Our Powers</h2>
+            <h3 class="ourPowers-subtitle">Marketing & Strategy</h3>
+            <h4  class="ourPowers-description">Optimize and create content for your brand is our mission</h4>            
+            <section class="accordion-section">
+                                        <ul class="accordion-list">
+
+                                            <li class="accordion-item-two">
+                                                <h5 class="accordion-item-title">SEO & Analytics</h5>
+                                                <p class="accordion-item-content">Generar productos bajo el principio del Responsive Disign es una de nuestras prioridades.</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="accordion-item-title">Social Media ADS</h5>
+                                                <p class="accordion-item-content"> El desarrollo de aplicaiones es uno de nuestros principales motores de trabajo.</p>
+                                            </li>
+                                            <li>
+                                                <h5 class="accordion-item-title">Content Making</h5>
+                                                <p class="accordion-item-content">El comercio electronico esta tomando fuerza ser parte de él es importante para cualquier empresa.</p>
+                                            </li>
+
+                                            <li>
+                                                <h5 class="accordion-item-title">Business Strategy</h5>
+                                                <p class="accordion-item-content">El comercio electronico esta tomando fuerza ser parte de él es importante para cualquier empresa.</p>
+                                            </li>
+
+                                            <li>
+                                                <h5 class="accordion-item-title">Legal Advice</h5>
+                                                <p class="accordion-item-content">El comercio electronico esta tomando fuerza ser parte de él es importante para cualquier empresa.</p>
+                                            </li>
+                                        </ul>
+                                  </section>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+              <img src="img/marketing.png" align="rigth">
+            </div>
+          </div>
+
+    </div>
+  </div>
+</div><!-- End // .slider -->
+  </div>
+  <div class="slide_buttons">
+</div>
+
+<div class="directional_nav">
+  <div class="previous_btn" title="Previous">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65px" height="65px" viewBox="-11 -11.5 65 66">
+      <g>
+        <g>
+          <path fill="#474544" d="M-10.5,22.118C-10.5,4.132,4.133-10.5,22.118-10.5S54.736,4.132,54.736,22.118
+      c0,17.985-14.633,32.618-32.618,32.618S-10.5,40.103-10.5,22.118z M-8.288,22.118c0,16.766,13.639,30.406,30.406,30.406 c16.765,0,30.405-13.641,30.405-30.406c0-16.766-13.641-30.406-30.405-30.406C5.35-8.288-8.288,5.352-8.288,22.118z"/>
+          <path fill="#474544" d="M25.43,33.243L14.628,22.429c-0.433-0.432-0.433-1.132,0-1.564L25.43,10.051c0.432-0.432,1.132-0.432,1.563,0 c0.431,0.431,0.431,1.132,0,1.564L16.972,21.647l10.021,10.035c0.432,0.433,0.432,1.134,0,1.564  c-0.215,0.218-0.498,0.323-0.78,0.323C25.929,33.569,25.646,33.464,25.43,33.243z"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <div class="next_btn" title="Next">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65px" height="65px" viewBox="-11 -11.5 65 66">
+      <g>
+        <g>
+          <path fill="#474544" d="M22.118,54.736C4.132,54.736-10.5,40.103-10.5,22.118C-10.5,4.132,4.132-10.5,22.118-10.5  c17.985,0,32.618,14.632,32.618,32.618C54.736,40.103,40.103,54.736,22.118,54.736z M22.118-8.288  c-16.765,0-30.406,13.64-30.406,30.406c0,16.766,13.641,30.406,30.406,30.406c16.768,0,30.406-13.641,30.406-30.406 C52.524,5.352,38.885-8.288,22.118-8.288z"/>
+          <path fill="#474544" d="M18.022,33.569c 0.282,0-0.566-0.105-0.781-0.323c-0.432-0.431-0.432-1.132,0-1.564l10.022-10.035      L17.241,11.615c 0.431-0.432-0.431-1.133,0-1.564c0.432-0.432,1.132-0.432,1.564,0l10.803,10.814c0.433,0.432,0.433,1.132,0,1.564 L18.805,33.243C18.59,33.464,18.306,33.569,18.022,33.569z"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+</div>
+
+
+
+<!---------------------------- WHO WE WORK ------------------------------>
+
+<div class="page page3">
+    <div class="slider2 container workWith">
+    <div class="slide_viewer2 row ">
+        <div class="slide_group2">
+          <div class="slide2">
+            <div class="col-lg-6 col-md-6 col-xs-12 workWith-left-column">                
+            <script>
+              function changeVisibility(i){document.getElementById("b").style.visibility=i}
+            </script>
+            <div id="b" class="ajonjoli"><img src="img/rayos-oscuros.png" height="54" width="140" alt="rayos"></div>
+            <h2 id="a" onmouseover="changeVisibility('visible')" onmouseout="changeVisibility('hidden')" class="workWith-title">Who We Work With</h2>
+            <h3 class="workWith-subtitle">Startups & Innovative Brands</h3>
+            <br>
+            <div class="parrafo">
+        <p>Our goal is to help entrepreneurs to make their ideas real.
+        <br> We're your digital partner!</p>
+        <p>Do you want to change the world?</p>
+        <br>
+        <input class="goit" type="button" name="Yes" value="Yes! I do" >
+        </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+              <img src="img/rocket.png">
+            </div>
+        </div>
+          <div class="slide2">
+              <div class="col-lg-6 col-md-6 col-xs-12 workWith-left-column">
+            <script>
+              function changeVisibility(i){document.getElementById("b").style.visibility=i}
+            </script>
+            <div id="b" class="ajonjoli"><img src="img/rayos-oscuros.png" height="54" width="140" alt="rayos"></div>
+            <h2 id="a" onmouseover="changeVisibility('visible')" onmouseout="changeVisibility('hidden')" class="workWith-title">Who We Work With</h2>
+            <h3 class="workWith-subtitle">Small and large businesses</h3>            
+            <br>
+            <div class="parrafo">
+        <p>We support great ideas, projects and crazy things <br>that make an positive change in the society.</p>        
+        <p>Want to tell us your idea?</p>
+        <br>
+        <input class="goit" type="button" name="Doit" value="Let's do it!" >
+        </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+              <img src="img/startups.png">
+            </div>
+        </div>
+    </div>
+  </div>
+</div><!-- End // .slider -->
+
+  </div>
+
+<div class="slide_buttons2">
+</div>
+
+<div class="directional_nav2">
+  <div class="previous_btn2" title="Previous">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65px" height="65px" viewBox="-11 -11.5 65 66">
+      <g>
+        <g>
+          <path fill="#474544" d="M-10.5,22.118C-10.5,4.132,4.133-10.5,22.118-10.5S54.736,4.132,54.736,22.118
+      c0,17.985-14.633,32.618-32.618,32.618S-10.5,40.103-10.5,22.118z M-8.288,22.118c0,16.766,13.639,30.406,30.406,30.406 c16.765,0,30.405-13.641,30.405-30.406c0-16.766-13.641-30.406-30.405-30.406C5.35-8.288-8.288,5.352-8.288,22.118z"/>
+          <path fill="#474544" d="M25.43,33.243L14.628,22.429c-0.433-0.432-0.433-1.132,0-1.564L25.43,10.051c0.432-0.432,1.132-0.432,1.563,0 c0.431,0.431,0.431,1.132,0,1.564L16.972,21.647l10.021,10.035c0.432,0.433,0.432,1.134,0,1.564  c-0.215,0.218-0.498,0.323-0.78,0.323C25.929,33.569,25.646,33.464,25.43,33.243z"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <div class="next_btn2" title="Next">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65px" height="65px" viewBox="-11 -11.5 65 66">
+      <g>
+        <g>
+          <path fill="#474544" d="M22.118,54.736C4.132,54.736-10.5,40.103-10.5,22.118C-10.5,4.132,4.132-10.5,22.118-10.5  c17.985,0,32.618,14.632,32.618,32.618C54.736,40.103,40.103,54.736,22.118,54.736z M22.118-8.288  c-16.765,0-30.406,13.64-30.406,30.406c0,16.766,13.641,30.406,30.406,30.406c16.768,0,30.406-13.641,30.406-30.406 C52.524,5.352,38.885-8.288,22.118-8.288z"/>
+          <path fill="#474544" d="M18.022,33.569c 0.282,0-0.566-0.105-0.781-0.323c-0.432-0.431-0.432-1.132,0-1.564l10.022-10.035      L17.241,11.615c 0.431-0.432-0.431-1.133,0-1.564c0.432-0.432,1.132-0.432,1.564,0l10.803,10.814c0.433,0.432,0.433,1.132,0,1.564 L18.805,33.243C18.59,33.464,18.306,33.569,18.022,33.569z"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+</div>
+
+  <!---------------------- ABOUT NOKO ARTS ------------------------------>
+  <div class="page page4">
+    <div class="container aboutNokoArts">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-12 aboutNokoArts-left-column">          
+          <h2 class="aboutNokoArts-title">About Noko Arts</h2>      
+          <h3 class="aboutNokoArts-subtitle">Creators and innovators</h3>                    
+          <div class="parrafo_yellow">
+          <p>It is guided by <a href="https://ve.linkedin.com/in/elbmls/en">Elba L. Sindoni</a>, <a href="https://ve.linkedin.com/in/luisdanielcasanova">Luis Casanova</a> and <a href="https://ve.linkedin.com/in/margaritabarrera/en">Margarita Barrera</a>. With over 5 years of combined experience, Noko Arts can be a key and essential partner for your design and development projects</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-12">
+          <img src="img/team.png">
+        </div>
+      </div>
+    </div>  
+  </div>
+  
+    
+  
+
+  <!----------------------GET IN TOUCH -------------------------->
+        
+  <div class="page page5">
+    <div class="container getInTouch">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-12">
+          <br>
+          <h2 style="color: #FFFFFF">Get In Touch</h2>
+          <br>
+          <br>
+          <div class="parrafo2">
+          <p>It's amazing what we can learn only with a quick conversation. Visit our <a href="http://nokoarts.com/blog">Blog</a> </p>
+          <br>
+          <br>
+          </div>
+                <input class="contact" type="button" name="contact" data-target="#myModal" value="Contact Us"></a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-12">
+          <img src="img/get-in-touch.png">
+        </div>
+      </div>
+
+    </div>
+    <div class="container">
+    <section id="social">
+                  <a class="tw" target="_blank" href="https://twitter.com/nokoarts"><img src="img/twitter.png" alt="Noko twitter" height="51" width="56"></a>
+                
+                  <a class="in" target="_blank" href="https://www.linkedin.com/company/noko-arts"><img src="img/linkedin.png" alt="Noko linkedin" height="51" width="56"></a>
+               
+                  <a class="ig" target="_blank" href="https://www.instagram.com/nokoartsgroup/"><img src="img/ig.png" alt="Noko ig" height="55" width="56"></a>
+               
+                  <a class="fb" target="_blank" href="https://www.facebook.com/nokoarts"><img src="img/facebook.png" alt="Noko facebook" height="51" width="56"></a>
+    </section>
+  
+    </div>
+  </div>
+
+
+<div class="nav-panel">
+  <div class="scroll-btn up"></div>
+  <div class="scroll-btn down"></div>
+  <nav>
+    <ul>
+      <li data-target="1" class="nav-btn nav-page1 active"></li>
+      <li data-target="2" class="nav-btn nav-page2"></li>
+      <li data-target="3" class="nav-btn nav-page3"></li>
+      <li data-target="4" class="nav-btn nav-page4"></li>
+      <li data-target="4" class="nav-btn nav-page5"></li>
+    </ul>
+  </nav>
+</div>
+
+
+<!-------------------------- FOOTER ------------------------------------>
+          
+          
+<!-------------------------- Seccion de los SCRIPTS------------------------>
+<script type="text/javascript" src="js/vendor/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/vendor/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/vendor/modernizr-2.8.3.min.js"></script>  
+<script type="text/javascript" src="js/cbpAnimatedHeader.min.js"></script>        
+<script type="text/javascript" src="js/contact_me.js"></script>  
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/skrollr.js"></script>
+<script type="text/javascript" src="js/botonplus.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+  <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+  </script>
+
+
+
+</body>
+</html>

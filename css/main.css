@@ -1,0 +1,88 @@
+/*
+
+#933005  ​*botón de who we work with*​
+
+#161616  ​*botón de contact us*​
+
+#424242 Negro
+
+#EDEDED Gris
+
+#FFFFFF Blanco
+
+#E0BA19 Amarillo
+
+#E95A0C Naranja
+
+#B4B3B4 GRIS MEDIONGO
+
+*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../fonts/AvenirNextLTPro-Bold.otf');
+}
+
+/*********************ANIMATION SECTION********************************/
+
+.animation {
+  padding: 0;
+  margin: 0;
+  background: white;
+  height: 700px;
+}
+
+.animation h1{
+  text-align: left;
+  font-family: 'Avenir' !important;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 2.8em;
+  margin-left: 1.1em;
+  font-size: 80px;
+  line-height: 1em;
+  color: rgba(58, 56, 56, 0.98);
+}
+
+.animation h3{
+  text-align: left;
+  font-family: 'Avenir' !important;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 7.6em;
+  margin-left: 3em;
+  font-size: 30px;
+  line-height: 1em;
+  color: rgba(58, 56, 56, 0.98);
+}
+
+  @media (max-width : 480px) {
+  .animation h1 {
+      text-align: left;
+      top: 3.5em;
+      margin-left: 18px;
+      font-size: 4em !important;
+  }
+}
+.animation h2 {
+  font-size: 65px;
+}
+
+.animation p {
+  font-size: 24px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+}
+
+canvas {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
