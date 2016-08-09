@@ -39,6 +39,10 @@ Contact
     color: #666666;
 }
 
+.Nav--open {
+    background: #c94f0e;
+}
+
 .fp-slidesNav.bottom a span{
 	background-color: #666666;
 }
@@ -270,10 +274,13 @@ canvas {
   font-family: sans-serif;
   font-weight: bold; 
   font-size: 55px !important;
+
 }
 
 .Button--white{
    margin-top: 60px;
+   background: #262626;   
+   border-radius: 30px;
 }
 
 
