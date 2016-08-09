@@ -117,6 +117,19 @@ canvas {
    }
 }
 
+/*******************MISCELANIOUS***********************/
+
+.description{
+	color: white !important;
+    font-size: 3em !important;
+    margin: 0px !important;
+    padding-right: 50px;     
+}
+.Gallery__slide__body {    
+    width: 42%;
+    left: 8%;
+}
+
 /*******************OUR POWERS***********************/
 
 .title-ourPowers{
@@ -129,9 +142,11 @@ canvas {
 
 .description-ourPowers{
 	color: #424242 !important;
-    font-size: 2.3em !important;
-    margin: 0px !important; 
+    font-size: 3em !important;
+    margin: 0px !important;
+    padding-right: 50px;     
 }
+
 /*************** BOTONES DE ACORDEON ***********/
 
 .accordion-list {
@@ -231,17 +246,19 @@ canvas {
 
 /**************WHO WE WORK WITH SECTION******************/
 .title-workWith{
-  color: #424242;
+  color: white;
   font-family: 'Avenir';  
   font-size: 55px;
+  opacity: .34;
 }
 
 
 /**************ABOUT SECTION******************/
 .title-about{
-  color: #E0BA19;
+  color: white;
   font-family: 'Avenir';  
   font-size: 55px;
+  opacity: .34;
 }
 
 
@@ -260,3 +277,9 @@ video,
 .Gallery__video__play .Video__play{
 	display: none !important;	
 }
+
+.link{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+ }
