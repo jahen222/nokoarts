@@ -95,6 +95,8 @@ mouseY = height / 2;
 draw();
 
 
+/************** ACORDION MENU*********************/
+
 $(document).ready(function() {
     $(".accordion-list li").click(function(event) {
        clickedElement = $(this);
@@ -106,3 +108,6 @@ $(document).ready(function() {
       }
     });
 });
+
+
+/************** SOCIAL MEDIA*********************/
