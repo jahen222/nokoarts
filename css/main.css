@@ -31,14 +31,18 @@ Contact
   src: url('../fonts/AvenirNextLTPro-Bold.otf');
 }
 
-/***************************/
+/**************NAV BURGER MENU *******************/
 
 .main-nav-icon .bar{
-	background-color: #D1D2D4;
+	background-color: #666666;
 }
 
 .Nav__contact {    
-    color: #D1D2D4;
+    color: #666666;
+}
+
+.fp-slidesNav.bottom a span{
+	background-color: #666666;
 }
 
 /*********************CANVA ANIMATION SECTION********************************/
@@ -201,10 +205,8 @@ canvas {
   font-size: 13px !important;
 }
 
-video{
-	display: none !important;
-}
 
+video, 
 .Gallery__video__play,
 .Video__play, 
 .Gallery__video__play .Video__play{
