@@ -60,7 +60,8 @@ Contact
 
 .animation h1{
   text-align: left;
-  font-family: 'Avenir';
+  font-family: sans-serif;
+  font-weight: bold;';
   text-transform: capitalize;
   letter-spacing: 1px;
   position: absolute;
@@ -73,7 +74,8 @@ Contact
 
 .animation h3{
   text-align: left;
-  font-family: 'Avenir';
+  font-family: sans-serif;
+  font-weight: bold;';
   text-transform: capitalize;
   letter-spacing: 1px;
   position: absolute;
@@ -98,7 +100,7 @@ Contact
 
 .animation p {
   font-size: 24px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
 }
 
@@ -152,6 +154,7 @@ canvas {
 .accordion-list {
   list-style: none;
   padding: 0;
+  margin-right: 7em;
 }
 
 
@@ -234,11 +237,10 @@ canvas {
 }
 
 .accordion-item-title{
-  padding: 0.5em 1em !important;
+  padding: 1em 0 0 0 !important;
   margin: 0 !important;
   font-size: 0.6em !important;
-  color: #424242 !important;
-  
+  color: #424242 !important;  
   text-transform: uppercase;
   width: 100%;
   position: relative;  
@@ -247,8 +249,9 @@ canvas {
 /**************WHO WE WORK WITH SECTION******************/
 .title-workWith{
   color: white;
-  font-family: 'Avenir';  
-  font-size: 55px;
+  font-family: sans-serif;
+  font-weight: bold;  
+  font-size: 55px !important;
   opacity: .34;
 }
 
@@ -256,8 +259,9 @@ canvas {
 /**************ABOUT SECTION******************/
 .title-about{
   color: white;
-  font-family: 'Avenir';  
-  font-size: 55px;
+  font-family: sans-serif;
+  font-weight: bold; 
+  font-size: 55px !important;
   opacity: .34;
 }
 
@@ -265,8 +269,9 @@ canvas {
 /**************CONTACT SECTION******************/
 .title-contact{
   color: white;
-  font-family: 'Avenir';  
-  font-size: 55px;
+  font-family: sans-serif;
+  font-weight: bold; 
+  font-size: 55px !important;
 }
 
 
