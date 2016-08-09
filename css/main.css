@@ -124,10 +124,16 @@ canvas {
     color: #B4B3B4;
 }    
 
+.description-ourPowers{
+	color: #424242 !important;
+    font-size: 2.3em !important;
+    margin: 0px !important; 
+}
 /*************** BOTONES DE ACORDEON ***********/
 
 .accordion-list {
   list-style: none;
+  padding: 0;
 }
 
 
@@ -188,12 +194,13 @@ canvas {
   -moz-transition:  padding 0.8s ease-in-out, opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
   transition:  padding 0.8s ease-in-out, opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
   font-size: 13px !important;
+  color: #424242;
 }
 
 
 .accordion-section{
   font-family: Arial, sans-serif;
-  width: 50%;
+  width: 100%;
   margin: 0px !important;
   text-align: left;
   font-size: 35px;
@@ -209,8 +216,8 @@ canvas {
 }
 
 .accordion-item-title{
-  padding: 1em 1em !important;
-  margin: 0em 0 !important;
+  padding: 0.5em 1em !important;
+  margin: 0 !important;
   font-size: 0.6em !important;
   color: #424242 !important;
   
