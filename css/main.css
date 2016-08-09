@@ -123,6 +123,9 @@ canvas {
     font-size: 55px;
     color: #B4B3B4;
 }    
+.subtitle-ourPowers{
+	color: #424242;
+}
 
 .description-ourPowers{
 	color: #424242 !important;
