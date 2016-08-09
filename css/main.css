@@ -28,7 +28,7 @@ Contact
 
 @font-face {
   font-family: 'Avenir';
-  src: url('./fonts/AvenirNextLTPro-Bold.otf');
+  src: url('../fonts/AvenirNextLTPro-Bold.otf');
 }
 
 /***************************/
@@ -199,4 +199,14 @@ canvas {
   -moz-transition:  padding 0.8s ease-in-out, opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
   transition:  padding 0.8s ease-in-out, opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
   font-size: 13px !important;
+}
+
+video{
+	display: none !important;
+}
+
+.Gallery__video__play,
+.Video__play, 
+.Gallery__video__play .Video__play{
+	display: none !important;	
 }
