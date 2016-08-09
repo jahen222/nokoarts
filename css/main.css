@@ -4,16 +4,21 @@
 
 #161616  ​*botón de contact us*​
 
+Fuente
 #424242 Negro
 
+Our Powers
 #EDEDED Gris
 
 #FFFFFF Blanco
 
+About
 #E0BA19 Amarillo
 
+Work
 #E95A0C Naranja
 
+Contact
 #B4B3B4 GRIS MEDIONGO
 
 */
@@ -23,10 +28,20 @@
 
 @font-face {
   font-family: 'Avenir';
-  src: url('../fonts/AvenirNextLTPro-Bold.otf');
+  src: url('./fonts/AvenirNextLTPro-Bold.otf');
 }
 
-/*********************ANIMATION SECTION********************************/
+/***************************/
+
+.main-nav-icon .bar{
+	background-color: #D1D2D4;
+}
+
+.Nav__contact {    
+    color: #D1D2D4;
+}
+
+/*********************CANVA ANIMATION SECTION********************************/
 
 .Home__hero__wrapper{
 	padding: 0px;
@@ -41,7 +56,7 @@
 
 .animation h1{
   text-align: left;
-  font-family: 'Avenir' !important;
+  font-family: 'Avenir';
   text-transform: capitalize;
   letter-spacing: 1px;
   position: absolute;
@@ -54,7 +69,7 @@
 
 .animation h3{
   text-align: left;
-  font-family: 'Avenir' !important;
+  font-family: 'Avenir';
   text-transform: capitalize;
   letter-spacing: 1px;
   position: absolute;
@@ -97,6 +112,9 @@ canvas {
     	height: 120px;
    }
 }
+
+/*******************OUR POWERS***********************/
+
 
 /*************** BOTONES DE ACORDEON ***********/
 .accordion-section {
