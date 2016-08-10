@@ -331,7 +331,7 @@ ul.social-icons {
 }
 
 .fa{
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .fa-facebook {
@@ -385,7 +385,7 @@ ul.social-icons {
 
 
 .fa-instagram:hover {
-	background-color: pink;
+	background-color: #8a3ab9;
 }
 
 @media (min-width:640px){}
