@@ -40,7 +40,7 @@ Contact
 }
 
 .Nav--open {
-    background: #c94f0e;
+    background: #1B75BB;
 }
 
 .fp-slidesNav.bottom a span{
@@ -387,3 +387,5 @@ ul.social-icons {
 .fa-instagram:hover {
 	background-color: pink;
 }
+
+@media (min-width:640px){}
