@@ -88,14 +88,7 @@ Contact
   color: rgba(58, 56, 56, 0.98);
 }
 
-  @media (max-width : 480px) {
-  .animation h1 {
-      text-align: left;
-      top: 3.5em;
-      margin-left: 18px;
-      font-size: 4em !important;
-  }
-}
+
 .animation h2 {
   font-size: 65px;
 }
@@ -389,3 +382,29 @@ ul.social-icons {
 }
 
 @media (min-width:640px){}
+
+@media (max-width : 480px) {
+  .animation h1 {  	
+    top: 7.5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 7em !important;
+    position: relative;
+    text-align: center;
+  }
+
+  .animation h3{    
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;    
+    top: 17.5em;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  canvas {
+    position: fixed;
+  }  
+}
+
+
