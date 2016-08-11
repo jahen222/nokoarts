@@ -273,30 +273,15 @@ canvas {
 .Button--white{
    margin-top: 60px;
    background: #262626;   
-   border-radius: 30px;
+   border-radius: 10px;
 }
 
-
-/********************EXTRA STUFF**********************/
-video, 
-.Gallery__video__play,
-.Video__play, 
-.Gallery__video__play .Video__play{
-	display: none !important;	
-}
-
-.link{
-    text-decoration: underline;
-    color: white;
-    font-weight: bold;
- }
-
- link:hover {
-  color: #7ba9d6;
-}
+.Button--white{
+  border: 4px solid #262626;
+} 
 
 
- /***************SOCIAL ICONS********************/
+/***************SOCIAL ICONS********************/
 
 .footer-social-icons {
 	width: 350px;
@@ -381,7 +366,29 @@ ul.social-icons {
 	background-color: #8a3ab9;
 }
 
+/********************EXTRA STUFF**********************/
+video, 
+.Gallery__video__play,
+.Video__play, 
+.Gallery__video__play .Video__play{
+  display: none !important; 
+}
+
+.link{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+ }
+
+ link:hover {
+  color: #7ba9d6;
+}
+
+
+
 @media (min-width:640px){}
+
+/**************SMALL DEVICES ******************/
 
 @media (max-width : 480px) {
   .animation h1 {  	
@@ -405,6 +412,47 @@ ul.social-icons {
   canvas {
     position: fixed;
   }  
+
+  .Gallery__slide__body {
+    width: 100vw;
+  }
+
+  .Gallery__title {
+    font-size: 4em;
+  }  
+
+  .description-ourPowers {
+    font-size: 2.5em !important;
+    padding: 0px;
+  }
+
+  .accordion-list {
+    margin: 0em;
+  }
+
+  .title-ourPowers, 
+  .title-weDo,
+  .title-about,
+  .title-contact
+  {
+    font-size: 5em !important;
+  }
+
+  .description
+  {
+    font-size: 2.8em !important;
+    padding-right: 0px !important;
+  }
+
+  .footer-social-icons {
+    width: 100%;
+    display: block;
+    padding-top: 0px;
+    padding-top: 20px;
+  }
+  .Button--white {
+    margin-top: 50px;
+  }
 }
 
 
