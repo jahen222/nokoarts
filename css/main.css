@@ -905,7 +905,7 @@ textarea {
     top: 7.5em;
     margin-left: auto;
     margin-right: auto;
-    font-size: 7em !important;
+    font-size: 2.4em !important;
     position: relative;
     text-align: center;
   }
@@ -914,8 +914,8 @@ textarea {
     margin-left: 0;
     margin-right: 0;
     position: relative;    
-    top: 17.5em;
-    font-size: 3em;
+    top: 13.5em;
+    font-size: 1.2em;
     text-align: center;
   }
 
@@ -928,11 +928,11 @@ textarea {
   }
 
   .Gallery__title {
-    font-size: 1.5em;
+    font-size: 1.5em !important;
   }  
 
   .description-ourPowers {
-    font-size: 1.5em !important;
+    font-size: 1.3em !important;
     padding: 0px;
   }
 
@@ -950,7 +950,7 @@ textarea {
 
   .description
   {
-    font-size: 2.8em !important;
+    font-size: 1.2em !important;
     padding-right: 0px !important;
   }
 
