@@ -36,13 +36,20 @@ Contact
 }
 
 .Nav__contact {    
-    color: #666666;
+    color: #666666;    
+    font-size: 1.5em;
 }
 
 .Nav--open {
     background: #1B75BB;
 }
 
+.Nav__items__title {
+    font-size: 1.5em;
+}
+.Nav__items__subnav li {
+    font-size: 1.4em;
+}    
 .fp-slidesNav.bottom a span{
 	background-color: #666666;
 }
@@ -118,7 +125,7 @@ canvas {
 
 .description{
 	color: white !important;
-    font-size: 3em !important;
+    font-size: 1.5em !important;
     margin: 0px !important;
     padding-right: 50px;     
 }
@@ -139,7 +146,7 @@ canvas {
 
 .description-ourPowers{
 	color: #424242 !important;
-    font-size: 3em !important;
+    font-size: 1.5em !important;
     margin: 0px !important;
     padding-right: 50px;     
 }
@@ -274,11 +281,9 @@ canvas {
    margin-top: 60px;
    background: #262626;   
    border-radius: 10px;
+   font-size: 1.4em;
+   border: 4px solid #262626;
 }
-
-.Button--white{
-  border: 4px solid #262626;
-} 
 
 
 /***************SOCIAL ICONS********************/
@@ -367,6 +372,10 @@ ul.social-icons {
 }
 
 /********************EXTRA STUFF**********************/
+.Gallery__title {
+    font-size: 2.5em !important;
+}
+
 video, 
 .Gallery__video__play,
 .Video__play, 
@@ -379,19 +388,520 @@ video,
     color: white;
     font-weight: bold;
  }
+ .link:visited{
+    color:white;
+ }
 
  link:hover {
   color: #7ba9d6;
 }
 
+.fp-slidesNav.bottom {
+    margin: 0 auto 1.4em;
+}
+
+.fp-slidesNav.bottom a span {
+    width: 1.2em!important;
+    height: 1.2em!important;
+}
 
 
 @media (min-width:640px){}
 
+
+/************MODAL FORM********************/
+
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+  text-transform: none !important;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+
+  margin: 0px auto;
+  max-width: 768px;
+  position: relative;
+  width: 100%;
+}
+
+form {
+  padding: 37.5px;
+  margin: 0;
+}
+
+.contact h3 {
+  color: #353535;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px #353535;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #353535;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+  float: right;
+  width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 1px #aaa;
+  color: #474544;
+  font-size: 1.000em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 0em 0 1em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+textarea{
+  border: solid 1px #aaa !important;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+  border-bottom: solid 1px #000;
+}
+
+textarea:focus{
+  border: solid 1px #000 !important;
+}
+
+.message {
+  float: none;
+}
+
+.name {
+  float: left;
+  width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  background-size: 20px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 45%;
+  float: right;
+}
+
+.telephone {
+  width: 45%;
+  float: left;
+}
+
+textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #474544;
+}
+
+:-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #353535;
+  color: #353535;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #353535;
+  color: white;
+}
+
+.modal .modal-header{
+  border: none;
+}
+
+@media (max-width : 480px) {
+  .email, .telephone, .name, .subject{
+    float: none;
+    width: 100%;
+  }
+
+  #contact h3{
+    margin: 0px;
+  }
+
+  #contact #contact_form{
+    padding-top: 10px;
+  }
+}
+
+/***********************CONTACT******************************/
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+  text-transform: none !important;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+
+  margin: 0px auto;
+  max-width: 768px;
+  position: relative;
+  width: 100%;
+}
+
+form {
+  padding: 37.5px;
+  margin: 0;
+}
+
+.contact h3 {
+  color: #353535;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px #353535;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #353535;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+  float: right;
+  width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 1px #aaa;
+  color: #474544;
+  font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+textarea{
+  border: solid 1px #aaa !important;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+  border-bottom: solid 1px #000;
+}
+
+textarea:focus{
+  border: solid 1px #000 !important;
+}
+
+.message {
+  float: none;
+}
+
+.name {
+  float: left;
+  width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  background-size: 20px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 45%;
+  float: right;
+}
+
+.telephone {
+  width: 45%;
+  float: left;
+}
+
+textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #474544;
+}
+
+:-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #353535;
+  color: #353535;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #353535;
+  color: white;
+}
+
+.modal .modal-header{
+  border: none;
+}
+
+@media (max-width : 480px) {
+  .email, .telephone, .name, .subject{
+    float: none;
+    width: 100%;
+  }
+
+  #contact h3{
+    margin: 0px;
+  }
+
+  #contact #contact_form{
+    padding-top: 10px;
+  }
+}
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #474544;
+}
+
+:-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #353535;
+  color: #353535;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #353535;
+  color: white;
+}
+
+.modal .modal-header{
+  border: none;
+}
+
+@media (max-width : 480px) {
+  .email, .telephone, .name, .subject{
+    float: none;
+    width: 100%;
+  }
+
+  #contact h3{
+    margin: 0px;
+  }
+
+  #contact #contact_form{
+    padding-top: 10px;
+  }
+}
+
+
 /**************SMALL DEVICES ******************/
 
 @media (max-width : 480px) {
-  .animation h1 {  	
+  .animation h1 {   
     top: 7.5em;
     margin-left: auto;
     margin-right: auto;
@@ -418,11 +928,11 @@ video,
   }
 
   .Gallery__title {
-    font-size: 4em;
+    font-size: 1.5em;
   }  
 
   .description-ourPowers {
-    font-size: 2.5em !important;
+    font-size: 1.5em !important;
     padding: 0px;
   }
 
@@ -435,7 +945,7 @@ video,
   .title-about,
   .title-contact
   {
-    font-size: 5em !important;
+    font-size: 1.5em !important;
   }
 
   .description
@@ -454,5 +964,3 @@ video,
     margin-top: 50px;
   }
 }
-
-
