@@ -115,6 +115,13 @@ $(function(){$("#contactForm input,#contactForm textarea").jqBootstrapValidation
 
 
 
-/************** SOCIAL MEDIA*********************/
+/**************PORTFOLIO*********************/
+
+//obligatory parallax effect
+$(window).on('scroll', function(){
+  $('.copy').css({
+    'transform' : 'translatey('+ $(this).scrollTop()/3 + 'px)'
+  });
+})
 
 
