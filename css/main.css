@@ -68,28 +68,26 @@ Contact
 }
 
 .animation h1{
-  text-align: left;
+  text-align: center;
   font-family: sans-serif;
   font-weight: bold;';
   text-transform: capitalize;
   letter-spacing: 1px;
-  position: absolute;
-  top: 2.8em;
-  margin-left: 1.1em;
+  position: relative;
+  top: 2.8em;  
   font-size: 80px;
   line-height: 1em;
   color: rgba(58, 56, 56, 0.98);
 }
 
 .animation h3{
-  text-align: left;
+  text-align: center;
   font-family: sans-serif;
   font-weight: bold;';
   text-transform: capitalize;
   letter-spacing: 1px;
-  position: absolute;
-  top: 6.5em;
-  margin-left: 3em;
+  position: relative;
+  top: 6.5em;  
   font-size: 30px;
   line-height: 1em;
   color: rgba(58, 56, 56, 0.98);
@@ -107,7 +105,7 @@ Contact
 }
 
 canvas {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
