@@ -45,10 +45,19 @@ Contact
 }
 
 .Nav__items__title {
-    font-size: 1.5em;
+    font-size: 1em;
 }
+
+.Nav__items__title a,
+.Nav__items__title a:hover,
+.Nav__items__title a:visited{
+  color: hsla(0,0%,100%,.6);
+  font-size: 1.5em;
+}
+
 .Nav__items__subnav li {
     font-size: 1.4em;
+    color: white;
 }    
 .fp-slidesNav.bottom a span{
 	background-color: #666666;
