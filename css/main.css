@@ -935,7 +935,7 @@ textarea {
   }
 
   .accordion-list {
-    margin: 0em;
+    display: none;
   }
 
   .title-ourPowers, 
@@ -955,11 +955,12 @@ textarea {
   .footer-social-icons {
     width: 100%;
     display: block;
-    padding-top: 0px;
-    padding-top: 20px;
+    padding-top: 0px;    
   }
   .Button--white {
-    margin-top: 50px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 
@@ -1107,4 +1108,8 @@ textarea {
   .port-item {
     width: 100%;
   }
+}
+
+.social-media-footer{
+  background-color: #666666;
 }
