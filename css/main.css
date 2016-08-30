@@ -998,13 +998,17 @@ textarea {
 }
 
 .inner {
-  position: absolute;
   height: 100%;
   width: 100%;
-  background: rgba(231, 62, 32, 0.8);
+  background: rgba(199, 192, 191, 0.8);
   opacity: 0;
   transition: .3s;
   padding: 0 3%;
+  text-align: center;
+}
+.inner h2{
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 .inner p {
   transform: translateY(5px);
@@ -1028,42 +1032,42 @@ textarea {
 }
 
 .port-item:nth-child(1) {
-  background-image: url(http://lorempixel.com/400/401);
+  background-image: url(../img/projects/corottos.png);
   background-size: cover;
 }
 
 .port-item:nth-child(2) {
-  background-image: url(http://lorempixel.com/400/402);
+  background-image: url(../img/projects/corottos.png);
   background-size: cover;
 }
 
 .port-item:nth-child(3) {
-  background-image: url(http://lorempixel.com/400/403);
+  background-image: url(../img/projects/zerocolas.png);
   background-size: cover;
 }
 
 .port-item:nth-child(4) {
-  background-image: url(http://lorempixel.com/400/404);
+  background-image: url(../img/projects/mercado-de-corotos.png);
   background-size: cover;
 }
 
 .port-item:nth-child(5) {
-  background-image: url(http://lorempixel.com/400/405);
+  background-image: url(../img/projects/libertarios.png);
   background-size: cover;
 }
 
 .port-item:nth-child(6) {
-  background-image: url(http://lorempixel.com/400/406);
+  background-image: url(../img/projects/fm.png);
   background-size: cover;
 }
 
 .port-item:nth-child(7) {
-  background-image: url(http://lorempixel.com/400/407);
+  background-image: url(../img/projects/nomadartes.png);
   background-size: cover;
 }
 
 .port-item:nth-child(8) {
-  background-image: url(http://lorempixel.com/400/408);
+  background-image: url(../img/projects/made-in-colombia.png);
   background-size: cover;
 }
 
@@ -1072,40 +1076,7 @@ textarea {
   background-size: cover;
 }
 
-.port-item:nth-child(10) {
-  background-image: url(http://lorempixel.com/400/410);
-  background-size: cover;
-}
 
-.port-item:nth-child(11) {
-  background-image: url(http://lorempixel.com/400/411);
-  background-size: cover;
-}
-
-.port-item:nth-child(12) {
-  background-image: url(http://lorempixel.com/400/412);
-  background-size: cover;
-}
-
-.port-item:nth-child(13) {
-  background-image: url(http://lorempixel.com/400/413);
-  background-size: cover;
-}
-
-.port-item:nth-child(14) {
-  background-image: url(http://lorempixel.com/400/414);
-  background-size: cover;
-}
-
-.port-item:nth-child(15) {
-  background-image: url(http://lorempixel.com/400/415);
-  background-size: cover;
-}
-
-.port-item:nth-child(16) {
-  background-image: url(http://lorempixel.com/400/416);
-  background-size: cover;
-}
 
 @media (max-width: 980px) {
   .port-item {
