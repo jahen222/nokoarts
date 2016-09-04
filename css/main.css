@@ -296,9 +296,10 @@ canvas {
 /***************SOCIAL ICONS********************/
 
 .footer-social-icons {
-	width: 350px;
+	width: 100%;
 	display:block;
-	padding-top: 30px; 	
+	padding-top: 30px; 
+  display: inline-block;	
 }
 
 .social-icon {
@@ -980,6 +981,9 @@ textarea {
   padding: 50px 20px;
   margin: 0 auto;
   height: 300px;
+  text-align: center;
+  padding-top: 190px;
+  font-size: 30px;
 }
 
 .port-item {
@@ -1072,10 +1076,17 @@ textarea {
 }
 
 .port-item:nth-child(9) {
-  background-image: url(http://lorempixel.com/400/409);
+  background-image: url(../img/projects/1glife.png);
   background-size: cover;
 }
-
+.port-item:nth-child(10) {
+  background-image: url(../img/projects/thp.png);
+  background-size: cover;
+}
+.port-item:nth-child(11) {
+  background-image: url(http://lorempixel.com/400/410);
+  background-size: cover;
+}
 
 
 @media (max-width: 980px) {
@@ -1092,4 +1103,7 @@ textarea {
 
 .social-media-footer{
   background-color: #666666;
+  text-align: center;
+  width: 100%;
+  height: 20%;
 }
