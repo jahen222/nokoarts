@@ -41,7 +41,7 @@ Contact
 }
 
 .Nav--open {
-    background: #1B75BB;
+    background: white;
 }
 
 .Nav__items__title {
@@ -51,7 +51,7 @@ Contact
 .Nav__items__title a,
 .Nav__items__title a:hover,
 .Nav__items__title a:visited{
-  color: hsla(0,0%,100%,.6);
+  color: #666666;
   font-size: 1.5em;
 }
 
