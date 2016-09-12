@@ -32,9 +32,11 @@ Contact
 /**************NAV BURGER MENU *******************/
 
 .main-nav-icon .bar{
-	background-color: #666666;
+	background-color: #666666 !important;
 }
-
+.main-nav-icon .bar {
+    
+}
 .Nav__contact {    
     color: #666666;    
     font-size: 1.5em;
@@ -262,6 +264,23 @@ canvas {
   font-weight: bold;  
   font-size: 55px !important;
   opacity: .34;
+}
+
+.button-WhatWeDo{
+    background-color: #933005 !important;
+    background-image: -webkit-linear-gradient(top, #933005, #933005) !important;
+    border-bottom-color: #933005 !important;
+    border-left-color: #933005 !important;
+    border-right-color: #933005 !important;
+    border-top-color: #933005 !important;
+    border-radius: 10px !important;
+    font-size: 1.4em !important;
+    font-weight: bold !important;
+    color: white !important;
+    margin-top: 25px !important;
+    padding: .88em 1.5em .68em !important;
+    text-align: center !important;
+    transition: border-color .2s linear,color .2s linear !important;
 }
 
 
