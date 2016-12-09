@@ -397,9 +397,21 @@ ul.social-icons {
   	transition: .5s;  	
 }
 
-
 .fa-instagram:hover {
-	background-color: #8a3ab9;
+  background-color: #8a3ab9;
+}
+.fa-dribbble {
+  padding:10px 10px 7px 10px;
+  -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;    
+}
+
+
+.fa-dribbble:hover {
+	background-color: rgba(224, 80, 80, 0.92);
 }
 
 /********************EXTRA STUFF**********************/
@@ -1061,54 +1073,65 @@ textarea {
 .port-item:nth-child(1) {
   background-image: url(../img/projects/corottos.png);
   background-size: cover;
+  background-position: center;
 }
 
 .port-item:nth-child(2) {
   background-image: url(../img/projects/corottos.png);
   background-size: cover;
+  background-position: center;
 }
 
 .port-item:nth-child(3) {
   background-image: url(../img/projects/zerocolas.png);
   background-size: cover;
+  background-position: center;
 }
 
 .port-item:nth-child(4) {
   background-image: url(../img/projects/mercado-de-corotos.png);
   background-size: cover;
+  background-position: center;
 }
 
 .port-item:nth-child(5) {
   background-image: url(../img/projects/libertarios.png);
   background-size: cover;
+  background-position: center;
 }
 
 .port-item:nth-child(6) {
   background-image: url(../img/projects/fm.png);
   background-size: cover;
+  background-position: center;
 }
 
 .port-item:nth-child(7) {
   background-image: url(../img/projects/nomadartes.png);
   background-size: cover;
+  background-position: center;
 }
 
 .port-item:nth-child(8) {
   background-image: url(../img/projects/made-in-colombia.png);
   background-size: cover;
+  background-position: center;
 }
 
 .port-item:nth-child(9) {
   background-image: url(../img/projects/1glife.png);
   background-size: cover;
+  background-position: center;
 }
 .port-item:nth-child(10) {
   background-image: url(../img/projects/thp.png);
   background-size: cover;
+  background-position: center;
 }
 .port-item:nth-child(11) {
   background-image: url(http://lorempixel.com/400/410);
   background-size: cover;
+  background-position: center;
 }
 
 
