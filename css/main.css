@@ -35,10 +35,10 @@ Contact
 	background-color: #666666 !important;
 }
 .main-nav-icon .bar {
-    
+
 }
-.Nav__contact {    
-    color: #666666;    
+.Nav__contact {
+    color: #666666;
     font-size: 1.5em;
 }
 
@@ -60,7 +60,7 @@ Contact
 .Nav__items__subnav li {
     font-size: 1.4em;
     color: white;
-}    
+}
 .fp-slidesNav.bottom a span{
 	background-color: #666666;
 }
@@ -85,7 +85,7 @@ Contact
   text-transform: capitalize;
   letter-spacing: 1px;
   position: relative;
-  top: 2.8em;  
+  top: 2.8em;
   font-size: 80px;
   line-height: 1em;
   color: rgba(58, 56, 56, 0.98);
@@ -98,7 +98,7 @@ Contact
   text-transform: capitalize;
   letter-spacing: 1px;
   position: relative;
-  top: 6.5em;  
+  top: 6.5em;
   font-size: 30px;
   line-height: 1em;
   color: rgba(58, 56, 56, 0.98);
@@ -125,7 +125,7 @@ canvas {
 
 @media (min-width: 1024px){
 	.Nav__logo {
-    	top: 5.5vw;  
+    	top: 5.5vw;
       height: 85px;
    }
 }
@@ -136,9 +136,9 @@ canvas {
 	color: white !important;
     font-size: 1.5em !important;
     margin: 0px !important;
-    padding-right: 50px;     
+    padding-right: 50px;
 }
-.Gallery__slide__body {    
+.Gallery__slide__body {
     width: 42%;
     left: 8%;
 }
@@ -148,7 +148,7 @@ canvas {
 .title-ourPowers{
     font-size: 55px;
     color: #B4B3B4;
-}    
+}
 .subtitle-ourPowers{
 	color: #424242;
 }
@@ -157,7 +157,7 @@ canvas {
 	color: #424242 !important;
     font-size: 1.5em !important;
     margin: 0px !important;
-    padding-right: 50px;     
+    padding-right: 50px;
 }
 
 /*************** BOTONES DE ACORDEON ***********/
@@ -237,7 +237,7 @@ canvas {
   text-align: left;
   font-size: 35px;
 }
-  
+
 .accordion-section li {
   padding: 0;
   margin: 0px;
@@ -251,17 +251,17 @@ canvas {
   padding: 1em 0 0 0 !important;
   margin: 0 !important;
   font-size: 0.6em !important;
-  color: #424242 !important;  
+  color: #424242 !important;
   text-transform: uppercase;
   width: 100%;
-  position: relative;  
+  position: relative;
 }
 
 /**************WHAT WE DO SECTION******************/
 .title-weDo{
   color: white;
   font-family: sans-serif;
-  font-weight: bold;  
+  font-weight: bold;
   font-size: 55px !important;
   opacity: .34;
 }
@@ -288,7 +288,7 @@ canvas {
 .title-about{
   color: white;
   font-family: sans-serif;
-  font-weight: bold; 
+  font-weight: bold;
   font-size: 55px !important;
   opacity: .34;
 }
@@ -302,14 +302,14 @@ canvas {
 .title-contact{
   color: white;
   font-family: sans-serif;
-  font-weight: bold; 
+  font-weight: bold;
   font-size: 55px !important;
 
 }
 
 .Button--white{
    margin-top: 60px;
-   background: #4f4f4f;   
+   background: #4f4f4f;
    border-radius: 10px;
    font-size: 1.4em;
    border: 4px solid #4f4f4f;
@@ -321,15 +321,15 @@ canvas {
 .footer-social-icons {
 	width: 100%;
 	display:block;
-	padding-top: 30px; 
-  display: inline-block;	
+	padding-top: 30px;
+  display: inline-block;
 }
 
 .social-icon {
 	color: #fff;
 }
 
-ul.social-icons {	
+ul.social-icons {
 	margin-top: 10px;
 	padding-left: 0px;
 }
@@ -340,7 +340,7 @@ ul.social-icons {
 }
 
 .social-icons a {
-	color: #fff; 
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -354,7 +354,7 @@ ul.social-icons {
   	-ms-transition:.5s;
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
-  	transition: .5s;  	
+  	transition: .5s;
 }
 
 .fa-facebook:hover {
@@ -367,7 +367,7 @@ ul.social-icons {
   	-ms-transition:.5s;
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
-  	transition: .5s;  	
+  	transition: .5s;
 }
 
 .fa-twitter:hover {
@@ -381,7 +381,7 @@ ul.social-icons {
   	-ms-transition:.5s;
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
-  	transition: .5s;  	
+  	transition: .5s;
 }
 
 .fa-linkedin:hover {
@@ -394,7 +394,7 @@ ul.social-icons {
   	-ms-transition:.5s;
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
-  	transition: .5s;  	
+  	transition: .5s;
 }
 
 .fa-instagram:hover {
@@ -406,7 +406,7 @@ ul.social-icons {
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
-    transition: .5s;    
+    transition: .5s;
 }
 
 
@@ -419,11 +419,11 @@ ul.social-icons {
     font-size: 2.5em !important;
 }
 
-video, 
+video,
 .Gallery__video__play,
-.Video__play, 
+.Video__play,
 .Gallery__video__play .Video__play{
-  display: none !important; 
+  display: none !important;
 }
 
 .link{
@@ -944,7 +944,7 @@ textarea {
 /**************SMALL DEVICES ******************/
 
 @media (max-width : 480px) {
-  .animation h1 {   
+  .animation h1 {
     top: 7.5em;
     margin-left: auto;
     margin-right: auto;
@@ -953,10 +953,10 @@ textarea {
     text-align: center;
   }
 
-  .animation h3{    
+  .animation h3{
     margin-left: 0;
     margin-right: 0;
-    position: relative;    
+    position: relative;
     top: 13.5em;
     font-size: 1.2em;
     text-align: center;
@@ -964,7 +964,7 @@ textarea {
 
   canvas {
     position: fixed;
-  }  
+  }
 
   .Gallery__slide__body {
     width: 100vw;
@@ -972,7 +972,7 @@ textarea {
 
   .Gallery__title {
     font-size: 1.5em !important;
-  }  
+  }
 
   .description-ourPowers {
     font-size: 1.3em !important;
@@ -983,7 +983,7 @@ textarea {
     display: none;
   }
 
-  .title-ourPowers, 
+  .title-ourPowers,
   .title-weDo,
   .title-about,
   .title-contact
@@ -1000,7 +1000,7 @@ textarea {
   .footer-social-icons {
     width: 100%;
     display: block;
-    padding-top: 0px;    
+    padding-top: 0px;
   }
   .Button--white {
     margin-top: 10px;
@@ -1129,10 +1129,21 @@ textarea {
   background-position: center;
 }
 .port-item:nth-child(11) {
-  background-image: url(http://lorempixel.com/400/410);
+  background-image: url(../img/projects/Pur.png);
   background-size: cover;
   background-position: center;
 }
+.port-item:nth-child(12) {
+  background-image: url(../img/projects/vida-y-tenis.png);
+  background-size: cover;
+  background-position: center;
+}
+.port-item:nth-child(13) {
+  background-image: url(../img/projects/artszy.png);
+  background-size: cover;
+  background-position: center;
+}
+
 
 
 @media (max-width: 980px) {
@@ -1141,7 +1152,7 @@ textarea {
   }
 }
 @media (max-width: 700px) {
-  
+
   .port-item {
     width: 100%;
   }
