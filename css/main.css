@@ -1070,75 +1070,69 @@ textarea {
   transition: .5s;
 }
 
-.port-item:nth-child(1) {
+#corottos{
   background-image: url(../img/projects/corottos.png);
   background-size: cover;
   background-position: center;
 }
 
-.port-item:nth-child(2) {
-  background-image: url(../img/projects/corottos.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.port-item:nth-child(3) {
+#zerocolas{
   background-image: url(../img/projects/zerocolas.png);
   background-size: cover;
   background-position: center;
 }
 
-.port-item:nth-child(4) {
+#mercado{
   background-image: url(../img/projects/mercado-de-corotos.png);
   background-size: cover;
   background-position: center;
 }
 
-.port-item:nth-child(5) {
+#libertarios {
   background-image: url(../img/projects/libertarios.png);
   background-size: cover;
   background-position: center;
 }
 
-.port-item:nth-child(6) {
+#facilmedica{
   background-image: url(../img/projects/fm.png);
   background-size: cover;
   background-position: center;
 }
 
-.port-item:nth-child(7) {
+#nomadartes{
   background-image: url(../img/projects/nomadartes.png);
   background-size: cover;
   background-position: center;
 }
 
-.port-item:nth-child(8) {
+#mic{
   background-image: url(../img/projects/made-in-colombia.png);
   background-size: cover;
   background-position: center;
 }
 
-.port-item:nth-child(9) {
+#glife {
   background-image: url(../img/projects/1glife.png);
   background-size: cover;
   background-position: center;
 }
-.port-item:nth-child(10) {
+#thp {
   background-image: url(../img/projects/thp.png);
   background-size: cover;
   background-position: center;
 }
-.port-item:nth-child(11) {
+#pur {
   background-image: url(../img/projects/Pur.png);
   background-size: cover;
   background-position: center;
 }
-.port-item:nth-child(12) {
+#vidaytenis {
   background-image: url(../img/projects/vida-y-tenis.png);
   background-size: cover;
   background-position: center;
 }
-.port-item:nth-child(13) {
+#artszi {
   background-image: url(../img/projects/artszy.png);
   background-size: cover;
   background-position: center;
@@ -1163,4 +1157,58 @@ textarea {
   text-align: center;
   width: 100%;
   height: 20%;
+}
+/********************************************************************
+				                       PROJECTS STYLES
+/********************************************************************/
+
+.project{
+    background: #008D85;
+    border-top: 5px solid #91CC96;
+    width: 100%;
+    float: left;
+    transition: width 0.5s ease;
+    overflow: auto;
+    position: relative;
+}
+
+
+.title {
+    background: #91CC96;    display: block;
+    padding: 5px 10px;
+    left: 0;
+    margin-top: 50px;
+    width: 90%;
+    text-align: right;
+}
+
+.selected > .title {
+    color: white;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.details {
+    margin: 10px 0;
+    background: #eee;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.85em;
+    font-family: 'Source Code Pro', "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-weight: 300;
+    text-align: left;
+}
+
+.details b {
+    font-weight: 500;
 }
