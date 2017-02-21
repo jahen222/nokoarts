@@ -1163,18 +1163,20 @@ textarea {
 /********************************************************************/
 
 .project{
-    background: #008D85;
-    border-top: 5px solid #91CC96;
+    background: #EDEDED;
+    border-top: 5px solid #757575;
     width: 100%;
     float: left;
     transition: width 0.5s ease;
     overflow: auto;
-    position: relative;
+    top: 15%;
+    position: absolute;
 }
 
 
 .title {
-    background: #91CC96;    display: block;
+    background: #757575;
+    display: block;
     padding: 5px 10px;
     left: 0;
     margin-top: 50px;
@@ -1211,4 +1213,9 @@ textarea {
 
 .details b {
     font-weight: 500;
+}
+
+
+.project-details{
+  width: 100%;
 }
