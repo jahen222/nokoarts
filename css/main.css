@@ -1191,14 +1191,15 @@ textarea {
     -o-transition: all 0.2s ease;
 }
 
-.fa .fa-search{
-  font-size: 15px;
-  margin-right: 5px;
-}
 
 .workContainer-social-icons{
   text-align: center;
   width: 100%;
+}
+
+.fa-search{
+  font-size: 15px;
+  margin-right: 5px;
 }
 
 .social-media-footer{
