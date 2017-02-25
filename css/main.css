@@ -414,6 +414,20 @@ ul.social-icons {
 	background-color: rgba(224, 80, 80, 0.92);
 }
 
+.fa-medium {
+    padding:10px 10px 7px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+
+
+.fa-medium:hover {
+  background-color: #00AB6C;
+}
+
 /********************EXTRA STUFF**********************/
 .Gallery__title {
     font-size: 2.5em !important;
@@ -1152,6 +1166,41 @@ textarea {
   }
 }
 
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 1.15rem;
+}
+
+.inner a {
+    text-align: center;
+    padding: 10px 10px 10px 12px;
+    border-radius: 3px;
+    border: solid 1px #FCFCFC;
+    display: inline-block;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: 10% center;
+    background-size: 22px 22px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.fa .fa-search{
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.workContainer-social-icons{
+  text-align: center;
+  width: 100%;
+}
+
 .social-media-footer{
   background-color: #666666;
   text-align: center;
@@ -1163,8 +1212,7 @@ textarea {
 /********************************************************************/
 
 .project{
-    background: #EDEDED;
-    border-top: 5px solid #757575;
+    background: #EDEDED;    
     width: 100%;
     float: left;
     transition: width 0.5s ease;
@@ -1174,15 +1222,6 @@ textarea {
 }
 
 
-.title {
-    background: #757575;
-    display: block;
-    padding: 5px 10px;
-    left: 0;
-    margin-top: 50px;
-    width: 90%;
-    text-align: right;
-}
 
 .selected > .title {
     color: white;
@@ -1198,6 +1237,8 @@ textarea {
     line-height: 1.5;
     font-weight: 300;
     text-align: justify;
+    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .details {
