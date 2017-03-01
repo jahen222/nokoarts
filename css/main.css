@@ -1130,7 +1130,8 @@ textarea {
   width: 100%;
 }
 
-.fa-search{
+.fa-search,
+.fa-link{
   font-size: 15px;
   margin-right: 5px;
 }
@@ -1146,7 +1147,7 @@ textarea {
 /********************************************************************/
 
 .project{
-    background: #EDEDED;    
+    background: #757575;    
     width: 100%;
     float: left;
     transition: width 0.5s ease;
