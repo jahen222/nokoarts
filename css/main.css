@@ -21,6 +21,15 @@ Work
 Contact
 #B4B3B4 GRIS MEDIONGO
 
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (max-width: 480px) { }
+
+
 */
 
 @charset "UTF-8";
@@ -886,12 +895,7 @@ textarea {
     padding-top: 10px;
   }
 }
-  line-height: 150%;
-  height: 150px;
-  resize: none;
-  width: 100%;
-  margin-top: 20px;
-}
+
 
 ::-webkit-input-placeholder {
   color: #474544;
@@ -953,77 +957,6 @@ textarea {
     padding-top: 10px;
   }
 }
-
-
-/**************SMALL DEVICES ******************/
-
-@media (max-width : 480px) {
-  .animation h1 {
-    top: 7.5em;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 2.4em !important;
-    position: relative;
-    text-align: center;
-  }
-
-  .animation h3{
-    margin-left: 0;
-    margin-right: 0;
-    position: relative;
-    top: 13.5em;
-    font-size: 1.2em;
-    text-align: center;
-  }
-
-  canvas {
-    position: fixed;
-  }
-
-  .Gallery__slide__body {
-    width: 100vw;
-  }
-
-  .Gallery__title {
-    font-size: 1.5em !important;
-  }
-
-  .description-ourPowers {
-    font-size: 1.3em !important;
-    padding: 0px;
-  }
-
-  .accordion-list {
-    display: none;
-  }
-
-  .title-ourPowers,
-  .title-weDo,
-  .title-about,
-  .title-contact
-  {
-    font-size: 1.5em !important;
-  }
-
-  .description
-  {
-    font-size: 1.2em !important;
-    padding-right: 0px !important;
-  }
-
-  .footer-social-icons {
-    width: 100%;
-    display: block;
-    padding-top: 0px;
-  }
-  .Button--white {
-    margin-top: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-}
-
-
 /****************PORTFOLIO**************************/
 .copy {
   max-width: 980px;
@@ -1260,4 +1193,89 @@ textarea {
 
 .project-details{
   width: 100%;
+}
+
+
+
+/**************SMALL DEVICES ******************/
+
+@media (max-width : 480px) {
+  .animation h1 {
+    top: 7.5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.4em !important;
+    position: relative;
+    text-align: center;
+  }
+
+  .animation h3{
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    top: 13.5em;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  canvas {
+    position: fixed;
+  }
+
+  .Gallery__slide__body {
+    width: 100vw;
+  }
+
+  .Gallery__title {
+    font-size: 1.5em !important;
+  }
+
+  .description-ourPowers {
+    font-size: 1.3em !important;
+    padding: 0px;
+  }
+
+  .Gallery__slide__media img{
+    width: 80%;
+  }
+
+  .accordion-list {
+    display: none;
+  }
+
+  .description-weDo{
+    display: none;
+  }
+  .btn-WeDo{
+    text-align: center;
+  }
+
+  .title-ourPowers,
+  .title-weDo,
+  .title-about,
+  .title-contact
+  {
+    font-size: 1.5em !important;
+  }
+
+  .description
+  {
+    font-size: 1.2em !important;
+    padding-right: 0px !important;
+  }
+
+  .footer-social-icons {
+    width: 100%;
+    display: block;
+    padding-top: 0px;
+  }
+  .Button--white {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .work-title{
+    font-size: 5rem;
+  }
 }
