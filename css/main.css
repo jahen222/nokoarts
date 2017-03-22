@@ -1351,10 +1351,38 @@ li {
 /****************** BADGES SECTION *****************/
 
 .badges{
-    background-color: white;
-    width: 50%;
+    background-color: white;    
     height: 20%;
     position: absolute;
     bottom: 0%;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 
+.badges h3{
+  color: rgba(102, 102, 102, 0.23);
+  margin-left: 50%;
+  margin-right: 50%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.badge_logo{
+  width: 45%;
+}
+
+.events{
+  
+}
+
+.academy-badge {
+    display: inline;
+    margin-left: 40px;
+    bottom: 15px;
+    position: relative;
+}
+
+.academy-badge img{
+  
+}
