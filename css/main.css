@@ -1362,8 +1362,7 @@ li {
 
 .badges h3{
   color: rgba(102, 102, 102, 0.23);
-  margin-left: 50%;
-  margin-right: 50%;
+  text-align: center;
   padding-top: 4%;
   padding-bottom: 4%;
 }
@@ -1371,11 +1370,9 @@ li {
 .badge_logo{
   width: 43%;
 }
-
 .events{
   
 }
-
 .academy-badge {
     display: inline;
     margin-left: 40px;
