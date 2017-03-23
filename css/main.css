@@ -1383,3 +1383,39 @@ li {
 .academy-badge img{
 
 }
+
+/*************** ARROW SCROLL DOWN ****************/
+
+.Home__next{
+  opacity: 1 !important;
+}
+
+.arrow-scroll {  
+  text-align: center;
+
+}
+.arrow-scroll__wrap {
+  display: inline-block;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+.arrow-scroll__wrap:hover {
+  opacity: 0.5;
+}
+.arrow-scroll__wrap_animated {
+  animation: arrow-scroll 1.7s infinite ease;
+}
+@keyframes arrow-scroll {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+  55% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
