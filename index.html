@@ -76,7 +76,7 @@
                     <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
                   </div>
                   <div class="submit">
-                    <input type="submit" value="Send Message" id="form_button" />
+                    <input type="submit" class="center-xs center-sm" value="Send Message" id="form_button" />
                   </div>
                 </form><!-- // End form -->
               </div><!-- // End #container -->
@@ -286,7 +286,7 @@
               <h3 class="Gallery__title">Startups y Emprendedores</h3>
               <p class="Gallery__description description description-weDo">Desarrollamos grandes ideas, proyectos y cosas chifladas que generen cambios positivos y disruptivos a través de productos digitales. Nuestra meta es ayudar en hacer realidad ideas de emprendimiento.¡Somos tu socio digital para cambiar al mundo!</p>
               <div class="btn-WeDo">
-                <a class="typeform-share button button-WhatWeDo" href="https://esindoni.typeform.com/to/ZLJAfU" data-mode="1" target="_blank">¡Lanza tu idea!</a>
+                <a class="typeform-share button button-WhatWeDo center-xs center-sm" href="https://esindoni.typeform.com/to/ZLJAfU" data-mode="1" target="_blank">¡Lanza tu idea!</a>
               </div>
 
               
@@ -304,7 +304,7 @@
               <h3 class="Gallery__title">Negocios Innovadores</h3>
               <p class="Gallery__description description">Nos encantan las empresas que buscan mejorar la forma en que solucionan problemas a través de modelos de negocios innovadores.</p>
             <div class="btn-WeDo">
-              <a class="typeform-share button button-WhatWeDo" href="https://esindoni.typeform.com/to/ZLJAfU" data-mode="1" target="_blank">¡Cambia el mundo!</a>
+              <a class="typeform-share button button-WhatWeDo center-xs center-sm" href="https://esindoni.typeform.com/to/ZLJAfU" data-mode="1" target="_blank">¡Cambia el mundo!</a>
             </div>
           
           <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
@@ -395,7 +395,7 @@
           </div>
         </div>
 
-        <div class="badges row">
+        <div class="badges row events-and-cert">
           <div class="events col-xm-12 col-md-6">
             <h3>Eventos</h3>
             <img src="img/badges/coursera.png" class="badge_logo" alt="Coursera Day" ">
@@ -404,19 +404,19 @@
 
           <div class="certifications col-xm-12 col-md-6">
             <h3>Certificaciones</h3>
-            <div class='academy-badge'>
-              <a href='#' title='Growth-Driven Design'>
-              <img class="badge_logo" src='http://api.hubapi.com/academy/v1/badge-image/ab61d1fbc3684197bcb041ab41dc7deb' />
-              </a>
-            </div>
-
-            <div class='academy-badge'>
-              <a href='#' title='Inbound'>
-              <img class="badge_logo" src='http://api.hubapi.com/academy/v1/badge-image/ae43f7e12e7c4e408a23c6632b6385b7' />
-              </a>
-            </div>
-          </div>
-        </div>
+              <div class="row">
+                <div class='academy-badge col-xm-6'>
+                  <a href='#' title='Growth-Driven Design'>
+                  <img class="badge_logo" src='http://api.hubapi.com/academy/v1/badge-image/ab61d1fbc3684197bcb041ab41dc7deb' />
+                  </a>
+                </div>
+                <div class='academy-badge col-xm-6'>
+                  <a href='#' title='Inbound'>
+                  <img class="badge_logo" src='http://api.hubapi.com/academy/v1/badge-image/ae43f7e12e7c4e408a23c6632b6385b7' />
+                  </a>
+                </div>
+              </div>
+         </div>
 
       </article>
     </div>
@@ -434,5 +434,11 @@
     <script src="js/lib.js"></script>
     <script src="js/app.js"></script>
     <script src="js/main.js"></script>    
+    <script>
+      $(window).scroll(function (event) {
+        var scroll = $(window).scrollTop();
+        console.log(scroll);
+      });
+    </script>
     </body>
 </html>
