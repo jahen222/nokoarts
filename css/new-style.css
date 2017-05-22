@@ -505,7 +505,7 @@ section.services h3{
 }
 .service-column{
   width: 32%;  
-  background: white;  
+  background: #D6E3D2;  
   padding: 2%;
   text-align: center;
   -webkit-transition: all .3s ease-in-out;
@@ -629,9 +629,9 @@ section.what-we-do .feature-item i {
 }
 /********************** Testimonios **********************/
 section.testimonios{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #D6E3D2;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: white;
 }
 section.testimonios h3 {
   margin-top: 0;
@@ -863,7 +863,7 @@ ul.social-icons {
 }
 /******************************************************************/
 .bg-primary {
-  background-color: #D6E3D2;
+  background-color: white;
 }
 .text-primary {
   color: #666666;
