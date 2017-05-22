@@ -510,6 +510,8 @@ section.services h3{
   text-align: center;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  cursor: default !important;
+
 }
 .service-column:nth-child(even) {
   margin: 0 2%;
