@@ -28,11 +28,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52;
+  color: #666666;
 }
 a:hover,
 a:focus {
-  color: #fcbd20;
+  color: #black;
 }
 hr {
   max-width: 100px;
@@ -95,12 +95,14 @@ p {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: black;
+  font-weight: bold;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #fdcc52 !important;
-  background-color: transparent;
+  color: black;
+  /*background-color: transparent;*/
+  font-weight: bold;
 }
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
@@ -128,6 +130,7 @@ p {
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: black;
+    font-weight: bold;
   }
   .navbar-default.affix {
     background-color: white;
@@ -138,7 +141,7 @@ p {
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #fdcc52;
+    color: black;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -146,7 +149,8 @@ p {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: black;
+    font-weight: bold;
   }
   .navbar-brand{
     padding-top: 0px;
@@ -340,7 +344,8 @@ header {
   -webkit-transition: all 60ms ease;
   transition: all 60ms ease;
   opacity: .95;
-  color:grey !important;
+  color:black !important;
+  font-weight: bold;
 }
 .button:active {
   -webkit-transition: all 60ms ease;
@@ -477,24 +482,29 @@ section h2 {
 /********************** SERVICES TABLE ***********************/
 
 section.services {
-  padding: 150px 0;
+  padding: 30px 0;
   position: relative;
 }
 section.services h2 {
-  margin-top: 0;
-  font-size: 50px;
-  color:#666666; 
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1em;
+  color: rgba(58, 56, 56, 0.98);
+  padding-bottom: 30px;
+
 }
-section.services li,
 section.services h3{
- color:#666666;  
+  padding-bottom: 20px;
+  color:#666666;  
 }
 .service-table{
   display: table;
+  padding-bottom: 100px;
   
 }
 .service-column{
-  width: 28%;  
+  width: 32%;  
   background: white;  
   padding: 2%;
   text-align: center;
@@ -514,18 +524,41 @@ section.services .material-icons{
   font-size: 80px;
   color: #666666;
 }
+section.services p{
+  color: #666666;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+section.services ul{
+  list-style-type: disc !important;  
+}
+section.services li{
+  text-align: left !important;
+  line-height: 2;
+  font-weight: bold;
+}
 .service-column:hover i, .service-column:hover h1, .service-column:hover span, .service-column:hover b {
-  color: #E95A0C;
+  color: #3ac569;
+}
+section.services li a:hover{
+  text-decoration: underline;
+  color: black; 
+}
+.what-we-do-see-more{
+  width: 172px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (min-width: 768px) {
   section.services h2 {
-    font-size: 70px;
+    /*font-size: 70px;*/
   }
 }
 /********************** WHAT WE DO SECTION **********************/
 section.what-we-do{
   background-color: #EDEDED;
   color: white;
+  padding-bottom: 20px;
 }
 section.what-we-do .section-heading {
   margin-bottom: 100px;
@@ -536,6 +569,7 @@ section.what-we-do .section-heading h2 {
   letter-spacing: 1px;
   line-height: 1em;
   color: rgba(58, 56, 56, 0.98);
+  padding-bottom: 50px;
 }
 section.what-we-do .section-heading p {
   margin-bottom: 0;
@@ -882,4 +916,187 @@ body {
 }
 
 
+/****************PORTFOLIO**************************/
+.copy {
+  max-width: 980px;
+  padding: 50px 20px;
+  margin: 0 auto;
+  height: 300px;
+  text-align: center;
+  padding-top: 190px;
+  font-size: 30px;
+}
+.work-title{
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1em;
+  color: rgba(58, 56, 56, 0.98);  
+}
 
+.port-item {
+  color: #fff;
+  width: 33.33%;
+  height: 400px;
+  float: left;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform .2s;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.inner {
+  height: 100%;
+  width: 100%;
+  background: rgba(109, 102, 101, 0.8);
+  opacity: 0;
+  transition: .3s;
+  padding: 0 3%;
+  text-align: center;
+}
+.inner h2{
+  padding-top: 20%;
+  padding-bottom: 0%;
+}
+.inner p {
+  transform: translateY(5px);
+  transition: transform .5s;
+}
+
+.port-item:hover .inner {
+  top: 0;
+  transition: .3s;
+  opacity: 1;
+}
+
+.port-item:hover .inner p {
+  transform: translateY(-5px);
+  transition: transform .7s;
+}
+
+.port-item:hover h2:before {
+  width: 100%;
+  transition: .5s;
+}
+
+#corottos{
+  background-image: url(../img/projects/corottos.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#zerocolas{
+  background-image: url(../img/projects/zerocolas.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#mercado{
+  background-image: url(../img/projects/mercado-de-corotos.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#libertarios {
+  background-image: url(../img/projects/libertarios.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#facilmedica{
+  background-image: url(../img/projects/fm.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#nomadartes{
+  background-image: url(../img/projects/nomadartes.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#mic{
+  background-image: url(../img/projects/made-in-colombia.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#glife {
+  background-image: url(../img/projects/1glife.png);
+  background-size: cover;
+  background-position: center;
+}
+#thp {
+  background-image: url(../img/projects/thp.png);
+  background-size: cover;
+  background-position: center;
+}
+#pur {
+  background-image: url(../img/projects/Pur.png);
+  background-size: cover;
+  background-position: center;
+}
+#vidaytenis {
+  background-image: url(../img/projects/vida-y-tenis.png);
+  background-size: cover;
+  background-position: center;
+}
+#artszi {
+  background-image: url(../img/projects/artszy.png);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+@media (max-width: 980px) {
+  .port-item {
+    width: 50%;
+  }
+}
+@media (max-width: 700px) {
+
+  .port-item {
+    width: 100%;
+  }
+}
+
+
+.inner a {
+    text-align: center;
+    padding: 10px 10px 10px 12px;
+    border-radius: 3px;
+    border: solid 1px #FCFCFC;
+    display: inline-block;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: 10% center;
+    background-size: 22px 22px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+
+.workContainer-social-icons{
+  text-align: center;
+  width: 100%;
+}
+
+.fa-search,
+.fa-link{
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.social-media-footer{
+  background-color: #666666;
+  text-align: center;
+  width: 100%;
+  height: 20%;
+}
