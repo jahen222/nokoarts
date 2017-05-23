@@ -32,6 +32,23 @@
     <!-- Favicon -->
     <link rel="icon" type="img/png" href="img/favicon.png">
 
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '132471897311704'); // Insert your pixel ID here.
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=132471897311704&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -272,7 +289,7 @@
                         <h2>Consigue Más Clientes</h2>
                         <p class="text-muted">Implementa embudos automatizados de venta, impulsa campañas de marketing efectivas o incrementa tus de ventas para tu negocio o servicio digital.</p> 
                     </div>
-                <a class="button -dark center what-we-do-see-more" href="about.html">Ver más</a>
+                <a class="button -dark center what-we-do-see-more" href="#">Ver más</a>
                 </div>
             </div>            
         </div>
@@ -325,23 +342,23 @@
                 <div class="col-md-5 col-md-offset-2 gif-container">
                     <img src="gif/contacto.gif" class="gif" alt="Noko Arts - Startups" onclick="this.src='gif/contacto.gif';" onmouseover="this.src='gif/contacto.gif';">
                 </div>
-                <div class="col-md-3 col-md-offset-2">
+                <div class="col-md-3 col-md-offset-2 contact-address">
                     <div class="contact-country">
                         <i class="material-icons">place</i>
-                        <h3>Venezuela</h3>
-                        <p>+582763414015</p>                        
+                        <h4>Colombia</h4>
+                        <a  class="contact-number" href="tel:+573196912246">+57 (319) 691-2246</a> 
+                        <p>A 43-60, Cra. 19 #432, Bogotá, Colombia.</p>
                     </div>
                     <div class="contact-country">
-                        <i class="material-icons">place</i>                    
-                        <h3>Colombia</h3>
-                        <p>+582763414015</p>
-                        <p>Edificio Centro Delta, Edo. Táchira.</p>                      
+                        <i class="material-icons">place</i>
+                        <h4>Venezuela</h4>
+                        <a class="contact-number" href="tel:+584247560746">+58 (424) 756-0746</a><br>
+                        <p>Av. Cuatricentenaria. Edificio Centro Delta, San Cristobal, Táchira.</p>
                     </div>
                 </div>
                 <div class="col-md-2 col-md-offset-2">
-                    <div class='button -green centered-button'  data-toggle="modal" data-target="    #myModal">Contacto</div>
+                    <div class='button -green centered-button'  data-toggle="modal" data-target="#myModal">Contacto</div>
                 </div>
-                
             </div>
             <div class="footer-social-icons">
                 <ul class="social-icons">
@@ -356,7 +373,6 @@
             <p>&copy; 2017 Noko Arts. All Rights Reserved.</p>
         </div>
     </footer>
-
     <!-- jQuery -->
     <script src="lib/jquery/jquery.min.js"></script>
 
@@ -369,6 +385,11 @@
     <!-- Theme JavaScript -->
     <script src="js/new-script.js"></script>
     <script src="js/main.js"></script>
+    
+    <!-- Facebook Pixel Event -->
+    <script>
+        fbq('track', 'Lead');
+    </script>
 </body>
 
 </html>
