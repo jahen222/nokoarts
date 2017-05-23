@@ -2,15 +2,31 @@
 <html lang="en">
 
 <head>
-
+    <title>Noko Arts - Agencia Digital</title>
     <meta charset="utf-8">
+    <!-- Website  -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Digital Agency website">
     <meta name="author" content="Noko Arts">
 
-    <title>Noko Arts - Agencia Digital</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title"              content="Noko Arts - Where Ideas Are Made Real" />
+    <meta property="og:description"        content="We are a digital agency. We love to design, create & develop products to solve real world problems - Software development & UI/UX design." />
+    <meta property="og:type"               content="website" />
+    <meta property="og:url"                content="http://nokoarts.com" />
+    <meta property="og:image"              content="http://nokoarts.com/img/cover.png"/>
+    <meta property="fb:app_id" content="1718130995094726"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Noko Arts - We design, create & develop products to solve real world problems through software development & UI/UX design.">
+    <meta name="keywords" content="diseño web Colombia, diseño web Venezuela, diseño de app Colombia, diseño de app Venezuela, crear startup Venezuela, crear startup Colombia, posicionamiento SEO Venezuela, posicionamiento SEO Colombia, diseño UX, diseño UI, diseño de aplicaciones Colombia, diseño de aplicaciones Venezuela, mercadeo digital Colombia, mercadeo digital Venezuela">
+    <meta http-equiv="Content-Language" content="en"/>
+    <meta name="Robots" content="all"/>
+    <meta name="distribution" content="global"/>
 
+    <!-- Favicon -->
+    <link rel="icon" type="img/png" href="img/favicon.png">
+    
     <!-- Bootstrap Core CSS -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -29,8 +45,16 @@
     <!-- Theme CSS -->
     <link href="css/new-style.css" rel="stylesheet">
 
-    <!-- Favicon -->
-    <link rel="icon" type="img/png" href="img/favicon.png">
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-94018238-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -82,6 +106,14 @@
                     <label for="email"></label>
                     <input type="email" placeholder="Correo" name="email" id="email_input" required>
                   </div>
+                  <div class="company">
+                    <label for="company"></label>
+                    <input type="text" placeholder="Empresa" name="company" id="company_input" required>
+                  </div>
+                  <div class="website">
+                    <label for="website"></label>
+                    <input type="text" placeholder="Sitio Web" name="telephone" id="website_input" required>
+                  </div>
                   <div class="telephone">
                     <label for="name"></label>
                     <input type="text" placeholder="Teléfono" name="telephone" id="telephone_input" required>
@@ -100,7 +132,7 @@
                   </div>
                   <div class="message">
                     <label for="message"></label>
-                    <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+                    <textarea name="message" placeholder="Mensaje" id="message_input" cols="30" rows="5" required></textarea>
                   </div>
                   <div class="submit">
                     <input type="submit" value="Send Message" id="" class="button -green centered-button" />

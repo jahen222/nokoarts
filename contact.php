@@ -4,9 +4,11 @@
     $to  = "hey@nokoarts.com";
     $from    = $_POST['email'];
     $subject  = $_POST['subject'];
-    $name = Trim(stripslashes($_POST['name'])); 
+    $name = Trim(stripslashes($_POST['name']));
     $email = Trim(stripslashes($_POST['email'])); 
-    $message = Trim(stripslashes($_POST['message'])); 
+    $company =  Trim(stripslashes($_POST['company']);
+    $website =  Trim(stripslashes($_POST['website']);
+    $message = Trim(stripslashes($_POST['message']);
     $telephone = $_POST['telephone'];    
     $body = "From: $name\n 
             E-Mail: $email\n 

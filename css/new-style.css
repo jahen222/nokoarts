@@ -1299,6 +1299,15 @@ select::-ms-expand {
   width: 45%;
   float: left;
 }
+.company {
+  width: 45%;
+  float: left;
+}
+
+.website {
+  width: 45%;
+  float: right;
+}
 
 textarea {
   line-height: 150%;
@@ -1309,16 +1318,16 @@ textarea {
 }
 
 ::-webkit-input-placeholder {
-  color: #474544;
+  color: rgba(71, 69, 68, 0.53);
 }
 
 :-moz-placeholder {
-  color: #474544;
+  color: rgba(71, 69, 68, 0.53);
   opacity: 1;
 }
 
 ::-moz-placeholder {
-  color: #474544;
+  color: rgba(71, 69, 68, 0.53);
   opacity: 1;
 }
 
