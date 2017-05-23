@@ -491,12 +491,24 @@ section.services h2 {
   letter-spacing: 1px;
   line-height: 1em;
   color: rgba(58, 56, 56, 0.98);
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 
 }
 section.services h3{
-  padding-bottom: 20px;
-  color:#666666;  
+  padding-bottom: 20px;   
+  font-weight: bold;
+}
+section.services h3:hover{
+  color: #E95A0C;
+}
+h3.service-blue{
+  color: #3a76c5;
+}
+h3.service-green{
+  color: #3ac569;
+}
+h3.service-orange{
+  color: #E95A0C;
 }
 .service-table{
   display: table;
@@ -504,8 +516,7 @@ section.services h3{
   
 }
 .service-column{
-  width: 32%;  
-  background: #D6E3D2;  
+  width: 32%;      
   padding: 2%;
   text-align: center;
   -webkit-transition: all .3s ease-in-out;
@@ -513,8 +524,16 @@ section.services h3{
   cursor: default !important;
 
 }
+.service-column:nth-child(1) {
+  background-color:rgb(212, 224, 236);
+
+}
 .service-column:nth-child(even) {
   margin: 0 2%;
+  background: #D6E3D2;
+}
+.service-column:nth-child(3) {  
+  background: rgba(226, 86, 9, 0.29);
 }
 .service-column:hover {
   cursor: pointer;
@@ -539,8 +558,23 @@ section.services li{
   line-height: 2;
   font-weight: bold;
 }
-.service-column:hover i, .service-column:hover h1, .service-column:hover span, .service-column:hover b {
+.icon-blue:hover i, 
+.icon-blue:hover h1, 
+.icon-blue:hover span, 
+.icon-blue:hover b {
+  color: #3a76c5;
+}
+.icon-green:hover i, 
+.icon-green:hover h1, 
+.icon-green:hover span, 
+.icon-green:hover b {
   color: #3ac569;
+}
+.icon-orange:hover i, 
+.icon-orange:hover h1, 
+.icon-orange:hover span, 
+.icon-orange:hover b {
+  color: #E95A0C;
 }
 section.services li a:hover{
   text-decoration: underline;
@@ -732,11 +766,10 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 footer {
-  background-color: #666666;
+  background-color: #757575;
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
-  text-align: center;
-  height: 200px;
+  text-align: center;  
 }
 footer p {
   font-size: 12px;
@@ -749,13 +782,18 @@ footer ul li a {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.3);
 }
-
+.gif-container{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+footer .gif{
+  width: 100%;
+} 
 /***************SOCIAL ICONS********************/
 
 .footer-social-icons {
   width: 100%;
-  display:block;
-  padding-top: 30px;
+  display:block;  
   display: inline-block;
 }
 
@@ -1100,4 +1138,209 @@ body {
   background-color: #666666;
   text-align: center;
   width: 100%;  
+}
+
+
+/************MODAL FORM********************/
+
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+section.contact{
+  padding: 0px;
+}
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+  text-transform: none !important;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+
+  margin: 0px auto;
+  max-width: 768px;
+  position: relative;
+  width: 100%;
+}
+
+form {
+  padding: 37.5px;
+  margin: 0;
+}
+
+.contact h3 {
+  color: #353535;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px #353535;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #353535;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+  float: right;
+  width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 1px #aaa;
+  color: #474544;
+  font-size: 1.000em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 0em 0 1em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+textarea{
+  border: solid 1px #aaa !important;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+  border-bottom: solid 1px #000;
+}
+
+textarea:focus{
+  border: solid 1px #000 !important;
+}
+
+.message {
+  float: none;
+}
+
+.name {
+  float: left;
+  width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  background-size: 20px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 45%;
+  float: right;
+}
+
+.telephone {
+  width: 45%;
+  float: left;
+}
+
+textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #474544;
+}
+
+:-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #353535;
+  color: #353535;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #353535;
+  color: white;
+}
+
+.modal .modal-header{
+  border: none;
+}
+
+.centered-button{
+  margin-left: auto;
+  margin-right: auto;
 }

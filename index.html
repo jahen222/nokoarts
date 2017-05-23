@@ -43,6 +43,60 @@
 
 <body id="page-top">
 
+<!-- Modal  ---->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <section id="contact" class="contact">
+              <div id="container">
+                <h3>Contáctanos</h3>
+                <form action="contact.php" method="post" id="contact_form">
+                  <div class="name">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Nombre" name="name" id="name_input" required>
+                  </div>
+                  <div class="email">
+                    <label for="email"></label>
+                    <input type="email" placeholder="Correo" name="email" id="email_input" required>
+                  </div>
+                  <div class="telephone">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Teléfono" name="telephone" id="telephone_input" required>
+                  </div>
+                  <div class="subject">
+                    <label for="subject"></label>
+                    <select placeholder="Subject line" name="subject" id="subject_input" required>
+                      <option disabled hidden selected>Rol en la organización</option>
+                      <option>Dueño o Directivo</option>
+                      <option>Emprendedor</option>
+                      <option>Analista o puesto junioe</option>
+                      <option>Gerente o Supervisor</option>
+                      <option>Experto en Marketing</option>
+                      <optgroup>Estudiante Universitario</optgroup>
+                    </select>
+                  </div>
+                  <div class="message">
+                    <label for="message"></label>
+                    <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+                  </div>
+                  <div class="submit">
+                    <input type="submit" value="Send Message" id="" class="button -green centered-button" />
+                  </div>
+                </form><!-- // End form -->
+              </div><!-- // End #container -->
+            </section>
+      </div>
+    </div>
+
+  </div>
+</div>
+
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -69,7 +123,7 @@
                         <a class="" href="">Blog</a>
                     </li>
                     <li>
-                        <div class='button -green center'>Pedir Cotización</div>
+                        <div class='button -green center'  data-toggle="modal" data-target="#myModal">Pedir Presupuesto</div>
                     </li>
                     <li>
                         <div class="switch-lang"> 
@@ -102,7 +156,7 @@
                             <canvas></canvas>                                                
                             <div class="button-container">
                                 <div class='button -dark center'>Servicios</div>
-                                <div class='button -green center'>Pedir Cotización</div>
+                                <div class='button -green center'>Pedir Presupuesto</div>
                             </div>
                         </div>
                         <div class="arrow-scroll">
@@ -124,9 +178,9 @@
                 </div>
             </div>    
             <div class="row">    
-                <div class="col-md-4 service-column">
+                <div class="col-md-4 service-column icon-blue">
                     <i class="material-icons">art_track</i>
-                    <h3>Diseño</h3> 
+                    <h3  class="service-blue">Diseño</h3> 
                     <p>El amor entra por los ojos. Deja que la imagen de tu marca, producto o servicio hable por sí sola y deleita a tu target.</p>
                     <ul>
                         <li><a class="service-link" href="#">UI/UX Design</a></li>
@@ -136,9 +190,9 @@
                         <li><a class="service-link" href="#">Prototyping</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4 service-column">
+                <div class="col-md-4 service-column icon-green">
                     <i class="material-icons">important_devices</i>
-                    <h3>Tecnología</h3>
+                    <h3 class="service-green">Tecnología</h3>
                     <p>Construye toda una experiencia con productos digitales creados según tus necesidades con las últimas tendencias en tecnología.</p>
                     <ul>
                         <li><a class="service-link" href="#">Aplicaciones Web</a></li>
@@ -148,9 +202,9 @@
                         <li><a class="service-link" href="#">Experiencias IoT</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4 service-column">
+                <div class="col-md-4 service-column icon-orange">
                     <i class="material-icons">trending_up</i>
-                    <h3>Estrategia y Marketing</h3>
+                    <h3 class="service-orange">Estrategia y Marketing</h3>
                     <p>Incrementa tu tasa de retención, llega a más clientes y usuarios mientras mejoras tu posición en el mercado global.</p>
                     <ul>
                         <li><a class="service-link" href="#">Inbound Marketing</a></li>
@@ -267,6 +321,28 @@
 
     <footer>
         <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-2 gif-container">
+                    <img src="gif/contacto.gif" class="gif" alt="Noko Arts - Startups" onclick="this.src='gif/contacto.gif';" onmouseover="this.src='gif/contacto.gif';">
+                </div>
+                <div class="col-md-3 col-md-offset-2">
+                    <div class="contact-country">
+                        <i class="material-icons">place</i>
+                        <h3>Venezuela</h3>
+                        <p>+582763414015</p>                        
+                    </div>
+                    <div class="contact-country">
+                        <i class="material-icons">place</i>                    
+                        <h3>Colombia</h3>
+                        <p>+582763414015</p>
+                        <p>Edificio Centro Delta, Edo. Táchira.</p>                      
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-2">
+                    <div class='button -green centered-button'  data-toggle="modal" data-target="    #myModal">Contacto</div>
+                </div>
+                
+            </div>
             <div class="footer-social-icons">
                 <ul class="social-icons">
                   <li><a href="https://www.facebook.com/nokoarts/" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
@@ -277,7 +353,7 @@
                   <li><a href="https://medium.com/noko-arts" target="_blank" class="social-icon"> <i class="fa fa-medium"></i></a></li>
                 </ul>
             </div>
-            <p>&copy; 2017 Noko Arts SAS. All Rights Reserved.</p>
+            <p>&copy; 2017 Noko Arts. All Rights Reserved.</p>
         </div>
     </footer>
 
