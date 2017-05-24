@@ -153,7 +153,7 @@ p {
     font-weight: bold;
   }
   .navbar-brand{
-    padding-top: 0px;
+    padding-top: 10px;
   }
 
 }
@@ -508,8 +508,8 @@ section.services h3{
   width: 32%;      
   padding: 2%;
   text-align: center;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
   cursor: default !important;
   background-color: white;
 
@@ -526,6 +526,9 @@ section.services h3{
 section.services .material-icons{
   font-size: 80px;
   color: #666666;
+}
+section.services .service-icon{
+  font-size: 15px;
 }
 section.services p{
   color: #666666;
@@ -556,7 +559,7 @@ section.services li{
 .icon-orange:hover h3, 
 .icon-orange:hover span, 
 .icon-orange:hover b {
-  color: #E95A0C;
+  color: #e9940c;
 }
 section.services li a:hover{
   text-decoration: underline;

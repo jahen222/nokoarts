@@ -12,13 +12,15 @@
     $telephone = $_POST['telephone'];    
     $body = "From: $name\n 
             E-Mail: $email\n 
+            Company: $company\n
+            Website: $website\n
             Message: $message\n
             Telephone: $telephone\n";
 
     // validation
     $validationOK=true;
     if (!$validationOK) {
-      print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
+      print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
       exit;
     }
 
@@ -32,7 +34,7 @@
       print "<meta http-equiv=\"refresh\" content=\"0;URL=index.html\">";
     }
     else{
-      print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
+      print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
     }
 ?>
 
