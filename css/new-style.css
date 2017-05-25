@@ -384,6 +384,9 @@ header {
   color: #FFFFFF;
   background: #3ac569;
 }
+.button.-green:hover{
+  background-color: #36ad5e;
+}
 
 .button.-blue {
   color: #FFFFFF;

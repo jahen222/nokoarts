@@ -1,4 +1,7 @@
- <?php
+ <?
+
+ if ($_POST['submit']) {
+    /* Anything that goes in here is only performed if the form is submitted */
 
 
     $to  = "hey@nokoarts.com";
@@ -36,6 +39,8 @@
     else{
       print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
     }
+}
+    
 ?>
 
 
