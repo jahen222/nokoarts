@@ -1,6 +1,6 @@
- <?
+ <?php
 
- if ($_POST['submit']) {
+    if ($_POST['submit']) {
     /* Anything that goes in here is only performed if the form is submitted */
 
 

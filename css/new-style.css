@@ -1373,3 +1373,11 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 }
+
+.typeform-link{
+  padding: 0px !important;
+  color:none;
+}
+.typeform-link:hover{
+  color:none;
+}
