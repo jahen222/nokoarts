@@ -1487,6 +1487,9 @@ h1{
 .price-table > ul > .package .ribbon-wrapper-green .ribbon-green:after {
   right: 0;
 }
+.price-table > ul > .package:first-child, .price-table > ul > .package{
+   padding-bottom: 0px !important; 
+}
 .price-table > ul > .package:first-child, .price-table > ul > .package:last-child {
   border: none;
 }
@@ -1607,4 +1610,8 @@ h1{
 .dev-button.dev-dark:hover {
   background-color: #1abc9c;
   color: #FFF;
+}
+.plan-button{
+  margin-left: 20%;
+  margin-right: 20%;
 }
