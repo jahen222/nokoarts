@@ -254,7 +254,7 @@ header {
     font-size: 50px;
   }
 }
-/***************  CANVA ANIMATION  ****************/
+/***************  HERO SECTION - CANVA ANIMATION  ****************/
 .home-hero{
 
 }
@@ -420,6 +420,24 @@ canvas {
   width: 100%;
   height: 100%;  
 }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
+  .animation h1{
+    font-size: 3em;
+    top: 20%;
+  }
+  .animation h3{
+    top: 22%;
+  }
+  .button-container{
+    display: inline;
+    position: relative;
+    top: 124px;
+  }
+  .nav_logo {
+    width: 8em;
+  }
+}
 /*************** ARROW SCROLL DOWN ****************/
 
 .Home__next{
@@ -573,11 +591,23 @@ section.services li a:hover{
   margin-left: auto;
   margin-right: auto;
 }
-@media (min-width: 768px) {
-  section.services h2 {
-    /*font-size: 70px;*/
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
+  .service-column,
+  .service-column:nth-child(even){
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  section.services{
+    padding: 20px 0;
+  }
+  section.services h2{
+    font-size: 30px;
   }
 }
+
+
 /********************** WHAT WE DO SECTION **********************/
 section.what-we-do{
   background-color: #EDEDED;
@@ -628,6 +658,17 @@ section.what-we-do .feature-item i {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
+  section.what-we-do{
+    padding-top: 5px;
+  }
+    section.what-we-do .section-heading h2{
+    font-size: 30px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+  }
+}
+
 @media (min-width: 992px) {
   section.what-we-do .device-container,
   section.what-we-do .feature-item {
@@ -649,6 +690,11 @@ section.what-we-do .feature-item i {
 .event-img{
   width: 90%;
 }
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
+  .events h2{
+    font-size: 30px;
+  }
+ } 
 /********************** Testimonios **********************/
 section.testimonios{
   padding-top: 100px;
@@ -712,7 +758,7 @@ section.cta .overlay {
     margin: 0 auto;
     border-radius: 100px;
 }
-
+/*********************** CONTACT SECTION  *******************************/
 section.contact {
   text-align: center;
 }
@@ -807,7 +853,11 @@ footer ul li a {
 footer .gif{
   width: 80%;
 } 
-
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
+  .contact-address{
+    margin-left: 25%;
+  }
+} 
 
 /***************SOCIAL ICONS********************/
 

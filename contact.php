@@ -1,22 +1,15 @@
  <?php
 
-    if ($_POST['submit']) {
-    /* Anything that goes in here is only performed if the form is submitted */
-
 
     $to  = "hey@nokoarts.com";
     $from    = $_POST['email'];
     $subject  = $_POST['subject'];
-    $name = Trim(stripslashes($_POST['name']));
+    $name = Trim(stripslashes($_POST['name'])); 
     $email = Trim(stripslashes($_POST['email'])); 
-    $company =  Trim(stripslashes($_POST['company']);
-    $website =  Trim(stripslashes($_POST['website']);
-    $message = Trim(stripslashes($_POST['message']);
+    $message = Trim(stripslashes($_POST['message'])); 
     $telephone = $_POST['telephone'];    
     $body = "From: $name\n 
             E-Mail: $email\n 
-            Company: $company\n
-            Website: $website\n
             Message: $message\n
             Telephone: $telephone\n";
 
@@ -39,9 +32,9 @@
     else{
       print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
     }
-}
-    
 ?>
+
+
 
 
 
