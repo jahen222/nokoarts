@@ -222,6 +222,7 @@ li {
   vertical-align: top;
   margin-top: 6px;
 }
+/***************  HERO SECTION - CANVA ANIMATION  ****************/
 header {
   position: relative;
   width: 100%;
@@ -229,32 +230,6 @@ header {
   overflow-y: hidden;
   
 }
-@media (min-width: 768px) {
-  header {
-    min-height: 100%;
-  }
-  header .header-content {
-    text-align: center;
-    padding: 0;
-    height: 100vh;
-  }
-  header .header-content .header-content-inner {
-    
-  }
-  header .header-content .header-content-inner h1 {
-    font-size: 35px;
-  }
-  header .device-container {
-    max-width: none;
-    
-  }
-}
-@media (min-width: 992px) {
-  header .header-content .header-content-inner h1 {
-    font-size: 50px;
-  }
-}
-/***************  HERO SECTION - CANVA ANIMATION  ****************/
 .home-hero{
 
 }
@@ -387,7 +362,6 @@ header {
 .button.-green:hover{
   background-color: #36ad5e;
 }
-
 .button.-blue {
   color: #FFFFFF;
   background: #2b90d9;
@@ -436,6 +410,38 @@ canvas {
   }
   .nav_logo {
     width: 8em;
+  }
+  header .-dark{
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  header .header-content {
+    text-align: center;
+    padding: 0;
+    height: 100vh;
+  }
+  header .header-content .header-content-inner {
+    
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 35px;
+  }
+  header .device-container {
+    max-width: none;    
+  }
+  header .home-hero .button-container .centered-button{
+    width: 11em;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 992px) {
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
   }
 }
 /*************** ARROW SCROLL DOWN ****************/
@@ -493,14 +499,20 @@ canvas {
     transform: translateY(0);
   }
 }
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
+  .Home__next{
+    display: none;
+  }
+}
 
+
+/********************** SERVICES TABLE ***********************/
 section {
   padding: 100px 0;
 }
 section h2 {
   font-size: 50px;
 }
-/********************** SERVICES TABLE ***********************/
 
 section.services {
   padding: 30px 0;
@@ -594,7 +606,7 @@ section.services li a:hover{
 @media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
   .service-column,
   .service-column:nth-child(even){
-    width: 90%;
+    width: 90vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
@@ -1422,6 +1434,11 @@ textarea {
 .centered-button{
   margin-left: auto;
   margin-right: auto;
+}
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
+  .centered-button{
+    width: 50%;
+  }
 }
 
 .typeform-link{

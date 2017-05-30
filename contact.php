@@ -1,5 +1,4 @@
- <?php
-
+<?
 
     $to  = "hey@nokoarts.com";
     $from    = $_POST['email'];
@@ -13,12 +12,12 @@
             Message: $message\n
             Telephone: $telephone\n";
 
-    // validation
-    $validationOK=true;
-    if (!$validationOK) {
-      print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
-      exit;
-    }
+    // // validation
+    // $validationOK=true;
+    // if (!$validationOK) {
+    //   print "<meta http-equiv=\"refresh\" content=\"0;URL=error.html\">";
+    //   exit;
+    // }
 
     
 
