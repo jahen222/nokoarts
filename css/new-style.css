@@ -123,6 +123,12 @@ p {
   .navbar-default .navbar-header .navbar-brand:focus {
     color: black;
   }
+  .navbar-default .nav > li{
+    padding-top: 7px;
+  }
+  .navbar-default .nav > li:nth-child(5){
+    padding-top: 0px;
+  }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     color: #66666;
@@ -580,7 +586,7 @@ section.services li{
 .icon-blue:hover h3, 
 .icon-blue:hover span, 
 .icon-blue:hover b {
-  color: #3a76c5;
+  color: #3c92ca;
 }
 .icon-green:hover i, 
 .icon-green:hover h3, 
@@ -619,6 +625,27 @@ section.services li a:hover{
   }
 }
 
+/********************** EVENTS SECTION **********************/
+.events{
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+.events h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1em;
+  color: rgba(58, 56, 56, 0.98);
+  opacity: 0.2;
+}
+.event-img{
+  width: 90%;
+}
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
+  .events h2{
+    font-size: 30px;
+  }
+ } 
 
 /********************** WHAT WE DO SECTION **********************/
 section.what-we-do{
@@ -627,7 +654,7 @@ section.what-we-do{
   padding-bottom: 20px;
 }
 section.what-we-do .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 section.what-we-do .section-heading h2 {
   font-family: sans-serif;
@@ -635,10 +662,17 @@ section.what-we-do .section-heading h2 {
   letter-spacing: 1px;
   line-height: 1em;
   color: rgba(58, 56, 56, 0.98);
-  padding-bottom: 50px;
+  margin-bottom: 35px;
+  text-align: center;
 }
+
 section.what-we-do .section-heading p {
   margin-bottom: 0;
+  text-align: center;
+  font-size: 18px;  
+}
+section.what-we-do .section-heading p{
+  color: #666666;
 }
 .what-we-do-gif > img{
   width: 100%;
@@ -670,6 +704,16 @@ section.what-we-do .feature-item i {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+section.what-we-do .service-column{
+    width: 80%;
+    height: 370px;
+    margin: 0 2% 10px auto;
+    padding: 30px 40px 2% 40px;
+    margin-bottom: 5%;
+}
+section.what-we-do .service-column img{
+  width: 20%;
+}
 @media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
   section.what-we-do{
     padding-top: 5px;
@@ -687,175 +731,103 @@ section.what-we-do .feature-item i {
     max-width: none;
   }
 }
-/********************** EVENTS SECTION **********************/
-.events{
-  padding-top: 15px;
-  padding-bottom: 25px;
-}
-.events h2{
-  font-family: sans-serif;
-  font-weight: bold;
-  letter-spacing: 1px;
-  line-height: 1em;
-  color: rgba(58, 56, 56, 0.98);
-  opacity: 0.2;
-}
-.event-img{
-  width: 90%;
-}
+/************************ GET MORE SECTION *******************/
+
 @media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
-  .events h2{
-    font-size: 30px;
+  .get-more-gif{
+    width: 90vw !important;
   }
- } 
-
- /************************ SOLUCIONES *******************/
-
+  section.what-we-do .service-column{
+    height: 30em;
+    width: 90%;
+  }
+  img.gif {
+    width: 90%;
+  }
+}
 
  /************************ BLOG POSTS *******************/
 
-.shadowDepth0 {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+.blog-section{
+  padding: 0px;
 }
-
-.shadowDepth1 {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
-  0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-
-
-/**
- * Card Styles
- */
-
-.card {
-  background-color: #fff;
-  margin-bottom: 1.6rem;
-}
-
-.card__padding {
-  padding: 1.6rem;
-}
-
-.card__image {
-  min-height: 100px;
-  background-color: #eee;
-}
-
-.card__image img {
+.blog-section .row{
   width: 100%;
-  max-width: 100%;
-  display: block;
+}
+.divider{
+  background: rgba(58, 56, 56, 0.98);
+  border: 0;
+  height: 2px;
+  width: 50px;
+  margin: 1.5vw auto 7em;
+}
+.inner-border{
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #dedfe0;
+  height: 500px;
+}
+.inner-border:hover,
+.inner-border:focus{
+  border-color: #e9940c;
+  color:#e9940c;
+}
+.blog-section .post{
+  padding: 20px;
+}
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
+  .blog-section .post{
+    padding-left: 25px;
+    padding-right: 0px;
+  }
+}
+.blog-section .post:hover{
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.3);
 }
 
-.card__content {
-  position: relative;
+.blog-section .post  p{
+  line-height: 2;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-right: 4%;
 }
-
-
-/* card meta */
-
-.card__meta time {
-  font-size: 1.5rem;
-  color: #bbb;
-  margin-left: 0.8rem;
+.post-info span,
+.post-info span:hover{
+  color: rgba(58, 56, 56, 0.98) !important;
 }
-
-
-/* card article */
-
-.card__article a {
-  text-decoration: none;
-  color: #444;
-  transition: all 0.5s ease;
+.blog-section .post a:hover{
+  text-decoration: underline;
+  color: rgba(58, 56, 56, 0.98); 
 }
-
-.card__article a:hover {
-  color: #2980b9;
+.blog-section .post h4{
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0px;
+  line-height: 40px;
 }
-
-
-/* card action */
-
-.card__action {
-  overflow: hidden;
-  padding-right: 1.6rem;
-  padding-left: 1.6rem;
-  padding-bottom: 1.6rem;
-  width: 25%;
-}
-
-.card__author {}
-
-.card__author img,
-.card__author-content {
+.avatar-image--small {
+  width: 60px;
+  height: 60px;
   display: inline-block;
   vertical-align: middle;
+  border-radius: 100%;
+  margin-bottom: 15px;
 }
-
-.card__author img {
-  border-radius: 50%;
-  margin-right: 0.6em;
-}
-
-.card__share {
-  float: right;
+.post-title {
+  top: 0%;
   position: relative;
-  margin-top: -42px;
+  height: 7em;
 }
-
-.card__social {
-  position: absolute;
-  top: 0;
-  right: 0;
-  visibility: hidden;
-  width: 160px;
-  transform: translateZ(0);
-  transform: translateX(0px);
-  transition: transform 0.35s ease;
+.post-info{
+  top: 15%;
+  position: relative;
 }
-
-.card__social--active {
-  visibility: visible;
-  /*z-index: 3;*/
-  transform: translateZ(0);
-  transform: translateX(-48px);
-  transition: transform 0.35s ease;
-}
-
-.share-toggle {
-  z-index: 2;
-}
-
-.share-toggle:before {
-  content: "\f1e0";
-  font-family: 'FontAwesome';
-  color: #3498db;
-}
-
-.share-toggle.share-expanded:before {
-  content: "\f00d";
-}
-
-.share-icon {
-  display: inline-block;
-  width: 48px;
-  height: 48px;
-  line-height: 48px;
-  text-align: center;
-  border-radius: 50%;
-  background-color: #fff;
-  transition: all 0.3s ease;
-  outline: 0;
-
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12),
-  0 2px 4px rgba(0, 0, 0, 0.24);
+.post-info i{
+  font-size: 15px;
 }
 
 
-
-/********************** Testimonios **********************/
+/********************** TESTIMONIALS **********************/
 section.testimonios{
   padding-top: 100px;
   padding-bottom: 100px;
@@ -1019,7 +991,7 @@ footer .gif{
   }
 } 
 
-/***************SOCIAL ICONS********************/
+/***************    SOCIAL ICONS    ********************/
 
 .footer-social-icons {
   width: 100%;
@@ -1129,7 +1101,7 @@ ul.social-icons {
 .fa-medium:hover {
   background-color: #00AB6C;
 }
-/******************************************************************/
+/***************************** GENERAL & BUTTONS  ****************************/
 .bg-primary {
   background-color: white;
 }
@@ -1186,7 +1158,7 @@ body {
 }
 
 
-/****************PORTFOLIO**************************/
+/********************* PORTFOLIO  ***********************/
 .copy {
   max-width: 980px;
   padding: 50px 20px;
@@ -1371,7 +1343,7 @@ body {
 }
 
 
-/************MODAL FORM********************/
+/*****************    MODAL FORM    ********************/
 
 
 button {
@@ -1597,9 +1569,9 @@ textarea {
   color:none;
 }
 
-/********************************************
-              INBOUND MARKETING PAGE
-*********************************************/
+/********************************************************************************
+                                  INBOUND MARKETING PAGE
+********************************************************************************/
 
 h1{
   text-align: center;
@@ -1797,7 +1769,6 @@ h1{
 .price-table > ul > .package p.list i {
   margin-right: 10px;
 }
-
 .dev-button {
   font-family: "Montserrat", sans-serif;
   font-size: 0.85em;
