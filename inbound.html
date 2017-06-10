@@ -65,7 +65,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="http://nokoarts.com"><img class="nav_logo" src="img/logo_horizontal.svg" alt="Noko Arts logo"/></a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img class="nav_logo" src="img/logo_horizontal.svg" alt="Noko Arts logo"/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -75,10 +75,15 @@
                     <ul class="dropdown-menu">
                       <li><a href="#">Diseño</a></li>
                       <li><a href="#">Tecnología</a></li>
-                      <li><a href="#">Estrategia Digital</a></li>
-                      <li><a href="#">Inbound Marketing</a></li>
+                      <li><a href="#">Estrategia Digital</a></li>                      
                     </ul>
                   </li>
+                   <ul class="nav navbar-nav navbar-right navbar-logo">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Soluciones</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Inbound Marketing</a></li>
+                      <li><a href="#">Growth Driven Design</a></li>                      
+                    </ul>
                     <li>
                         <a class="" href="work.html">Proyectos</a>
                     </li>
@@ -89,8 +94,8 @@
                         <a href="https://medium.com/noko-arts" target="_blank">Blog</a>
                     </li>
                     <li>
-                        <a class="" href="">
-                            <div class='button -green center' data-toggle="modal" data-target="#myModal">Pedir Presupuesto</div>
+                        <a class="typeform-link">
+                            <div class='button -green centered-button'  data-toggle="modal" data-target="#myModal">Pedir Presupuesto</div>
                         </a>
                     </li>
                     <li>
@@ -112,19 +117,36 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <section id="inbound" class="inbound bg-primary text-center">
+
+    <section class="inbound-hero">
+    	<div class="container">
+    		<div class="row">
+    			<h1>Inbound Marketing</h1>
+    			<span>Subcopy hero</span>		      	
+    		</div>
+    	</div>
+    </section>
+    <section class="inbound-features">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-12"></div>
+    		</div>
+    	</div>
+    </section>
+    <section id="inbound-plans" class="inbound-plans bg-primary text-center">
     <div class="container">
 	  	<div class="row">
 		    <div class="col-md-12">
-		      <h1>Inbound Marketing - Planes y Paquetes</h1>
-		      <p>Selecciona alguno de nuestros planes </p>
-		      <div class="price-table">
+		    	<h2>El plan ideal para que tu negocio destaque en internet</h2>
+		      	<div class="price-table">
 				<ul class="four-column clearfix">
 				    <li class="package">
 						<ul>
 							<li>
-								<h2 class="package-title">emprendedores e influencers</h2>
-								<p class="package-details">Desde <span>$99</span> mensuales/p>
+								<h2 class="package-title">Emprendedor</h2>
+								<p class="package-details">Ideal para personas o pequeñas empresas que estén iniciando.</p>
+								<p class="package-details"><span>40 puntos mensuales</span></p>
+								<h2 class="package-title">USD $500/mes</h2>
 							</li>
 							<li>
 								<p class="list">4 Blog posts / mes</p>
@@ -156,33 +178,34 @@
 						<div class="ribbon-wrapper-green"><div class="ribbon-green">Más popular</div></div>
 						<ul>
 							<li>
-								<h2 class="package-title">pequeñas empresas y negocios</h2>
-								<p class="package-details">Desde <span>$200</span> mensuales</p>
+								<h2 class="package-title">Básico</h2>
+								<p class="package-details">Ideal para medianas empresas o equipos de marketing que necesiten ayuda externaque buscan destacarse en su mercado.</p>
+								<p class="package-details"><span>40 puntos mensuales</span></p>
+								<h2 class="package-title">USD $500/mes</h2>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">4 Blog posts / mes</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">Promoción del Blog</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">Actualizaciones en Social Media y monitoreo</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">Investigación de Keyword</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">On page SEO</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">1 Campaña de Generación de Leads (trimestral)</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
-							</li>
+								<p class="list">Email marketing</p>
 							<li>
 								<p class="list">Lorem ipsum dolor sit amet</p>
-							</li>
+							</li>										
 							<li>
 								<a href="#" class="button -green plan-button">Comenzar Ahora</a>
 							</li>
@@ -191,30 +214,34 @@
 					<li class="package">
 						<ul>
 							<li>
-								<h2 class="package-title">medianas empresas y startups</h2>
-								<p class="package-details">Desde <span>$120</span> mensuales</p>
+								<h2 class="package-title">Acelerado</h2>
+								<p class="package-details">Ideal para medianas empresas o startups con una metas de crecimiento acelerado que busquen un plan extenso.</p>
+								<p class="package-details"><span>40 puntos mensuales</span></p>
+								<h2 class="package-title">USD $500/mes</h2>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">4 Blog posts / mes</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">Promoción del Blog</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">Actualizaciones en Social Media y monitoreo</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">Investigación de Keyword</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">On page SEO</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">1 Campaña de Generación de Leads (trimestral)</p>
 							</li>
 							<li>
+								<p class="list">Email marketing</p>
+							<li>
 								<p class="list">Lorem ipsum dolor sit amet</p>
-							</li>
+							</li>			
 							<li>
 								<p class="list">Lorem ipsum dolor sit amet</p>
 							</li>
@@ -226,30 +253,34 @@
 					<li class="package">
 						<ul>
 							<li>
-								<h2 class="package-title">grandes empresas</h2>
-								<p class="package-details">Desde <span>$129</span> mensuales</p>
+								<h2 class="package-title">Empresarial</h2>
+								<p class="package-details">Ideal para medianas y grandes empresas con un crecimiento agresivo o con necesidades complejas.</p>
+								<p class="package-details"><span>40 puntos mensuales</span></p>
+								<h2 class="package-title">USD $500/mes</h2>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">4 Blog posts / mes</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">Promoción del Blog</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">Actualizaciones en Social Media y monitoreo</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">Investigación de Keyword</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">On page SEO</p>
 							</li>
 							<li>
-								<p class="list">Lorem ipsum dolor sit amet</p>
+								<p class="list">1 Campaña de Generación de Leads (trimestral)</p>
 							</li>
 							<li>
+								<p class="list">Email marketing</p>
+							<li>
 								<p class="list">Lorem ipsum dolor sit amet</p>
-							</li>
+							</li>			
 							<li>
 								<p class="list">Lorem ipsum dolor sit amet</p>
 							</li>
@@ -260,11 +291,79 @@
 					</li>
 				</ul>
 			</div>
-    </div>
-  </div>
-</div>    	
+	    </div>
+	  </div>
+	</div>    	
 
     </section>
+    <section class="inbound-features">
+    	<div class="container">
+    		<div class="row">
+    			
+    		</div>
+    	</div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-2 gif-container">
+                    <img src="gif/contacto.gif" class="gif" alt="Noko Arts - Startups" onclick="this.src='gif/contacto.gif';" onmouseover="this.src='gif/contacto.gif';">
+                </div>
+                <div class="col-md-3 col-md-offset-2 contact-address">
+                    <div class="contact-country">
+                        <i class="material-icons">place</i>
+                        <h4>Colombia</h4>
+                        <a  class="contact-number" href="tel:+573196912246">+57 (319) 691-2246</a> 
+                        <p>A 43-60, Cra. 19 #432, Bogotá, Colombia.</p>
+                    </div>
+                    <div class="contact-country">
+                        <i class="material-icons">place</i>
+                        <h4>Venezuela</h4>
+                        <a class="contact-number" href="tel:+584247560746">+58 (424) 756-0746</a><br>
+                        <p>Av. Cuatricentenaria. Edificio Centro Delta, San Cristobal, Táchira.</p><br><br>
+                        <i class="material-icons">mail</i>
+                       <a class="contact-number" href="mailto:hey@nokoarts.com">hey@nokoarts.com</a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-2">
+                    <a class="typeform-link" href="https://esindoni.typeform.com/to/ZLJAfU">
+                        <div class='button -green centered-button'  data-toggle="modal" data-target="##myModal">Contáctanos</div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-social-icons">
+                <ul class="social-icons">
+                  <li><a href="https://www.facebook.com/nokoarts/" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                  <!-- <li><a href="https://twitter.com/NokoArts" target="_blank" class="social-icon"> <i class="fa fa-twitter"></i></a></li>  -->
+                  <li><a href="https://www.linkedin.com/company/7947400?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A7947400%2Cidx%3A1-1-1%2CtarId%3A1461811896554%2Ctas%3Anoko%20arts" target="_blank" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="https://www.instagram.com/heynokoarts/" target="_blank" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+                  <li><a href="https://dribbble.com/nokoarts" target="_blank" class="social-icon"> <i class="fa fa-dribbble"></i></a></li>
+                  <li><a href="https://medium.com/noko-arts" target="_blank" class="social-icon"> <i class="fa fa-medium"></i></a></li>
+                </ul>
+            </div>
+            <p>&copy; 2017 Noko Arts. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script  src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.js"></script>
+    
+    <!-- Theme JavaScript -->
+    <script src="js/new-script.js"></script>
+    <script src="js/main.js"></script>
+    
+    <!-- Facebook Pixel Event -->
+    <script>
+        fbq('track', 'Lead');
+    </script> 
 
 </body>
 </html>
