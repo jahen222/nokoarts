@@ -1588,6 +1588,10 @@ textarea {
   text-align: center;
   font-size: 4em;
 }
+.inbound-plans {
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
 .inbound-plans h2{
   font-family: sans-serif;
   font-weight: bold;
@@ -1612,6 +1616,9 @@ textarea {
 }
 .inbound-hero p{
 
+}
+.inbound-process img{
+  width: 100%;
 }
 .price-table {
   width: 100%;
@@ -1843,17 +1850,28 @@ textarea {
 }
 section.inbound-features{
   background-color: #EDEDED;  
+  padding-top: 20px;
+}
+section.inbound-features h2{
+  font-family: sans-serif;  
+  color: rgba(58, 56, 56, 0.98);
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 3em;
 }
 section.inbound-features h3{
-  font-size: bold;
+  font-family: "Lato", sans-serif;
+  text-align: center;  
 }
 section.inbound-features p{
-  
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
 }
-
-section.inbound-item{
+.col-md-4.inbound-item {
+    text-align: center;
 }
-
 .inbound-item img{
   width: 25%;
 }
