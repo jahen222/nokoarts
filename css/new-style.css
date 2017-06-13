@@ -652,6 +652,7 @@ section.what-we-do{
   background-color: #EDEDED;
   color: white;
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 section.what-we-do .section-heading {
   margin-bottom: 50px;
@@ -732,6 +733,10 @@ section.what-we-do .service-column img{
   }
 }
 /************************ GET MORE SECTION *******************/
+
+.get-more{
+  padding-top: 50px !important;
+}
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
   .get-more-gif{
@@ -1574,12 +1579,14 @@ textarea {
 ********************************************************************************/
 
 .inbound-hero h1{
-  text-align: center;
-  font-family: sans-serif;   
-  font-weight: bold; 
-  letter-spacing: 1px;      
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
   line-height: 1em;
   color: rgba(58, 56, 56, 0.98);
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 4em;
 }
 .inbound-plans h2{
   font-family: sans-serif;
@@ -1590,12 +1597,21 @@ textarea {
   margin-bottom: 35px;
   text-align: center;
 }
+.arrow-inbound{
+  top: 6em;
+}
 .inbound h3{
 
 }
 .inbound-hero{
-  background-color: blue;
   height: 400px;
+  text-align: center;
+}
+.inbound-hero h1{
+
+}
+.inbound-hero p{
+
 }
 .price-table {
   width: 100%;
@@ -1666,11 +1682,7 @@ textarea {
   left: -5px;
   top: 15px;
   width: 120px;
-  background-color: #1abc9c;
-  background-color: #44EDCC;
-  background-image: -webkit-linear-gradient(#44EDCC, #1abc9c);
-  background-image: linear-gradient(#44EDCC, #1abc9c);
-  color: #35373e;
+  background-color: #3ac569;  
   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
@@ -1763,6 +1775,9 @@ textarea {
   background-color: #35373e;
   margin: 10px auto 0;
 }
+.price-table > ul > .package h2.package-price {
+  
+}
 .price-table > ul > .package p {
   margin: 0;
 }
@@ -1776,12 +1791,20 @@ textarea {
   margin-bottom: 13px;
 }
 .price-table > ul > .package p.package-details span {
-  color: #1abc9c;
+  color: #3ac569;
 }
 .price-table > ul > .package p.list {
   position: relative;
   padding: 0 20px;
   color: #666666;
+  font-size: 14px;
+  font-weight: bold;
+}
+.price-table > ul > .package .disabled-item{
+  background-color: rgba(211, 211, 211, 0.24);
+}
+.price-table > ul > .package .disabled-text{
+  opacity: 0.4;
 }
 .price-table > ul > .package p.list i {
   margin-right: 10px;
@@ -1817,4 +1840,20 @@ textarea {
 .plan-button{
   margin-left: 20%;
   margin-right: 20%;
+}
+section.inbound-features{
+  background-color: #EDEDED;  
+}
+section.inbound-features h3{
+  font-size: bold;
+}
+section.inbound-features p{
+  
+}
+
+section.inbound-item{
+}
+
+.inbound-item img{
+  width: 25%;
 }
