@@ -1851,6 +1851,7 @@ textarea {
 section.inbound-features{
   background-color: #EDEDED;  
   padding-top: 20px;
+  padding-bottom: 70px;
 }
 section.inbound-features h2{
   font-family: sans-serif;  
@@ -1868,6 +1869,13 @@ section.inbound-features p{
   font-weight: normal;
   font-size: 14px;
   text-align: center;
+}
+.inbound-cases{
+    
+}
+.inbound-cases a{
+  position: relative;
+  top: 30px;
 }
 .col-md-4.inbound-item {
     text-align: center;
