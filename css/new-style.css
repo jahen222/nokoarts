@@ -1577,8 +1577,37 @@ textarea {
 /********************************************************************************
                                   INBOUND MARKETING PAGE
 ********************************************************************************/
+.inbound-hero{
+  position: relative;
+}
 
-.inbound-hero h1{
+.inbound-hero-background{
+  background-image: url(../img/marketing.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;    
+  background-size: 100% 150%;
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+  height: 500px;
+  text-align: center;  
+  z-index:1;
+  position: absolute;
+  width: 100%;
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+@media (max-width: 700px) {
+  .inbound-hero{
+    background-size: cover;
+  }
+}
+.inbound-hero-text h1{
   font-family: sans-serif;
   font-weight: bold;
   letter-spacing: 1px;
@@ -1587,6 +1616,31 @@ textarea {
   margin-bottom: 35px;
   text-align: center;
   font-size: 4em;
+  top: 2em;
+  position: relative;
+  z-index:2;
+}
+
+.inbound-hero-text p{
+  top: 5em;
+  position: relative;
+  z-index:2;
+  text-align: center;
+}
+.arrow-inbound{
+  top: 7em;
+  position: relative;
+  z-index:2;
+}
+.inbound h3{
+
+}
+.inbound-process img{
+  width: 100%;
+}
+.inbound-plans{
+  padding-bottom: 5px;
+  padding-top: 20px;
 }
 .inbound-plans h2{
   font-family: sans-serif;
@@ -1596,22 +1650,6 @@ textarea {
   color: rgba(58, 56, 56, 0.98);
   margin-bottom: 35px;
   text-align: center;
-}
-.arrow-inbound{
-  top: 6em;
-}
-.inbound h3{
-
-}
-.inbound-hero{
-  height: 400px;
-  text-align: center;
-}
-.inbound-hero h1{
-
-}
-.inbound-hero p{
-
 }
 .price-table {
   width: 100%;
@@ -1843,17 +1881,48 @@ textarea {
 }
 section.inbound-features{
   background-color: #EDEDED;  
+  padding-top: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+section.inbound-features h2{
+  font-family: sans-serif;
+  font-weight: bold;  
+  color: rgba(58, 56, 56, 0.98);
+  font-size: 40px;
+  padding-bottom: 60px;
 }
 section.inbound-features h3{
   font-size: bold;
 }
 section.inbound-features p{
-  
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;    
+  margin-bottom: 13px;
+  color: rgba(58, 56, 56, 0.98);
 }
-
+section.inbound-item h3{
+  font-family: "Lato", sans-serif;
+  font-weight: bold;    
+  letter-spacing: 1px;
+  text-align: center;    
+  color: rgba(58, 56, 56, 0.98);
+}
 section.inbound-item{
 }
-
+section.inbound-item p{
+  font-family: "Lato", sans-serif;
+  font-weight: normal;    
+}
+.inbound-item{
+  text-align: center;
+}
+.inbound-item h3{
+  font-weight: bold;
+}
 .inbound-item img{
   width: 25%;
 }
