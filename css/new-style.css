@@ -1577,8 +1577,37 @@ textarea {
 /********************************************************************************
                                   INBOUND MARKETING PAGE
 ********************************************************************************/
+.inbound-hero{
+  position: relative;
+}
 
-.inbound-hero h1{
+.inbound-hero-background{
+  background-image: url(../img/marketing.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;    
+  background-size: 100% 150%;
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+  height: 500px;
+  text-align: center;  
+  z-index:1;
+  position: absolute;
+  width: 100%;
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+@media (max-width: 700px) {
+  .inbound-hero{
+    background-size: cover;
+  }
+}
+.inbound-hero-text h1{
   font-family: sans-serif;
   font-weight: bold;
   letter-spacing: 1px;
@@ -1587,9 +1616,43 @@ textarea {
   margin-bottom: 35px;
   text-align: center;
   font-size: 4em;
+  top: 2em;
+  position: relative;
+  z-index:2;
 }
-.inbound-plans {
-  padding-bottom: 0px;
+.inbound-hero-text p{
+  font-family: "Lato", sans-serif;
+  top: 5em;
+  position: relative;
+  z-index:2;
+  text-align: center;
+}
+.arrow-inbound{
+  top: 7.5em;
+  position: relative;
+  z-index:2;
+}
+.inbound h3{
+
+}
+.inbound-process img{
+  width: 100%;
+}
+.inbound-process h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgba(58, 56, 56, 0.98);
+  font-size: 40px;  
+  text-align: center;
+}
+.inbound-process p{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.inbound-plans{
+  padding-bottom: 5px;
   padding-top: 20px;
 }
 .inbound-plans h2{
@@ -1600,22 +1663,6 @@ textarea {
   color: rgba(58, 56, 56, 0.98);
   margin-bottom: 35px;
   text-align: center;
-}
-.arrow-inbound{
-  top: 6em;
-}
-.inbound h3{
-
-}
-.inbound-hero{
-  height: 400px;
-  text-align: center;
-}
-.inbound-hero h1{
-
-}
-.inbound-hero p{
-
 }
 .inbound-process img{
   width: 100%;
@@ -1848,17 +1895,21 @@ textarea {
   margin-left: 20%;
   margin-right: 20%;
 }
+section.inbound-process{
+  background-color: #EDEDED;  
+  margin-top: 100px;
+}
 section.inbound-features{
   background-color: #EDEDED;  
-  padding-top: 20px;
-  padding-bottom: 70px;
+  padding-top: 40px;
+  text-align: center;
 }
 section.inbound-features h2{
-  font-family: sans-serif;  
+  font-family: sans-serif;
+  font-weight: bold;  
   color: rgba(58, 56, 56, 0.98);
-  text-align: center;
-  padding-bottom: 50px;
-  font-size: 3em;
+  font-size: 40px;
+  padding-bottom: 60px;
 }
 section.inbound-features h3{
   font-family: "Lato", sans-serif;
@@ -1879,6 +1930,27 @@ section.inbound-features p{
 }
 .col-md-4.inbound-item {
     text-align: center;
+}
+
+
+section.inbound-item h3{
+  font-family: "Lato", sans-serif;
+  font-weight: bold;    
+  letter-spacing: 1px;
+  text-align: center;    
+  color: rgba(58, 56, 56, 0.98);
+}
+section.inbound-item{
+}
+section.inbound-item p{
+  font-family: "Lato", sans-serif;
+  font-weight: normal;    
+}
+.inbound-item{
+  text-align: center;
+}
+.inbound-item h3{
+  font-weight: bold;
 }
 .inbound-item img{
   width: 25%;
