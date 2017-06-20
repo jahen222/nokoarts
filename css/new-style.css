@@ -1791,7 +1791,7 @@ textarea {
 .price-table > ul > .package > ul > li:first-child {
   margin-bottom: 15px;
   padding: 30px;
-  height: 290px;
+  height: 210px;
 }
 .price-table > ul > .package > ul > li:first-child:after {
   content: "";
