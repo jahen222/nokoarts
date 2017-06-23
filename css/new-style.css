@@ -1955,3 +1955,12 @@ section.inbound-item p{
 .inbound-item img{
   width: 25%;
 }
+
+/********************************************************************************
+                                  GDD MARKETING PAGE
+**********************************************************************************/
+.gdd-hero-background{
+background-image: url(../img/mac.jpg);
+filter: blur(0px);
+background-size: cover;
+}
