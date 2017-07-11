@@ -1609,10 +1609,11 @@ textarea {
 }
 .inbound-hero-text h1{
   font-family: sans-serif;
+  text-shadow: 0px 0px 13px black;
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1em;
-  color: rgba(58, 56, 56, 0.98);
+  color: white;
   margin-bottom: 35px;
   text-align: center;
   font-size: 4em;
@@ -1626,6 +1627,9 @@ textarea {
   position: relative;
   z-index:2;
   text-align: center;
+  color: white;
+  text-shadow: 0px 0px 3px black;
+  font-weight: bold;
 }
 .arrow-inbound{
   top: 7.5em;
@@ -1650,6 +1654,7 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  margin-bottom: 3em;
 }
 .inbound-plans{
   padding-bottom: 5px;
@@ -1960,7 +1965,9 @@ section.inbound-item p{
                                   GDD MARKETING PAGE
 **********************************************************************************/
 .gdd-hero-background{
-background-image: url(../img/mac.jpg);
-filter: blur(0px);
-background-size: cover;
-}
+    background-image: url(../img/mac.jpg);
+    filter: blur(0px);
+    background-size: cover;
+    background-attachment: inherit;
+    background-position: right;
+}   
