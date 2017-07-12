@@ -1965,9 +1965,33 @@ section.inbound-item p{
                                   GDD MARKETING PAGE
 **********************************************************************************/
 .gdd-hero-background{
-    background-image: url(../img/mac.jpg);
-    filter: blur(0px);
-    background-size: cover;
-    background-attachment: inherit;
-    background-position: right;
+  background-image: url(../img/mac.jpg);
+  filter: blur(0px);
+  background-size: 100% 100%;
+  background-attachment: inherit;
+  background-position: right bottom;
 }   
+.gdd-description {
+  text-align: center;
+}
+
+.gdd-description img{
+  width: 80%;
+}
+.gdd-process-white{
+  background-color: white;
+}
+.gdd-process-grey{
+  background-color: #EDEDED;
+  padding-bottom: 30px;
+  padding-top: 0px;
+}
+.gdd-process-grey .inbound-process h2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.gdd-start-now a{
+  width: 172px;
+  margin-left: auto;
+  margin-right: auto;
+}
