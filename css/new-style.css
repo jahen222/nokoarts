@@ -1976,15 +1976,18 @@ section.inbound-item p{
 }
 
 .gdd-description img{
-  width: 80%;
+  width: 70%;
+  margin-bottom: 0em;
 }
 .gdd-process-white{
   background-color: white;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 .gdd-process-grey{
   background-color: #EDEDED;
   padding-bottom: 30px;
-  padding-top: 0px;
+  padding-top: 10px;
 }
 .gdd-process-grey .inbound-process h2{
   padding-top: 50px;
@@ -1994,4 +1997,8 @@ section.inbound-item p{
   width: 172px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 3em;
+}
+.gdd-items-row{
+  padding-bottom: 40px;
 }
