@@ -91,7 +91,7 @@ p {
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  color: #666666 !important;
+  color: #666666;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -111,7 +111,6 @@ p {
 .nav_logo{
   width: 11em;
 }
-
 @media (min-width: 768px) {
   .navbar-default {
 
@@ -165,7 +164,6 @@ p {
   .navbar-brand{
     padding-top: 10px;
   }
-
 }
 
 /************ LANGUAGE SWITCHER *************/
@@ -370,7 +368,7 @@ header {
   background: #3ac569;
 }
 .button.-green:hover{
-  background-color: #36ad5e;
+  background-color: #36ad5e !important;
 }
 .button.-blue {
   color: #FFFFFF;
@@ -727,7 +725,7 @@ section.what-we-do .service-column img{
     padding-top: 5px;
   }
     section.what-we-do .section-heading h2{
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 10px;
     padding-bottom: 5px;
   }
