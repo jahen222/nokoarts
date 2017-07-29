@@ -111,6 +111,9 @@ p {
 .nav_logo{
   width: 11em;
 }
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
 @media (min-width: 768px) {
   .navbar-default {
 
