@@ -536,7 +536,10 @@ section.services h2 {
   line-height: 1em;
   color: rgba(58, 56, 56, 0.98);
   padding-bottom: 20px;
-
+}
+.section-heading-home{
+  padding-bottom: 50px !important;
+  font-size: 40px;
 }
 section.services h3{
   padding-bottom: 20px;   
@@ -2006,3 +2009,4 @@ section.inbound-item p{
 .gdd-items-row{
   padding-bottom: 40px;
 }
+
