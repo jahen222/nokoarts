@@ -32,7 +32,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #black;
+  color: black;
 }
 hr {
   max-width: 100px;
@@ -570,6 +570,9 @@ section.services h3{
   -webkit-transform: scale(1.04);
           transform: scale(1.04);
 }
+.service-column img{
+  width: 6.5em;
+}
 section.services .material-icons{
   font-size: 80px;
   color: #666666;
@@ -721,7 +724,7 @@ section.what-we-do .service-column{
     margin-bottom: 5%;
 }
 section.what-we-do .service-column img{
-  width: 20%;
+  width: 6.5em;
 }
 @media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
   section.what-we-do{
@@ -950,15 +953,6 @@ footer {
   color: rgba(255, 255, 255, 0.3);
   text-align: center;  
 }
-.contact-address{
-  right: 3em;
-}
-.contact-country{
-  padding: 20px 0 15px 0;
-}
-.contact-country:nth-child(2){
-  padding: 10px 0 30px 0;
-}
 .contact-country .contact-number{
   color: #eee;
   font-weight: bold;
@@ -995,8 +989,22 @@ footer ul li a {
   margin-right: 0px;
   margin-left: 0px;
 }
+footer i,
+footer a{
+  color: white;
+}
 footer .gif{
   width: 80%;
+}
+@media only screen and (min-device-width : 480px){
+  .right-border{
+    border-right: 2px solid white;
+    height: 100px;
+  }
+  .left-border{
+    border-left: 2px solid white;
+    height: 100px;
+  }
 } 
 @media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
   .contact-address{
@@ -1017,8 +1025,8 @@ footer .gif{
 }
 
 ul.social-icons {
-  margin-top: 10px;
   padding-left: 0px;
+  margin-bottom: 14px;
 }
 
 .social-icons li {
@@ -1991,7 +1999,7 @@ section.inbound-item p{
 }
 
 /********************************************************************************
-                                  GDD MARKETING PAGE
+                                  GDD PAGE
 **********************************************************************************/
 .gdd-hero-background{
   background-image: url(../img/mac.jpg);
@@ -2032,3 +2040,65 @@ section.inbound-item p{
   padding-bottom: 40px;
 }
 
+/********************************************************************************
+                                  DESIGN PAGE
+**********************************************************************************/
+.services-section{
+  padding-bottom: 30px;  
+}
+.design-container{
+  margin-top: 80px;
+  margin-right: 0;
+  margin-left: 0;
+  text-align: center;
+  width: 100%;
+  
+}
+.design-container div{
+
+}
+.design-container h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgba(58, 56, 56, 0.98);
+  font-size: 40px;  
+  text-align: center;
+}
+.design-hero-background{
+  background-image: url(../img/header-design.png);
+  filter: blur(0px);
+  background-size: 100% 100%;
+  background-attachment: inherit;
+  background-position: right bottom;
+} 
+.service-feature-right{
+  padding: 0;
+}
+.service-feature-right img{
+  max-width: 500px;
+  float: right;
+}
+.service-text-right,
+.service-text-right h2{
+  text-align: left;
+}
+.service-feature-left{
+  padding: 0;
+}
+.service-feature-left img{
+  max-width: 500px;
+  float: left;  
+}
+.service-text-left,
+.service-text-left h2{
+  text-align: right;
+}
+.service-image img{
+
+}
+@media (max-width: 768px) {
+  .service-feature-left img,
+  .service-feature-right img{
+    width: 100%;
+  }
+}
