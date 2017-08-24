@@ -136,7 +136,8 @@ li.dropdown:hover > .dropdown-menu {
     color: #666666;
   }
   .navbar-default .nav > li > a:hover,
-  .navbar-default .nav > li > a:focus:hover {
+  .navbar-default .nav > li > a:focus:hover,
+  .navbar-default .nav .selected{
     color: black;
     font-weight: bold;
   }
