@@ -2071,7 +2071,23 @@ section.inbound-item p{
   background-size: 100% 100%;
   background-attachment: inherit;
   background-position: right bottom;
-} 
+}
+.marketing-hero-background{
+    background-image: url(../img/header-marketing.png) !important;
+    filter: blur(0px);
+    background-size: 100% 100%;
+    background-attachment: inherit;
+    background-position: right bottom;"
+}
+
+.tecnology-hero-background{
+    background-image: url(../img/header-tecnology.png) !important;
+    filter: blur(0px);
+    background-size: 100% 100%;
+    background-attachment: inherit;
+    background-position: right bottom;"
+}
+
 .service-feature-right{
   padding: 0;
 }
