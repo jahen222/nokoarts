@@ -2145,6 +2145,119 @@ section.inbound-item p{
     float: right;
     max-width: 100%;
 }
+
+/*  Animaciones */
+
+.gdd-start-now{
+  background: none;
+}
+
+.plan-button{
+  font-weight: bold !important;
+  font-size: 16pt !important;
+  width: 40% !important;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+
+#plan-arrow{
+  position: absolute;
+  left: 65%;
+  transform: rotate(90deg);
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-name: arrow;
+}
+
+@keyframes arrow{
+  0% {
+    opacity: .3;
+    left: 63%;
+  }
+
+  25%{
+    opacity: .1;
+    left: 63%;
+  }
+
+  26%{
+    opacity: .3;
+    left: 64%;
+  }
+
+  50%{
+    opacity: .1;
+    left: 64%;
+  }
+
+  51%{
+    opacity: .3;
+    left: 65%;
+  }
+
+  100% {
+    opacity: 1
+    left: 65%;
+  }
+}
+
+.animate-plan{
+  animation-duration: 1.5s;
+  animation-name: animatePlan;
+}
+
+@keyframes animatePlan{
+   from {
+    width: 0%;
+    max-height: 0px;
+    padding: 12px 12px;
+  }
+
+  to {
+    width: 40%;
+    max-height: 200px;
+    padding: 12px 12px;
+  }
+}
+
+.animation-left{
+  animation-duration: 1.5s;
+  animation-name: animateLeft;
+}
+
+
+@keyframes animateLeft{
+   from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.animation-right{
+  animation-duration: 1.5s;
+  animation-name: animateRight;
+}
+
+
+@keyframes animateRight{
+   from {
+    margin-right: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+
 /********************************************************************************
                                   Responsive
 **********************************************************************************/
@@ -2182,6 +2295,14 @@ section.inbound-item p{
   .coffee-container , .plant-container{
     display: none;
   }
+
+  .plan-button{
+    width: 80% !important;
+    animation-name: none;
+  }
+  #plan-arrow{
+    display: none;
+  }
 }
 
 @media (min-width : 481px) and (max-width : 768px){
@@ -2199,6 +2320,14 @@ section.inbound-item p{
   }
 
   .coffee-container , .plant-container{
+    display: none;
+  }
+
+  .plan-button{
+    width: 80% !important;
+    animation-name: none;
+  }
+  #plan-arrow{
     display: none;
   }
 } 
@@ -2234,3 +2363,5 @@ section.inbound-item p{
     width: 30%;
   }
 }
+
+

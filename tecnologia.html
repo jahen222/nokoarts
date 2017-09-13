@@ -137,11 +137,11 @@
     </section>   
    <section class="text-center services-section">
        <div class="container design-container">
-            <div class="row">
+            <div class="row AnimateLeft">
                 <div class="col-md-6  col-xs-12 service-feature-left service-image">
-                    <img src="img/Web-apps.png" alt="Noko Arts - Aplicaciones Web" style="max-height: 400px;">
+                    <img class="" src="img/Web-apps.png" alt="Noko Arts - Aplicaciones Web" style="max-height: 400px;">
                 </div>
-                <div class="col-md-6 col-xs-12 service-text-right">
+                <div class="col-md-6 col-xs-12 service-text-right animate-text">
                    <h2 id="uiux">Aplicaciones Web</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -150,8 +150,8 @@
                </div>
            </div>
            
-           <div class="row">
-               <div class="col-md-6 col-xs-12 service-text-left">
+           <div class="row AnimateRight">
+               <div class="col-md-6 col-xs-12 service-text-left animate-text">
                    <h2 id="branding">Aplicaciones Mobiles</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -163,11 +163,11 @@
                    <img src="img/mobile-apps.png" alt="Noko Arts - Aplicaciones Moviles">
                </div>
            </div>
-           <div class="row">
-               <div class="col-md-6 col-xs-12 service-feature-left">
+           <div class="row AnimateLeft2">
+               <div class="col-md-6 col-xs-12 service-feature-left other-class">
                    <img src="img/eCommerce.png" alt="Noko Arts - eCommerce & Websites">
                </div>
-               <div class="col-md-6 col-xs-12 service-text-right">
+               <div class="col-md-6 col-xs-12 service-text-right animate-text">
                    <h2 id="product">eCommerce & Websites</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -176,8 +176,8 @@
                    </p>
                </div>
            </div>
-           <div class="row">
-               <div class="col-md-6 col-xs-12 service-text-left">
+           <div class="row AnimateRight2">
+               <div class="col-md-6 col-xs-12 service-text-left animate-text">
                    <h2 id="packaging">Landing Page Optimizacion</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -189,11 +189,11 @@
                     <img src="img/landing-page.png" alt="Noko Arts - Landing Page Optimizacion" style="max-height: 300px; margin-right: 20%;">
                 </div>
            </div>
-           <div class="row">
+           <div class="row AnimateLeft3">
                <div class="col-md-6 col-xs-12 service-feature-left">
                    <img src="img/internetOfThings.png" alt="Noko Arts - Internet of things">
                </div>
-               <div class="col-md-6 col-xs-12 service-text-right">
+               <div class="col-md-6 col-xs-12 service-text-right animate-text">
                    <h2 id="prototyping">Internet of things</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -204,7 +204,7 @@
            </div>
            <div class="row">                  
                 <div class="col-md-12 gdd-start-now">                   
-                    <a class="typeform-share button -green plan-button" href="https://nokoarts.typeform.com/to/waE9gv" data-mode="popup" target="_blank">Pedir Presupuesto</a><script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                    <a class="typeform-share button -green plan-button" href="https://nokoarts.typeform.com/to/waE9gv" data-mode="popup" target="_blank">Pedir Presupuesto Ahora<span id="plan-arrow"><i class="material-icons">navigation</i></span></a><script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                 </div>
             </div> 
 
@@ -271,11 +271,67 @@
     <!-- Theme JavaScript -->
     <script src="js/new-script.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/materialize.js"></script>
     
     <!-- Facebook Pixel Event -->
     <script>
         fbq('track', 'Lead');
     </script> 
+
+    <script>
+       $( ".AnimateRight, .AnimateLeft2, .AnimateRight2, .AnimateLeft3 , .gdd-start-now" ).css('visibility', 'hidden');
+       $('.animate-text').hide();
+      var options = [
+        {
+          selector: '.AnimateLeft', offset: 200, 
+          callback: function(el) {
+            $(el).children('.animate-text').fadeIn(2000);
+            $(el).children('div').children('img').addClass('animation-left');
+          } 
+        },
+        {
+          selector: '.AnimateRight', offset: 200, 
+          callback: function(el) {
+            $(el).css('visibility', 'visible');
+            $(el).children('.animate-text').fadeIn(2000);
+            $(el).children('div').children('img').addClass('animation-right');
+          } 
+        },
+        {
+          selector: '.AnimateLeft2', offset: 200, 
+          callback: function(el) {
+            $(el).css('visibility', 'visible');
+            $(el).children('.animate-text').fadeIn(2000);
+            $(el).children('div').children('img').addClass('animation-left');
+          } 
+        },
+        {
+          selector: '.AnimateRight2', offset: 200, 
+          callback: function(el) {
+            $(el).css('visibility', 'visible');
+            $(el).children('.animate-text').fadeIn(2000);
+            $(el).children('div').children('img').addClass('animation-right');
+          } 
+        },
+        {
+          selector: '.AnimateLeft3', offset: 200, 
+          callback: function(el) {
+            $(el).css('visibility', 'visible');
+            $(el).children('.animate-text').fadeIn(2000);
+            $(el).children('div').children('img').addClass('animation-left');
+          } 
+        },
+        {
+          selector: '.gdd-start-now', offset: 200, 
+          callback: function(el) {
+            $(el).css('visibility', 'visible');
+            $(el).children('a').addClass('animate-plan');
+          } 
+        }
+      ];
+  Materialize.scrollFire(options);
+
+    </script>
 
 </body>
 </html>
