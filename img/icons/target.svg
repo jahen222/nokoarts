@@ -1,50 +1,21 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-<g>
-	<g>
-		<path style="fill:#3C92CA;" d="M158.6,338.6c22.7-15.8,42.8-26,48.4-28.7c4.1-2,6.8-6.3,6.8-10.9v-48c0-3.3-1.7-6.4-4.4-8.2
-			c-3.5-2.3-5.6-6.2-5.6-10.4v-49.8c0-19.3,15.7-34.9,34.9-34.9h10.7c19.3,0,34.9,15.7,34.9,34.9v49.8c0,4.2-2.1,8.1-5.6,10.4
-			c-2.8,1.8-4.4,4.9-4.4,8.2v48c0,4.6,2.7,8.9,6.8,10.9c4.7,2.3,21.6,10.8,41.5,24.1c2.9,1.9,5.8,3.9,8.7,6c1.7,1.2,3.7,1.8,5.7,1.8
-			c3.1,0,6.2-1.5,8.1-4.2c3.2-4.5,2.1-10.6-2.4-13.8c-3.1-2.2-6.2-4.3-9.2-6.3c-16.9-11.2-31.7-19.2-39.5-23.2v-38.5
-			c6.3-6,10-14.5,10-23.4v-49.8c0-30.2-24.5-54.7-54.7-54.7h-10.7c-30.2,0-54.7,24.5-54.7,54.7v49.8c0,8.9,3.7,17.3,10,23.4v38.5
-			c-8.9,4.6-26.9,14.3-46.7,28.1c-4.5,3.1-5.6,9.3-2.5,13.8C147.9,340.7,154.1,341.8,158.6,338.6z"/>
-		<path style="fill:#2C2F33;" d="M0,245c0,5.5,4.4,9.9,9.9,9.9h42.4c5,98.3,84.4,177.4,182.8,181.9v43.3c0,5.5,4.4,9.9,9.9,9.9
-			s9.9-4.4,9.9-9.9v-43.4c97.6-5.5,175.9-84.1,180.9-181.8h44.3c5.5,0,9.9-4.4,9.9-9.9s-4.4-9.9-9.9-9.9h-44.3
-			c-5-97.7-83.3-176.3-180.9-181.8V9.9c0-5.5-4.4-9.9-9.9-9.9s-9.9,4.4-9.9,9.9v43.3c-98.5,4.5-177.8,83.6-182.8,181.9H9.9
-			C4.4,235.1,0,239.5,0,245z M71.9,241C74.1,147.9,150.4,72.8,244,72.8c95,0,172.2,77.3,172.2,172.2c0,95-77.3,172.2-172.2,172.2
-			c-93.6,0-170-75.1-172.1-168.2c0.5-1.2,0.9-2.6,0.9-4S72.5,242.2,71.9,241z"/>
-	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-</svg>
+           (byte) 0xdd, (byte) 0x90, (byte) 0xea, (byte) 0x97, (byte) 0x0c, (byte) 0x96,
+            (byte) 0x20, (byte) 0xb1, (byte) 0xee, (byte) 0x11, (byte) 0xd5, (byte) 0xd4,
+            (byte) 0x7c, (byte) 0x44, (byte) 0x96, (byte) 0x2e, (byte) 0x6e, (byte) 0xa2,
+            (byte) 0xb2, (byte) 0xa3, (byte) 0x4b, (byte) 0x0f, (byte) 0x32, (byte) 0x90,
+            (byte) 0xaf, (byte) 0x5c, (byte) 0x6f, (byte) 0x00, (byte) 0x88, (byte) 0x45,
+            (byte) 0x4e, (byte) 0x9b, (byte) 0x26, (byte) 0xc1, (byte) 0x94, (byte) 0x3c,
+            (byte) 0xfe, (byte) 0x10, (byte) 0xbd, (byte) 0xda, (byte) 0xf2, (byte) 0x8d,
+            (byte) 0x03, (byte) 0x52, (byte) 0x32, (byte) 0x11, (byte) 0xff, (byte) 0xf6,
+            (byte) 0xf9, (byte) 0x6e, (byte) 0x8f, (byte) 0x0f, (byte) 0xc8, (byte) 0x0a,
+            (byte) 0x48, (byte) 0x39, (byte) 0x33, (byte) 0xb9, (byte) 0x0c, (byte) 0xb3,
+            (byte) 0x2b, (byte) 0xab, (byte) 0x7d, (byte) 0x79, (byte) 0x6f, (byte) 0x57,
+            (byte) 0x5b, (byte) 0xb8, (byte) 0x84, (byte) 0xb6, (byte) 0xcc, (byte) 0xe8,
+            (byte) 0x30, (byte) 0x78, (byte) 0xff, (byte) 0x92, (byte) 0xe5, (byte) 0x43,
+            (byte) 0x2e, (byte) 0xef, (byte) 0x66, (byte) 0x98, (byte) 0xb4, (byte) 0xfe,
+            (byte) 0xa2, (byte) 0x40, (byte) 0xf2, (byte) 0x1f, (byte) 0xd0, (byte) 0x86,
+            (byte) 0x16, (byte) 0xc8, (byte) 0x45, (byte) 0xc4, (byte) 0x52, (byte) 0xcb,
+            (byte) 0x31, (byte) 0x5c, (byte) 0x9f, (byte) 0x32, (byte) 0x3b, (byte) 0xf7,
+            (byte) 0x19, (byte) 0x08, (byte) 0xc7, (byte) 0x00, (byte) 0x21, (byte) 0x7d,
+            (byte) 0x02, (byte) 0x03, (byte) 0x01, (byte) 0x00, (byte) 0x01, (byte) 0xa3,
+            (byte) 0x50, (byte) 0x30, (byte) 0x4e, (byte) 0x30, (byte) 0x1d, (byte) 0x06,
+            (byte) 0x03, (byte) 0x55, 

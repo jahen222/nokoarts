@@ -1,55 +1,55 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 489 489" style="enable-background:new 0 0 489 489;" xml:space="preserve">
-<g>
-	<g>
-		<path style="fill:#A7A9AC;" d="M244.464,479.9L244.464,479.9c-50.4,0-91.2-40.8-91.2-91.2v-91.2c0-50.4,40.8-91.2,91.2-91.2l0,0
-			c50.4,0,91.2,40.8,91.2,91.2v91.2C335.664,439.1,294.864,479.9,244.464,479.9z"/>
-		<path d="M310.464,105.1c2.8,0,5.6-1.3,7.4-3.8c2.9-4.1,1.9-9.7-2.1-12.6c-20.8-14.8-45.5-22.6-71.2-22.6s-50.4,7.8-71.2,22.6
-			c-4.1,2.9-5,8.6-2.1,12.6c2.9,4.1,8.6,5,12.6,2.1c17.6-12.6,38.6-19.2,60.6-19.2s43,6.7,60.7,19.3
-			C306.764,104.6,308.664,105.1,310.464,105.1z"/>
-		<path d="M244.464,131.7c-11.3,0-22,3.4-31.1,9.9c-4.1,2.9-5,8.6-2.1,12.6c2.9,4.1,8.6,5,12.6,2.1c6-4.3,13.1-6.5,20.6-6.5
-			s14.6,2.3,20.6,6.5c1.6,1.1,3.4,1.7,5.2,1.7c2.8,0,5.6-1.3,7.4-3.8c2.9-4.1,1.9-9.7-2.1-12.6
-			C266.464,135.1,255.764,131.7,244.464,131.7z"/>
-		<path d="M357.164,53.9c2.8,0,5.6-1.3,7.4-3.8c2.9-4.1,1.9-9.7-2.1-12.6c-34.6-24.6-75.3-37.5-118-37.5s-83.4,12.9-117.9,37.4
-			c-4.1,2.9-5,8.6-2.1,12.6c2.9,4.1,8.6,5,12.6,2.1c31.4-22.2,68.5-34,107.4-34s76,11.8,107.4,34.1
-			C353.464,53.3,355.364,53.9,357.164,53.9z"/>
-		<path d="M244.464,318.2c5,0,9.1-4.1,9.1-9.1v-46.6c0-5-4.1-9.1-9.1-9.1s-9.1,4.1-9.1,9.1v46.6
-			C235.364,314.1,239.464,318.2,244.464,318.2z"/>
-		<path d="M144.164,388.7c0,55.3,45,100.3,100.3,100.3s100.3-45,100.3-100.3v-91.2c0-55.3-45-100.3-100.3-100.3
-			s-100.3,45-100.3,100.3V388.7L144.164,388.7z M162.264,297.5c0-45.3,36.9-82.2,82.2-82.2s82.2,36.9,82.2,82.2v91.2
-			c0,45.3-36.9,82.2-82.2,82.2s-82.2-36.9-82.2-82.2V297.5z"/>
-	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-</svg>
+return SERVICE_CLASS_VOICE;
+                case 12: return SERVICE_CLASS_SMS + SERVICE_CLASS_FAX;
+                case 13: return SERVICE_CLASS_FAX;
+
+                case 16: return SERVICE_CLASS_SMS;
+
+                case 19: return SERVICE_CLASS_FAX + SERVICE_CLASS_VOICE;
+/*
+    Note for code 20:
+     From TS 22.030 Annex C:
+                "All GPRS bearer services" are not included in "All tele and bearer services"
+                    and "All bearer services"."
+....so SERVICE_CLASS_DATA, which (according to 27.007) includes GPRS
+*/
+                case 20: return SERVICE_CLASS_DATA_ASYNC + SERVICE_CLASS_DATA_SYNC;
+
+                case 21: return SERVICE_CLASS_PAD + SERVICE_CLASS_DATA_ASYNC;
+                case 22: return SERVICE_CLASS_PACKET + SERVICE_CLASS_DATA_SYNC;
+                case 24: return SERVICE_CLASS_DATA_SYNC;
+                case 25: return SERVICE_CLASS_DATA_ASYNC;
+                case 26: return SERVICE_CLASS_DATA_SYNC + SERVICE_CLASS_VOICE;
+                case 99: return SERVICE_CLASS_PACKET;
+
+                default:
+                    throw new RuntimeException("unsupported MMI service code " + si);
+            }
+        }
+    }
+
+    private static int
+    siToTime (String si) {
+        if (si == null || si.length() == 0) {
+            return 0;
+        } else {
+            // NumberFormatException should cause MMI fail
+            return Integer.parseInt(si, 10);
+        }
+    }
+
+    static boolean
+    isServiceCodeCallForwarding(String sc) {
+        return sc != null &&
+                (sc.equals(SC_CFU)
+                || sc.equals(SC_CFB) || sc.equals(SC_CFNRy)
+                || sc.equals(SC_CFNR) || sc.equals(SC_CF_All)
+                || sc.equals(SC_CF_All_Conditional));
+    }
+
+    static boolean
+    isServiceCodeCallBarring(String sc) {
+        Resources resource = Resources.getSystem();
+        if (sc != null) {
+            String[] barringMMI = resource.getStringArray(
+                com.android.internal.R.array.config_callBarringMMI);
+ 
