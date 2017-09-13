@@ -2296,6 +2296,10 @@ section.inbound-item p{
     display: none;
   }
 
+   .price-table > ul.four-column > li {
+    width: 100% !important;
+  }
+
   .plan-button{
     width: 80% !important;
     animation-name: none;
@@ -2329,6 +2333,9 @@ section.inbound-item p{
   }
   #plan-arrow{
     display: none;
+  }
+  .price-table > ul.four-column > li {
+    width: 100% !important;
   }
 } 
 
