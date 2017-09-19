@@ -199,7 +199,6 @@
         </div>    
     </section>
     <vfooter></vfooter>
-    {{getLang}}
   </div>
 </template>
 
