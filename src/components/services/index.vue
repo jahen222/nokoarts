@@ -3,6 +3,7 @@
   <transition name="fade">
     <router-view></router-view>
   </transition>
+  <vfooter></vfooter>
   </div>
 </template>
 <script>

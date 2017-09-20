@@ -130,7 +130,6 @@
         </div>
       </div>
     </section>
-    <vfooter></vfooter>
   </div>
 </template>
 <script>

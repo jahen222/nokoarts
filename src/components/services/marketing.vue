@@ -1,6 +1,5 @@
 <template>
   <div id='vMarketing'>
-  <navbar></navbar>
     <navbar></navbar>
     <section class="inbound-hero">
     	<div class="container">
