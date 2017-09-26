@@ -84,7 +84,7 @@
            </div>
            <div class="row">                  
                 <div class="col-md-12 gdd-start-now">                   
-                    <a class="typeform-share button -green plan-button" href="https://nokoarts.typeform.com/to/waE9gv" data-mode="popup" target="_blank">Pedir Presupuesto</a>
+                    <a class="typeform-share button -green plan-button" href="https://nokoarts.typeform.com/to/waE9gv" data-mode="popup" target="_blank">Pedir Presupuesto<span id="plan-arrow"><i class="material-icons">navigation</i></span></a>
                 </div>
             </div> 
 
@@ -94,6 +94,10 @@
 </template>
 <script>
   export default {
+    created () {
+      window.anima()
+      window.call2action()
+    },
     components: {
     },
     name: 'Design',

@@ -19,7 +19,6 @@
                         <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#product" target="_blank">{{getLang.Home.designLi.c}}</a></li>
                         <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#packaging" target="_blank">{{getLang.Home.designLi.d}}</a></li>
                         <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#prototyping" target="_blank">{{getLang.Home.designLi.e}}</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#ilustration" target="_blank">{{getLang.Home.designLi.f}}</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 service-column icon-blue">
@@ -36,7 +35,7 @@
                 </div>
                 <div class="col-md-4 service-column icon-blue">
                     <img src="static/img/icons/worldwide.svg" alt="Marketing Integral">
-                    <a href="#"><h3 class="service-blue">Marketing</h3></a>
+                    <a href="#"><h3 class="service-blue">Marketingaaaa2</h3></a>
                     <p>Más que palabras generamos estrategias con resultados.</p>
                     <ul>
                         <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Social Media</a></li>

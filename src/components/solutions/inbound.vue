@@ -317,12 +317,13 @@
 </template>
 <script>
   export default {
+    created () {
+      window.call2action()
+      $('#header').hide()
+    },
     components: {
     },
     name: 'gdd',
-    created () {
-      $('#header').hide()
-    },
     data () {
       return {
         msg: ''

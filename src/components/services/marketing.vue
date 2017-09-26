@@ -1,5 +1,6 @@
 <template>
   <div id='vMarketing'>
+  <navbar></navbar>
     <navbar></navbar>
     <section class="inbound-hero">
     	<div class="container">
@@ -22,11 +23,11 @@
     </section>   
    <section class="text-center services-section">
        <div class="container design-container">
-            <div class="row">
+            <div class="row AnimateLeft">
                 <div class="col-md-6  col-xs-12 service-feature-left service-image">
                     <img src="/static/img/social-media.png" alt="Noko Arts - Social Media">
                 </div>
-                <div class="col-md-6 col-xs-12 service-text-right">
+                <div class="col-md-6 col-xs-12 service-text-right animate-text">
                    <h2 id="uiux">Social Media</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -35,8 +36,8 @@
                </div>
            </div>
            
-           <div class="row">
-               <div class="col-md-6 col-xs-12 service-text-left">
+           <div class="row AnimateRight">
+               <div class="col-md-6 col-xs-12 service-text-left animate-text">
                    <h2 id="branding">Creacion de Contenido</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -48,11 +49,11 @@
                    <img src="/static/img/content-book.png" alt="Creacion de Contenido">
                </div>
            </div>
-           <div class="row">
+           <div class="row AnimateLeft2">
                <div class="col-md-6 col-xs-12 service-feature-left">
                    <img src="/static/img/analytics.png" alt="Noko Arts - Analytics">
                </div>
-               <div class="col-md-6 col-xs-12 service-text-right">
+               <div class="col-md-6 col-xs-12 service-text-right animate-text">
                    <h2 id="product">Analytics</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -61,8 +62,8 @@
                    </p>
                </div>
            </div>
-           <div class="row">
-               <div class="col-md-6 col-xs-12 service-text-left">
+           <div class="row AnimateRight2">
+               <div class="col-md-6 col-xs-12 service-text-left animate-text">
                    <h2 id="packaging">Adwords y PPC</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -74,11 +75,11 @@
                     <img src="/static/img/ppc.png" alt="Adwords y PPC">
                 </div>
            </div>
-           <div class="row">
+           <div class="row AnimateLeft3">
                <div class="col-md-6 col-xs-12 service-feature-left">
                    <img src="/static/img/Camera.png" alt="Noko Arts - Audiovisuales" style="max-height: 400px; margin-top: -80px;">
                </div>
-               <div class="col-md-6 col-xs-12 service-text-right">
+               <div class="col-md-6 col-xs-12 service-text-right animate-text">
                    <h2 id="prototyping">Audiovisuales</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -89,7 +90,7 @@
            </div>
            <div class="row">                  
                 <div class="col-md-12 gdd-start-now">                   
-                    <a class="typeform-share button -green plan-button" href="https://nokoarts.typeform.com/to/waE9gv" data-mode="popup" target="_blank">Pedir Presupuesto</a>
+                    <a class="typeform-share button -green plan-button" href="https://nokoarts.typeform.com/to/waE9gv" data-mode="popup" target="_blank">Pedir Presupuesto<span id="plan-arrow"><i class="material-icons">navigation</i></span></a>
                  </div>
             </div> 
 
@@ -100,6 +101,10 @@
 </template>
 <script>
   export default {
+    created () {
+      window.anima()
+      window.call2action()
+    },
     components: {
     },
     name: 'Marketing',

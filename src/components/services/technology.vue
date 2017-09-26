@@ -101,6 +101,7 @@
   export default {
     created () {
       window.anima()
+      window.call2action()
     },
     name: 'Design',
     data () {

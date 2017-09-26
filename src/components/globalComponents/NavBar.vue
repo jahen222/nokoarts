@@ -121,6 +121,7 @@
     watch: {
       currentLang () {
         this.$store.dispatch('changeLang', this.currentLang)
+        window.translateHeader(this.currentLang)
       }
     }
   }

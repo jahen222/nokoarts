@@ -34,6 +34,18 @@
 (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
 
 
+var call2action = function () {
+  (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
+}
+
+var translateHeader= function(lang){
+  if (lang === 'en'){
+    $('#h-title').html('english ,<br>english<br>english');
+  } else if (lang === 'es'){
+    $('#h-title').html('Crecimiento Digital,<br>Tecnología<br>y Diseño');
+  }
+}
+
 var anima = function () {
         $('.AnimateRight, .AnimateLeft2, .AnimateRight2, .AnimateLeft3, .gdd-start-now').css('visibility', 'hidden')
         $('.animate-text').hide()
