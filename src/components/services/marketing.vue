@@ -24,6 +24,7 @@
    <section class="text-center services-section">
        <div class="container design-container">
             <div class="row MarkAnimateLeft">
+                 <div id="socialMedia" class='markup'></div>
                 <div class="col-md-6  col-xs-12 service-feature-left service-image">
                     <img src="/static/img/social-media.png" alt="Noko Arts - Social Media">
                 </div>
@@ -37,8 +38,9 @@
            </div>
            
            <div class="row MarkAnimateRight">
+                <div id="content" class='markup'></div>
                <div class="col-md-6 col-xs-12 service-text-left animate-text">
-                   <h2 id="branding">Creacion de Contenido</h2>
+                   <h2>Creacion de Contenido</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -50,11 +52,12 @@
                </div>
            </div>
            <div class="row MarkAnimateLeft2">
+              <div id="Analytics" class='markup'></div>
                <div class="col-md-6 col-xs-12 service-feature-left">
                    <img src="/static/img/analytics.png" alt="Noko Arts - Analytics">
                </div>
                <div class="col-md-6 col-xs-12 service-text-right animate-text">
-                   <h2 id="product">Analytics</h2>
+                   <h2>Analytics</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -63,6 +66,7 @@
                </div>
            </div>
            <div class="row MarkAnimateRight2">
+                    
                <div class="col-md-6 col-xs-12 service-text-left animate-text">
                    <h2 id="packaging">Adwords y PPC</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -76,6 +80,7 @@
                 </div>
            </div>
            <div class="row MarkAnimateLeft3">
+                <div id="audiovisual" class='markup'></div>
                <div class="col-md-6 col-xs-12 service-feature-left">
                    <img src="/static/img/Camera.png" alt="Noko Arts - Audiovisuales" style="max-height: 400px; margin-top: -80px;">
                </div>

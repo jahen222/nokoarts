@@ -23,18 +23,20 @@
    <section class="text-center services-section">
        <div class="container design-container">
             <div class="row DesignAnimateLeft">
+            <div id="uiux" class='markup'></div>
                 <div class="col-md-6  col-xs-12 service-feature-left service-image">
                     <img src="/static/img/sketch.png" alt="Diseño de Producto">
                 </div>
                 <div class="col-md-6 col-xs-12 service-text-right">
-                   <h2 id="uiux">{{getLang.services.design.s1t}}</h2>
+                   <h2>{{getLang.services.design.s1t}}</h2>
                    <p>{{getLang.services.design.s1p}}</p>
                </div>
            </div>
            
-           <div id="branding" class="row DesignAnimateRight">
-               <div class="col-md-6 col-xs-12 service-text-left">
-                   <h2 id="branding">{{getLang.services.design.s2t}}</h2>
+           <div class="row DesignAnimateRight">
+                <div id="branding" class='markup'></div>
+                <div class="col-md-6 col-xs-12 service-text-left">
+                   <h2>{{getLang.services.design.s2t}}</h2>
                    <p>{{getLang.services.design.s2p}}
                    </p>
                </div>
@@ -43,18 +45,20 @@
                </div>
            </div>
            <div class="row DesignAnimateLeft2">
+                <div id="product" class='markup'></div>
                <div class="col-md-6 col-xs-12 service-feature-left">
                    <img src="/static/img/38.png" alt="Diseño de Producto">
                </div>
                <div class="col-md-6 col-xs-12 service-text-right">
-                   <h2 id="product">{{getLang.services.design.s3t}}</h2>
+                   <h2>{{getLang.services.design.s3t}}</h2>
                    <p>{{getLang.services.design.s3p}}
                    </p>
                </div>
            </div>
            <div class="row DesignAnimateRight2">
+           <div id="packaging" class='markup'></div>
                <div class="col-md-6 col-xs-12 service-text-left">
-                   <h2 id="packaging">{{getLang.services.design.s4t}}</h2>
+                   <h2>{{getLang.services.design.s4t}}</h2>
                    <p>{{getLang.services.design.s4p}}
                    </p>
                 </div>
@@ -63,18 +67,20 @@
                 </div>
            </div>
            <div class="row DesignAnimateLeft3">
+                <div id="prototyping" class='markup'></div>
                <div class="col-md-6 col-xs-12 service-feature-left">
                    <img src="/static/img/flows.png" alt="Noko Arts - sketch and design">
                </div>
                <div class="col-md-6 col-xs-12 service-text-right">
-                   <h2 id="prototyping">{{getLang.services.design.s5t}}</h2>
+                   <h2>{{getLang.services.design.s5t}}</h2>
                    <p>{{getLang.services.design.s5p}}
                    </p>
                </div>
            </div>
            <div class="row DesignAnimateRight3">
+           <div id="ilustration" class='markup'></div>
                <div class="col-md-6 col-xs-12 service-text-left">
-                   <h2 id="ilustration">{{getLang.services.design.s6t}}</h2>
+                   <h2>{{getLang.services.design.s6t}}</h2>
                    <p>{{getLang.services.design.s6p}}
                    </p>
                 </div>

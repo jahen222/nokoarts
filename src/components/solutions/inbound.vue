@@ -307,7 +307,7 @@
                 </div>  
                 <div class="row">                 
                   <div class="inbound-cases">                 
-                    <a class="button -dark center what-we-do-see-more" href="work.html" target="_blank">Ver casos de Éxito</a>
+                    <router-link class="button -dark center what-we-do-see-more" to="/work">Ver casos de Éxito</router-link>
                   </div>
                 </div>
             </div>

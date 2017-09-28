@@ -20,10 +20,9 @@ Vue.use(Router)
 
 export default new Router({
   scrollBehavior (to, from, savedPosition) {
+    const position = {}
     if (to.hash) {
-      const position = {}
       position.selector = to.hash
-      console.log(position)
       return position
     } else {
       return { x: 0, y: 0 }

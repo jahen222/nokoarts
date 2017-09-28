@@ -2370,13 +2370,6 @@ section.inbound-item p{
     width: 30%;
   }
 }
-
-.DesignAnimateRight, .DesignAnimateLeft2, .DesignAnimateRight2, .DesignAnimateLeft3, .Design-button,
-.AnimateRight, .AnimateLeft2, .AnimateRight2, .AnimateLeft3, .gdd-start-now
-{
-  visibility: hidden;
-}
-
 .call-btn {
   background: #def9de;
   margin-bottom: 0px !important;
@@ -2384,4 +2377,10 @@ section.inbound-item p{
 
 .services-section {
     padding-bottom: 0px;
+}
+
+.markup{
+  position: absolute;
+  min-height: 80px;
+  margin-top: -80px;
 }

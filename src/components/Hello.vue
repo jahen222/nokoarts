@@ -11,38 +11,83 @@
             <div class="row">    
                 <div class="col-md-4 service-column icon-blue">
                     <img src="static/img/icons/pencil.svg" alt="Diseño Integral">
-                    <a href="#"><h3  class="service-blue">{{getLang.Home.design}}</h3></a> 
+                    <router-link to="/services/design"><h3  class="service-blue">{{getLang.Home.design}}</h3></router-link> 
                     <p>{{getLang.Home.designp}}</p>
                     <ul>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><router-link class="service-link" to="/services/design#uiux">{{getLang.Home.designLi.a}}</router-link></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><router-link class="service-link" to="/services/design#bandring">{{getLang.Home.designLi.b}}</router-link></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#product" target="_blank">{{getLang.Home.designLi.c}}</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#packaging" target="_blank">{{getLang.Home.designLi.d}}</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#prototyping" target="_blank">{{getLang.Home.designLi.e}}</a></li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/design#uiux">{{getLang.Home.designLi.a}}</router-link>
+                        </li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/design#branding">{{getLang.Home.designLi.b}}</router-link>
+                        </li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/design#product">{{getLang.Home.designLi.c}}</router-link>
+                        </li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/design#packaging">{{getLang.Home.designLi.d}}</router-link>
+                        </li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/design#prototyping">{{getLang.Home.designLi.e}}</router-link>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-4 service-column icon-blue">
                     <img src="static/img/icons/browser.svg" alt="Tecnología Integral">
-                    <a href="#"><h3 class="service-blue">{{getLang.Home.technology}}</h3></a>
+                    <router-link to="/services/technology"><h3 class="service-blue">{{getLang.Home.technology}}</h3></router-link>
                     <p>{{getLang.Home.technologyp}}</p>
                     <ul>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank"> {{getLang.Home.technologyLi.a}}</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.technologyLi.b}}</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.technologyLi.c}}</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="">{{getLang.Home.technologyLi.d}}</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.technologyLi.e}}</a></li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/technology#webApps"> {{getLang.Home.technologyLi.a}}</router-link>
+                        </li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/technology#mobileApps">{{getLang.Home.technologyLi.b}}</router-link>
+                        </li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/technology#eComerce">{{getLang.Home.technologyLi.c}}</router-link>
+                        </li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/technology#landingPage">{{getLang.Home.technologyLi.d}}</router-link>
+                        </li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/technology#internetOfThings">{{getLang.Home.technologyLi.e}}</router-link>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-4 service-column icon-blue">
                     <img src="static/img/icons/worldwide.svg" alt="Marketing Integral">
-                    <a href="#"><h3 class="service-blue">{{getLang.Home.marketing}}</h3></a>
+                    <router-link to='/services/marketing'><h3 class="service-blue">{{getLang.Home.marketing}}</h3></router-link>
                     <p>{{getLang.Home.marketingp}}</p>
                     <ul>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.marketingLi.a}}</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.marketingLi.b}}</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.marketingLi.c}}</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.marketingLi.d}}</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.marketingLi.e}}</a></li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/marketing#socialMedia">{{getLang.Home.marketingLi.a}}</router-link>
+                        </li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/marketing#content">{{getLang.Home.marketingLi.b}}</router-link>
+                        </li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/marketing#Analytics">{{getLang.Home.marketingLi.c}}</router-link>
+                        </li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/marketing#PPC">{{getLang.Home.marketingLi.d}}</router-link>
+                        </li>
+                        <li>
+                            <i class="material-icons service-icon">keyboard_arrow_right</i>
+                            <router-link class="service-link" to="/services/marketing#audiovisual">{{getLang.Home.marketingLi.e}}</router-link>
+                        </li>
                     </ul>
                 </div>            
             </div>
