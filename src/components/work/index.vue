@@ -11,6 +11,7 @@
 export default {
   name: 'Work',
   created () {
+    window.goTop()
     $('#header').hide()
   }
 }

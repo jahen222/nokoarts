@@ -33,7 +33,7 @@
                         <a class="" href="#">{{translate.about}}</a>
                     </li>
                     <li>
-                        <a href="https://medium.com/noko-arts" target="_blank">Blog</a>
+                        <a href="http://nokoarts.com/blog/" target="_blank">Blog</a>
                     </li>
                     <li>                       
                         <a class="typeform-share button -green centered-button" href="https://esindoni.typeform.com/to/Df2Id9" data-mode="popup" target="_blank">{{translate.quote}}</a></a>
@@ -121,7 +121,11 @@
     watch: {
       currentLang () {
         this.$store.dispatch('changeLang', this.currentLang)
-        window.translateHeader(this.currentLang)
+        if (this.$store.state.lang === 'es') {
+          window.translateHeader('es')
+        } else if (this.$store.state.lang === 'en') {
+          window.translateHeader('en')
+        }
       }
     }
   }

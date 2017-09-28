@@ -19,6 +19,16 @@ import ERROR from '@/components/error'
 Vue.use(Router)
 
 export default new Router({
+  scrollBehavior (to, from, savedPosition) {
+    if (to.hash) {
+      const position = {}
+      position.selector = to.hash
+      console.log(position)
+      return position
+    } else {
+      return { x: 0, y: 0 }
+    }
+  },
   mode: 'history',
   linkActiveClass: 'selected',
   routes: [

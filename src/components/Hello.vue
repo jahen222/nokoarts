@@ -14,8 +14,8 @@
                     <a href="#"><h3  class="service-blue">{{getLang.Home.design}}</h3></a> 
                     <p>{{getLang.Home.designp}}</p>
                     <ul>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#uiux" target="_blank">{{getLang.Home.designLi.a}}</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#bandring" target="_blank">{{getLang.Home.designLi.b}}</a></li>
+                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><router-link class="service-link" to="/services/design#uiux">{{getLang.Home.designLi.a}}</router-link></li>
+                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><router-link class="service-link" to="/services/design#bandring">{{getLang.Home.designLi.b}}</router-link></li>
                         <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#product" target="_blank">{{getLang.Home.designLi.c}}</a></li>
                         <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#packaging" target="_blank">{{getLang.Home.designLi.d}}</a></li>
                         <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#prototyping" target="_blank">{{getLang.Home.designLi.e}}</a></li>
@@ -27,22 +27,22 @@
                     <p>{{getLang.Home.technologyp}}</p>
                     <ul>
                         <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank"> {{getLang.Home.technologyLi.a}}</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Aplicaciones Móviles</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">eCommerce y Websites</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="">Optimización de Landing Page</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Internet of Things</a></li>
+                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.technologyLi.b}}</a></li>
+                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.technologyLi.c}}</a></li>
+                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="">{{getLang.Home.technologyLi.d}}</a></li>
+                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.technologyLi.e}}</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 service-column icon-blue">
                     <img src="static/img/icons/worldwide.svg" alt="Marketing Integral">
-                    <a href="#"><h3 class="service-blue">Marketingaaaa2</h3></a>
-                    <p>Más que palabras generamos estrategias con resultados.</p>
+                    <a href="#"><h3 class="service-blue">{{getLang.Home.marketing}}</h3></a>
+                    <p>{{getLang.Home.marketingp}}</p>
                     <ul>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Social Media</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Creación de Contenidos</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Analytics</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Adwords y PPC</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Producción Audiovisual</a></li>
+                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.marketingLi.a}}</a></li>
+                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.marketingLi.b}}</a></li>
+                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.marketingLi.c}}</a></li>
+                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.marketingLi.d}}</a></li>
+                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">{{getLang.Home.marketingLi.e}}</a></li>
                     </ul>
                 </div>            
             </div>
@@ -57,10 +57,10 @@
                 </div>
                 <div class="col-lg-12 text-center">
                     <div class="section-heading">
-                        <h2>Somos <br> #CrecimientoIntegral</h2>
-                        <p class="text-muted">Nos comprometemos en hacer que tu negocio tenga un desarrollo digital próspero <br> y un crecimiento sano en todas sus plataformas.<br><br> <b>¡Somos tu socio digital para cambiar al mundo!</b></p> 
+                        <h2> {{getLang.Home.weare}} <br> {{getLang.Home.hashtag}}</h2>
+                        <p class="text-muted">{{getLang.Home.wP}} <br> {{getLang.Home.wP1}}<br><br> <b>{{getLang.Home.wP2}}</b></p> 
                     </div>
-                <a class="button -dark center what-we-do-see-more" href="work.html">Ver Casos de Éxito</a>
+                <router-link class="button -dark center what-we-do-see-more" to="/work">{{getLang.Home.wPb}}</router-link>
                 </div>                
             </div>            
         </div>
@@ -70,7 +70,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Eventos</h2>                    
+                    <h2>{{getLang.Home.Events}} </h2>                    
                 </div> 
             </div>
             <div class="row">                
@@ -100,8 +100,8 @@
                 </div>
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2 class="section-heading">¡Crecer es la meta!</h2>
-                        <p class="text-muted">Desarrollamos una nueva forma de ver el crecimiento, <br> un crecimiento armónico, que gira alrededor de objetivos organizacionales <br>y no solo de objetivos particulares y aislados estratégicamente. <br> hacemos que todo tu negocio crezca y veas tus metas comerciales cumplirse en diferentes contextos.</p> 
+                        <h2 class="section-heading">{{getLang.Home.Growth}}</h2>
+                        <p class="text-muted">{{getLang.Home.Growthp}} <br> {{getLang.Home.Growthp2}} <br>{{getLang.Home.Growthp3}} <br> {{getLang.Home.Growthp4}}</p> 
                     </div>                         
                 </div>
             </div>                         
@@ -110,16 +110,16 @@
                     <div class="service-column icon-orange">
                         <img src="static/img/icons/compass.svg" alt="Inbound Marketing">
                         <h3  class="service-orange">Inbound Marketing</h3> 
-                        <p>Diseña un plan de juego para atraer y cautivar a tus visitantes y convertirlos en clientes a través de contenido enfocado al público de tu servicio o producto.</p>
-                        <a class="button -dark center what-we-do-see-more" href="inbound.html">¿Quieres saber cómo?</a>
+                        <p>{{getLang.Home.inboundp}}</p>
+                        <router-link class="button -dark center what-we-do-see-more" to="/solutions/inbound">{{getLang.Home.qb}}</router-link>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center marketing-plans">    
                     <div class="service-column icon-orange">
                         <img src="static/img/icons/startup.svg" alt="Growth Driven Design">
                         <h3  class="service-orange">Growth Driven Design</h3> 
-                        <p>Es una metodología de desarrollo web que logra poner en linea el website lo más rápido posible a la par de adaptarse a las necesidades del negocio y usar data para lograr más conversiones.</p>
-                        <a class="button -dark center what-we-do-see-more" href="gdd.html">¿Quieres saber cómo?</a>
+                        <p>{{getLang.Home.gddp}}</p>
+                        <router-link class="button -dark center what-we-do-see-more" to="/solutions/gdd">{{getLang.Home.qb}}</router-link>
                     </div> 
                 </div>
             </div>            
@@ -136,13 +136,13 @@
                     <span>Blog post</span>
                     <hr class="divider">
                     <div class="post-title">
-                        <h4>¿Qué es UI/UX design y por que debes considerarlo en tu website?</h4>
+                        <h4>{{getLang.Home.post1}}</h4>
                     </div>
                     <div class="post-info">
                         <img src="https://cdn-images-1.medium.com/fit/c/60/60/1*H5qp5CaAFGhJehhk5KhAoQ.jpeg" class="avatar-image avatar-image--small" alt="profile of Elba Sindoni"><br>
                         <span>Elba Sindoni</span>
                         <p>
-                            <i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="http://nokoarts.com/blog/ux-bear/" target="_blank">Leer Post</a>   
+                            <i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="http://nokoarts.com/blog/ux-bear/" target="_blank">{{getLang.Home.read_post}}</a>   
                         </p>                        
                     </div>
                 </div>
@@ -152,13 +152,13 @@
                     <span>Blog post</span>
                     <hr class="divider">
                     <div class="post-title">
-                        <h4>Buyer Personas: ¿Que son y como diseñarlos para tu negocio?</h4>
+                        <h4>{{getLang.Home.post2}}</h4>
                     </div>
                     <div class="post-info">
                         <img src="https://cdn-images-1.medium.com/fit/c/60/60/1*wj04B7jY1D14sgp24Ywkzg.jpeg" class="avatar-image avatar-image--small" alt="profile of Luda"><br>
                         <span>Luis Daniel Casanova</span>
                         <p>
-                            <i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="http://nokoarts.com/blog/buyer-personas-disenarlos-negocio/" target="_blank">Leer Post</a>   
+                            <i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="http://nokoarts.com/blog/buyer-personas-disenarlos-negocio/" target="_blank">{{getLang.Home.read_post}}</a>   
                         </p>               
                     </div>
                 </div>
@@ -168,13 +168,13 @@
                     <span>Blog post</span>
                     <hr class="divider">
                      <div class="post-title">
-                        <h4>Social Media Fails For Brands: 5 Things</h4>
+                        <h4>{{getLang.Home.post3}}</h4>
                     </div>
                     <div class="post-info">
                          <img src="https://cdn-images-1.medium.com/fit/c/60/60/1*cDhTr_EHd0wIBgPAUFLENw.jpeg" class="avatar-image avatar-image--small" alt="profile of Andrés Aguilera"><br>
                         <span>Andrés Aguilera</span>
                         <p>
-                            <i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="http://nokoarts.com/blog/social-media-fails-brands/" target="_blank">Leer Post</a>  
+                            <i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="http://nokoarts.com/blog/social-media-fails-brands/" target="_blank">{{getLang.Home.read_post}}</a>  
                         </p>      
                     </div>                                   
                 </div>
@@ -184,13 +184,13 @@
                     <span>Blog post</span>
                     <hr class="divider">                    
                      <div class="post-title">
-                        <h4>Debranding ¿Ser o no protagonistas?</h4>
+                        <h4>{{getLang.Home.post4}}</h4>
                     </div>
                     <div class="post-info">
                          <img src="https://cdn-images-1.medium.com/fit/c/60/60/1*H5qp5CaAFGhJehhk5KhAoQ.jpeg" class="avatar-image avatar-image--small" alt="profile of Elba Sindoni"><br>
                         <span class="post-author">Elba Sindoni</span>
                         <p>
-                            <i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="http://nokoarts.com/blog/debranding-ser-o-no-ser-protagonistas-de-nuestra-propia-marca/" target="_blank">Leer Post</a>   
+                            <i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="http://nokoarts.com/blog/debranding-ser-o-no-ser-protagonistas-de-nuestra-propia-marca/" target="_blank">{{getLang.Home.read_post}}</a>   
                         </p>  
                     </div>                     
                 </div>

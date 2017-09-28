@@ -2156,8 +2156,8 @@ section.inbound-item p{
   font-weight: bold !important;
   font-size: 16pt !important;
   width: 40% !important;
-  margin-top: 40px !important;
-  margin-bottom: 40px !important;
+  margin-top: 80px !important;
+  margin-bottom: 80px !important;
 }
 
 #plan-arrow{
@@ -2369,4 +2369,19 @@ section.inbound-item p{
     display: inline-block;
     width: 30%;
   }
+}
+
+.DesignAnimateRight, .DesignAnimateLeft2, .DesignAnimateRight2, .DesignAnimateLeft3, .Design-button,
+.AnimateRight, .AnimateLeft2, .AnimateRight2, .AnimateLeft3, .gdd-start-now
+{
+  visibility: hidden;
+}
+
+.call-btn {
+  background: #def9de;
+  margin-bottom: 0px !important;
+}
+
+.services-section {
+    padding-bottom: 0px;
 }

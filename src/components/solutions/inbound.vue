@@ -318,7 +318,7 @@
 <script>
   export default {
     created () {
-      window.call2action()
+      window.goTop()
       $('#header').hide()
     },
     components: {
