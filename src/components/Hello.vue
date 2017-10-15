@@ -36,7 +36,7 @@
                         </li>
                         <li>
                             <i class="material-icons service-icon">keyboard_arrow_right</i>
-                            <router-link class="service-link" to="/services/design#prototyping">{{getLang.Home.designLi.f}}</router-link>
+                            <router-link class="service-link" to="/services/design#illustration">{{getLang.Home.designLi.f}}</router-link>
                         </li>
                     </ul>
                 </div>
