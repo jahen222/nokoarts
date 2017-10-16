@@ -1336,6 +1336,38 @@ body {
   background-size: cover;
   background-position: center;
 }
+#thedoorisopenn {
+  background-image: url(../img/projects/thedoorisopenn.png);
+  background-size: cover;
+  background-position: center;
+}
+#princearmory {
+  background-image: url(../img/projects/princearmory.png);
+  background-size: cover;
+  background-position: center;
+}
+#tanalyzer {
+  background-image: url(../img/projects/tanalyzer.png);
+  background-size: cover;
+  background-position: center;
+}
+#lapelaya {
+  background-image: url(../img/projects/waffles.png);
+  background-size: cover;
+  background-position: center;
+}
+#hackernest {
+  background-image: url(../img/projects/hackernest.png);
+  background-size: cover;
+  background-position: center;
+}
+#branchef {
+  background-image: url(../img/projects/branchef.png);
+  background-size: cover;
+  background-position: center;
+}
+
+
 
 
 @media (max-width: 980px) {

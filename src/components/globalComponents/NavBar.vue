@@ -36,7 +36,7 @@
                         <a href="http://nokoarts.com/blog/" target="_blank">Blog</a>
                     </li>
                     <li>                       
-                        <a class="typeform-share button -green centered-button" href="https://esindoni.typeform.com/to/Df2Id9" data-mode="popup" target="_blank">{{translate.quote}}</a></a>
+                        <a class="typeform-share button -green centered-button" :href="translate.form" data-mode="popup" target="_blank">{{translate.quote}}</a>
                     </li>
                     <li>
                   
@@ -87,6 +87,7 @@
         translate: {},
         currentLang: 'es',
         es: {
+          form: 'https://esindoni.typeform.com/to/Df2Id9',
           services: 'Servicios',
           solutions: 'Soluciones',
           design: 'Diseño',
@@ -97,6 +98,7 @@
           quote: 'Pedir Presupuesto'
         },
         en: {
+          form: 'https://esindoni.typeform.com/to/ZLJAfU',
           services: 'Services',
           solutions: 'Solutions',
           design: 'Design',

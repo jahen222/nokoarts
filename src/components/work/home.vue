@@ -127,6 +127,70 @@
             </div>
           </a> 
           </div>
+          <div class="row">
+            <div class="col-md-3 port-item" id="thedoorisopenn">
+              <a href="https://valhemminger.lpages.co/the-door-is-always-open-landing-page" target="_blank">
+                  <div class='inner'>
+                    <h3>Val Hemminger, The Door is Open</h3>
+                        <p><strong>Landing Page Optimization</strong>
+                        <br> (Canada)
+                        </p>
+                </div>
+              </a> 
+            </div>
+            <div class="col-md-3 port-item" id="tanalyzer">
+              <a href="https://www.tanalyzer.com/" target="_blank">
+                  <div class='inner'>
+                    <h3>Tanalyzer</h3>
+                        <p><strong>Landing Page Optimization</strong>
+                        <br> (Israel)
+                        </p>
+                </div>
+              </a> 
+            </div>
+            <div class="col-md-3 port-item" id="princearmory">
+              <a href=" https://dribbble.com/shots/3799242-Prince-Armory-UI-Mockup" target="_blank">
+                  <div class='inner'>
+                    <h3>Prince Armory </h3>
+                        <p><strong>Landing Page Optimization - UX Design</strong>
+                        <br> (USA)
+                        </p>
+                </div>
+              </a> 
+            </div>
+          </div>
+          <div class="row">            
+            <div class="col-md-3 port-item" id="hackernest">
+              <a href="http://hackernest.com/" target="_blank">
+                  <div class='inner'>
+                    <h3>Hackernest</h3>
+                        <p><strong>Wordpress Development</strong>
+                        <br> (USA)
+                        </p>
+                </div>
+              </a> 
+            </div>
+            <div class="col-md-3 port-item" id="lapelaya">
+              <a href="hhttp://lapelaya.cl/" target="_blank">
+                  <div class='inner'>
+                    <h3>La Pelaya Waffles</h3>
+                        <p><strong>Website Development</strong>
+                        <br> (Chile)
+                        </p>
+                </div>
+              </a> 
+            </div>
+            <div class="col-md-3 port-item" id="branchef">
+              <a href="https://branchef.com" target="_blank">
+                  <div class='inner'>
+                    <h3>Branchef</h3>
+                        <p><strong>Web App Developement</strong>
+                        <br> (Colombia)
+                        </p>
+                </div>
+              </a> 
+            </div>
+          </div>
         </div>
       </div>
     </section>
