@@ -6,8 +6,8 @@
     		<div class="row">
                 <div class="inbound-hero-background  design-hero-background"></div>
                 <div class="inbound-hero-text">
-        			<h1>{{getLang.services.design.h1}}</h1>
-        			<p>{{getLang.services.design.h1p}}</p>	
+            			<h1>{{getLang.services.design.h1}}</h1>
+            			<p>{{getLang.services.design.h1p}}</p>	
                      <div class="arrow-scroll arrow-inbound">
                         <div class="arrow-scroll__wrap arrow-scroll__wrap_animated">
                             <a class="Home__next arrow-inbound" href="#uiux"><img src="/static/img/chevron.svg" alt="Next Section"></a>

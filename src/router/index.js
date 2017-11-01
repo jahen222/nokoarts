@@ -13,7 +13,6 @@ import WorkHome from '@/components/work/home'
 import Artsi from '@/components/work/projects/artsi'
 import Glife from '@/components/work/projects/1glife'
 import Pur from '@/components/work/projects/pur'
-
 import ERROR from '@/components/error'
 
 Vue.use(Router)
@@ -41,24 +40,19 @@ export default new Router({
       component: Services,
       children: [
         {
-          path: '',
-          name: 'services',
-          component: Design
-        },
-        {
           path: 'design',
           name: 'design',
           component: Design
         },
         {
-          path: 'technology',
-          name: 'technology',
-          component: Technology
-        },
-        {
           path: 'marketing',
           name: 'marketing',
           component: Marketing
+        },
+        {
+          path: 'technology',
+          name: 'technology',
+          component: Technology
         },
         {
           path: '*',

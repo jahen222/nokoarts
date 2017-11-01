@@ -1,13 +1,13 @@
 <template>
   <div id='vTechonoglogy'>
   <navbar></navbar>
-   <section class="inbound-hero">
+    <section class="inbound-hero">
       <div class="container">
         <div class="row">
                 <div class="inbound-hero-background  tecnology-hero-background"></div>
                 <div class="inbound-hero-text">
               <h1>{{getLang.services.technology.h1}}</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p> 
+              <p>{{getLang.services.technology.h1p}}</p> 
                      <div class="arrow-scroll arrow-inbound">
                         <div class="arrow-scroll__wrap arrow-scroll__wrap_animated">
                             <a class="Home__next arrow-inbound" href="#webApps"><img src="/static/img/chevron.svg" alt="Next Section"></a>
@@ -92,10 +92,10 @@
   export default {
     created () {
     },
-    name: 'Design',
+    name: 'Technology',
     data () {
       return {
-        msg: 'Design'
+        msg: 'Technology'
       }
     },
     methods: {
