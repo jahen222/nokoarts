@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <title>Agencia Digital | Noko Arts</title>
+<html>
+  <head>
+     <title>Agencia Digital | Noko Arts</title>
     <meta charset="utf-8">
     <!-- Website  -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -24,7 +23,7 @@
     <meta name="distribution" content="global"/>
 
     <!-- Favicon -->
-    <link rel="icon" type="img/png" href="img/favicon.png">
+    <link rel="icon" type="img/png" href="/static/img/favicon.png">
     
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -39,7 +38,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     
     <!-- Theme CSS -->
-    <link href="css/new-style.css" rel="stylesheet">
+    <link href="/static/css/new-style.css" rel="stylesheet">
 
     <!-- Google Analytics -->
     <script>
@@ -70,141 +69,28 @@
 
 
 
-</head>
+  </head>
 
-<body id="page-top">
+   <body id="page-top">
 
-
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-      <div class="modal-body">
-        <section id="contact" class="contact">
-              <div id="container">
-                <h4>Llena el formulario y nos pondremos en contacto contigo</h4>
-                <form action="contact.php" method="post" id="contact_form">
-                  <div class="name">
-                    <label for="name"></label>
-                    <input type="text" placeholder="My name is" name="name" id="name_input" required>
-                  </div>
-                  <div class="email">
-                    <label for="email"></label>
-                    <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
-                  </div>
-                  <div class="telephone">
-                    <label for="name"></label>
-                    <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
-                  </div>
-                  <div class="subject">
-                    <label for="subject"></label>
-                    <select placeholder="Subject line" name="subject" id="subject_input" required>
-                      <option disabled hidden selected>Rol en la organización</option>
-                      <option>Dueño o Directivo</option>
-                      <option>Emprendedor</option>
-                      <option>Analista o puesto junior</option>
-                      <option>Gerente o Supervisor</option>
-                      <option>Experto en Marketing</option>
-                      <option>Estudiante Universitario</option>
-                    </select>
-                  </div>
-                  <div class="message">
-                    <label for="message"></label>
-                    <textarea name="message" placeholder="Mensaje" id="message_input" cols="30" rows="5" required></textarea>
-                  </div>
-                  <div class="submit"><a class="typeform-link" href="https://esindoni.typeform.com/to/Df2Id9">
-                    <input type="submit" class="button -green centered-button" value="Pedir Presupuesto" id="" />
-                    </a>                    
-                   
-                  </div>
-                </form><!-- // End form -->
-              </div>  
-            </section>
-      </div>
-    </div>
-  </div>
-</div>
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img class="nav_logo" src="img/logo_horizontal.svg" alt="Noko Arts logo"/></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right navbar-logo">
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Servicios</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="diseño.html">Diseño</a></li>
-                      <li><a href="tecnologia.html">Tecnología</a></li>
-                      <li><a href="marketing.html">Marketing</a></li>                      
-                    </ul>
-                  </li>
-                   <ul class="nav navbar-nav navbar-right navbar-logo">
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Soluciones</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="inbound.html">Inbound Marketing</a></li>
-                      <li><a href="gdd.html">Growth Driven Design</a></li>                      
-                    </ul>
-                    <li>
-                        <a class="" href="work.html">Proyectos</a>
-                    </li>
-                    <li>
-                        <a class="" href=#"">Acerca de nosotros</a>
-                    </li>
-                    <li>
-                        <a href="https://medium.com/noko-arts" target="_blank">Blog</a>
-                    </li>
-                    <li>
-                        <a class="typeform-share button -green centered-button  navbar-cta " href="https://esindoni.typeform.com/to/Df2Id9" data-mode="popup" target="_blank">Pedir Presupuesto</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>                     
-                        </a>    
-                    </li>
-                    <li>
-                        <div class="switch-lang"> 
-                            <div class="current-lang"><img class="lang-flag" src="img/spain.svg"/>
-                              <p class="lang-text">ES</p>
-                            </div>
-                            <div class="lang-dropdown">
-                              <div class="selecting-lang"><a href="en/home.html" target="_blank"><img class="lang-flag" src="img/usa.svg"/>
-                                <p class="lang-text">EN</p></a>
-                              </div>    
-                            </div>
-                        </div>
-                    </li>
-
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header>
+      <header id="header">
         <div class="container animation">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="home-hero">
                         <div class="animation">
-                            <h1>Crecimiento Digital,<br>Tecnología<br>y Diseño</h1>
-                            <h3>Hacemos crecer tu marca de forma integral.</h3>
+                            <h1 id="h-title">Crecimiento Digital,<br>Tecnología<br>y Diseño</h1>
+                            <h3 id="h-subtitle">Hacemos crecer tu marca de forma integral.</h3>
                             <canvas></canvas>                                                
                             <div class="button-container">
-                                <div class='button -dark centered-button'>Servicios</div>
-                                <a class="typeform-share button -green centered-button" href="https://esindoni.typeform.com/to/Df2Id9" data-mode="popup" target="_blank">Pedir Presupuesto</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>                     
+                                <div id="h-services" class='button -dark centered-button'>Servicios</div>
+                                <a id="h-quote" class="typeform-share button -green centered-button" href="https://esindoni.typeform.com/to/Df2Id9" data-mode="popup" target="_blank">Pedir Presupuesto</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>                     
                                 </a> 
                             </div>
                         </div>
                         <div class="arrow-scroll">
                             <div class="arrow-scroll__wrap arrow-scroll__wrap_animated">
-                                <a class="Home__next" href="#services"><img src="img/chevron.svg" alt="Next Section"></a>
+                                <a class="Home__next" href="#services"><img src="/static/img/chevron.svg" alt="Next Section"></a>
                             </div>
                         </div>
                     </div>
@@ -213,267 +99,26 @@
         </div>
     </header>
 
-    <section id="services" class="services bg-primary text-center">
-        <div class="container service-table">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2 class="section-heading-home">¿Cómo podemos ayudarte a crecer?</h2>                    
-                </div>
-            </div>    
-            <div class="row">    
-                <div class="col-md-4 service-column icon-blue">
-                    <img src="img/icons/pencil.svg" alt="Diseño Integral">
-                    <a href="#"><h3  class="service-blue">Diseño</h3></a> 
-                    <p>Te orientamos en tus primeros pasos de tu marca.</p>
-                    <ul>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#uiux" target="_blank">UI/UX Design</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#bandring" target="_blank">Diseño de Marca</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#product" target="_blank">Diseño de Producto</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#packaging" target="_blank">Diseño de Empaque</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#prototyping" target="_blank">Prototipado</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="diseño.html#ilustration" target="_blank">Ilustración</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 service-column icon-blue">
-                    <img src="img/icons/browser.svg" alt="Tecnología Integral">
-                    <a href="#"><h3 class="service-blue">Tecnología</h3></a>
-                    <p>Hacemos crecer tu audiencia y el alcance de tu mensaje en digital con las últimas tendencias.</p>
-                    <ul>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Aplicaciones Web</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Aplicaciones Móviles</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">eCommerce y Websites</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="">Optimización de Landing Page</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Internet of Things</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 service-column icon-blue">
-                    <img src="img/icons/worldwide.svg" alt="Marketing Integral">
-                    <a href="#"><h3 class="service-blue">Marketing</h3></a>
-                    <p>Más que palabras generamos estrategias con resultados.</p>
-                    <ul>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Social Media</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Creación de Contenidos</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Analytics</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Adwords y PPC</a></li>
-                        <li><i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="#" target="_blank">Producción Audiovisual</a></li>
-                    </ul>
-                </div>            
-            </div>
-        </div>
-    </section> 
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
 
-    <section id="what-we-do" class="what-we-do">
-        <div class="container">
-            <div class="row">
-                <div class="plant-container">
-                    <img src="./img/Plant.png">
-                </div>
-                <div class="col-lg-12 text-center">
-                    <div class="section-heading">
-                        <h2>Somos <br> #CrecimientoIntegral</h2>
-                        <p class="text-muted">Nos comprometemos en hacer que tu negocio tenga un desarrollo digital próspero <br> y un crecimiento sano en todas sus plataformas.<br><br> <b>¡Somos tu socio digital para cambiar al mundo!</b></p> 
-                    </div>
-                <a class="button -dark center what-we-do-see-more" href="work.html">Ver Casos de Éxito</a>
-                </div>                
-            </div>            
-        </div>
-    </section>
-
-    <section id="events" class="events">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Eventos</h2>                    
-                </div> 
-            </div>
-            <div class="row">                
-                <div class="col-lg-4 text-center">
-                    <a href="https://www.facebook.com/BehanceVenezuela/" target="_blank">
-                     <img class="event-img" src="img/events/behance.png" alt="Behance Portfolio Review">
-                    </a> 
-                </div>
-                <div class="col-lg-4 text-center">
-                     <a href="https://www.facebook.com/nokoarts/videos/543905069138720/" target="_blank"> 
-                        <img class="event-img" src="img/events/coursera.png" alt="Coursera Challenge Day">
-                    </a> 
-                </div>
-                <div class="col-lg-4 text-center">
-                     <a href="https://dribbble.com/meetups/951" target="_blank"> 
-                        <img class="event-img" src="img/events/dribbble.png" alt="Dribbble San Cristobal Meetups">
-                    </a> 
-                </div>                                
-            </div>
-        </div>
-    </section>    
-    <section id="get-more" class="what-we-do services get-more">
-        <div class="container">
-            <div class="row">
-            <div class="coffee-container">
-                    <img src="./img/Coffee.png">
-                </div>
-                <div class="col-lg-12">
-                    <div class="section-heading">
-                        <h2 class="section-heading">¡Crecer es la meta!</h2>
-                        <p class="text-muted">Desarrollamos una nueva forma de ver el crecimiento, <br> un crecimiento armónico, que gira alrededor de objetivos organizacionales <br>y no solo de objetivos particulares y aislados estratégicamente. <br> hacemos que todo tu negocio crezca y veas tus metas comerciales cumplirse en diferentes contextos.</p> 
-                    </div>                         
-                </div>
-            </div>                         
-            <div class="row">
-                <div class="col-lg-6 text-center marketing-plans">
-                    <div class="service-column icon-orange">
-                        <img src="img/icons/compass.svg" alt="Inbound Marketing">
-                        <h3  class="service-orange">Inbound Marketing</h3> 
-                        <p>Diseña un plan de juego para atraer y cautivar a tus visitantes y convertirlos en clientes a través de contenido enfocado al público de tu servicio o producto.</p>
-                        <a class="button -dark center what-we-do-see-more" href="inbound.html">¿Quieres saber cómo?</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-center marketing-plans">    
-                    <div class="service-column icon-orange">
-                        <img src="img/icons/startup.svg" alt="Growth Driven Design">
-                        <h3  class="service-orange">Growth Driven Design</h3> 
-                        <p>Es una metodología de desarrollo web que logra poner en linea el website lo más rápido posible a la par de adaptarse a las necesidades del negocio y usar data para lograr más conversiones.</p>
-                        <a class="button -dark center what-we-do-see-more" href="gdd.html">¿Quieres saber cómo?</a>
-                    </div> 
-                </div>
-            </div>            
-        </div>    
-        
-    </section >
-    
-    <!-- Blog posts -->
-
-    <section class="blog-section">
-        <div class="row">
-            <div class="col-md-3 post">
-                <div class="inner-border">
-                    <span>Blog post</span>
-                    <hr class="divider">
-                    <div class="post-title">
-                        <h4>¿Qué es UI/UX design y por que debes considerarlo en tu website?</h4>
-                    </div>
-                    <div class="post-info">
-                        <img src="https://cdn-images-1.medium.com/fit/c/60/60/1*H5qp5CaAFGhJehhk5KhAoQ.jpeg" class="avatar-image avatar-image--small" alt="profile of Elba Sindoni"><br>
-                        <span>Elba Sindoni</span>
-                        <p>
-                            <i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="http://nokoarts.com/blog/ux-bear/" target="_blank">Leer Post</a>   
-                        </p>                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 post ">
-                <div class="inner-border">
-                    <span>Blog post</span>
-                    <hr class="divider">
-                    <div class="post-title">
-                        <h4>Buyer Personas: ¿Que son y como diseñarlos para tu negocio?</h4>
-                    </div>
-                    <div class="post-info">
-                        <img src="https://cdn-images-1.medium.com/fit/c/60/60/1*wj04B7jY1D14sgp24Ywkzg.jpeg" class="avatar-image avatar-image--small" alt="profile of Luda"><br>
-                        <span>Luis Daniel Casanova</span>
-                        <p>
-                            <i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="http://nokoarts.com/blog/buyer-personas-disenarlos-negocio/" target="_blank">Leer Post</a>   
-                        </p>               
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 post ">
-                <div class="inner-border">
-                    <span>Blog post</span>
-                    <hr class="divider">
-                     <div class="post-title">
-                        <h4>Social Media Fails For Brands: 5 Things</h4>
-                    </div>
-                    <div class="post-info">
-                         <img src="https://cdn-images-1.medium.com/fit/c/60/60/1*cDhTr_EHd0wIBgPAUFLENw.jpeg" class="avatar-image avatar-image--small" alt="profile of Andrés Aguilera"><br>
-                        <span>Andrés Aguilera</span>
-                        <p>
-                            <i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="http://nokoarts.com/blog/social-media-fails-brands/" target="_blank">Leer Post</a>  
-                        </p>      
-                    </div>                                   
-                </div>
-            </div>
-            <div class="col-md-3 post">
-                <div class="inner-border">
-                    <span>Blog post</span>
-                    <hr class="divider">                    
-                     <div class="post-title">
-                        <h4>Debranding ¿Ser o no protagonistas?</h4>
-                    </div>
-                    <div class="post-info">
-                         <img src="https://cdn-images-1.medium.com/fit/c/60/60/1*H5qp5CaAFGhJehhk5KhAoQ.jpeg" class="avatar-image avatar-image--small" alt="profile of Elba Sindoni"><br>
-                        <span class="post-author">Elba Sindoni</span>
-                        <p>
-                            <i class="material-icons service-icon">keyboard_arrow_right</i><a class="service-link" href="http://nokoarts.com/blog/debranding-ser-o-no-ser-protagonistas-de-nuestra-propia-marca/" target="_blank">Leer Post</a>   
-                        </p>  
-                    </div>                     
-                </div>
-            </div>            
-        </div>    
-    </section>
-    <footer>
-        <div class="container">
-            <div class="row">  
-                <div class="col-md-3 col-xm-12">
-                    <div class="footer-social-icons">
-                        <ul class="social-icons">
-                          <li><a href="https://www.facebook.com/nokoarts/" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-                          <!-- <li><a href="https://twitter.com/NokoArts" target="_blank" class="social-icon"> <i class="fa fa-twitter"></i></a></li>  -->
-                          <li><a href="https://www.linkedin.com/company/7947400?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A7947400%2Cidx%3A1-1-1%2CtarId%3A1461811896554%2Ctas%3Anoko%20arts" target="_blank" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-                          <li><a href="https://www.instagram.com/heynokoarts/" target="_blank" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
-                          <li><a href="https://dribbble.com/nokoarts" target="_blank" class="social-icon"> <i class="fa fa-dribbble"></i></a></li>
-                          <li><a href="https://medium.com/noko-arts" target="_blank" class="social-icon"> <i class="fa fa-medium"></i></a></li>
-                        </ul>
-                        <p>&copy; 2017 Noko Arts. All Rights Reserved.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-xm-12 contact-address">
-                    <div class="contact-country left-border">
-                        <i class="material-icons">place</i>
-                        <h4>Colombia</h4>
-                        <a  class="contact-number" href="tel:+573196912246">+57 (319) 691-2246</a> 
-                        <p>A 43-60, Cra. 19 #432, Bogotá, Colombia.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xm-12 contact-address right-border">
-                    <div class="contact-country">
-                        <i class="material-icons">place</i>
-                        <h4>Venezuela</h4>
-                        <a class="contact-number" href="tel:+584247560746">+58 (424) 756-0746</a><br>
-                        <p>Av. Cuatricentenaria. Edificio Centro Delta, San Cristobal, Táchira.</p><br><br>
-                        
-                    </div>
-                </div>
-                <div class="col-md-3 col-xm-12 contact-address">
-                     <a class="typeform-share button -green centered-button" href="https://esindoni.typeform.com/to/Df2Id9" data-mode="popup" target="_blank" style=" width: 70%;"">Contáctanos</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>                     
-                    <i class="material-icons">mail</i>
-                    <a class="contact-number" href="mailto:hey@nokoarts.com">hey@nokoarts.com</a>
-                    </a>    
-                </div>
-            </div>
-        </div>            
-                   
-    </footer>
-    <!-- jQuery -->
+        <!-- jQuery -->
     <script  src="https://code.jquery.com/jquery-2.2.4.min.js"
     integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
     crossorigin="anonymous"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.js"></script>
     
     <!-- Theme JavaScript -->
-    <script src="js/new-script.js"></script>
-    <script src="js/main.js"></script>
-    
+    <script src="/static/js/new-script.js"></script>
+    <script src="/static/js/main.js"></script>
+     <script src="/static/js/materialize.js"></script>
     <!-- Facebook Pixel Event -->
     <script>
         fbq('track', 'Lead');
     </script>
-</body>
-
+  </body>
 </html>
